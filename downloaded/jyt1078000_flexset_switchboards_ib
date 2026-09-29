@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+  <html lang="en">
+<head>
+<meta charset="UTF-8">
+
+
+
+
+
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="IE=11">
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+  <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+<![endif]-->
+
+			<link rel="shortcut icon" href="/jyt1078000_flexset_switchboards_ib/_theme/favicon.ico" mce_href="/jyt1078000_flexset_switchboards_ib/_theme/favicon.ico" type="image/x-icon"/>
+<script type="text/javascript" src="/resources/scripts/libs/jquery-1.11.0.min.js"></script>
+
+          <link rel="stylesheet" href="/jyt1078000_flexset_switchboards_ib/_theme/style/main/default.less"></link>
+
+<script type="text/javascript" src="/jyt1078000_flexset_switchboards_ib/_theme/scripts/lib/bootstrap/bootstrap.min.js"></script>
+<script type="text/javascript" src="/jyt1078000_flexset_switchboards_ib/_theme/scripts/utils.js"></script>
+<script type="text/javascript" src="/resources/scripts/harp-sdk.js"></script>
+<script type="text/javascript" src="/jyt1078000_flexset_switchboards_ib/_theme/scripts/langDropdown.js"></script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-5WGBFDW');</script>
+<!-- End Google Tag Manager -->
+
+
+
+<script>
+$(function() {
+  $('form[role=search]').submit(function() {
+    var $term = $(this).find('input[name=_term]');
+    if (!$term.length) {
+      $term = $(this).find('input[name=term]');
+    }
+    var term = $term.val();
+    if (term && term !== '*') {
+      setCookie('td.search', term);
+    }
+  });
+});
+</script>
+
+<style>
+
+</style>
+
+<title>JYT1078000 FlexSeT Switchboards - Instruction Bulletin</title>
+<script>
+// Redirect to '/' if this isn't it, to ensure proper cookie pathing.
+if (!(document.location.pathname + '').match(/\/$/)) {
+  document.location.replace(HARPPortal.getPortalUrl(''));
+}
+</script>
+
+<script type="application/javascript" src="/jyt1078000_flexset_switchboards_ib/_theme/scripts/favoritesToggle.js"></script>
+<script type="application/javascript">
+var STRING_NONE = "None";
+</script>
+
+
+  
+  <script src="/jyt1078000_flexset_switchboards_ib/_theme/scripts/lang-change.js"></script>
+
+<style>
+
+  body {
+    padding-top: 0;
+  }
+</style>
+</head>
+
+<body id="page" class="body" data-pageId="">
+
+
+<nav class="navbar navbar-inverse">
+<div class="container">
+  <div class="navbar-header">
+    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
+    <div class="col-xs-3">
+			<a class="navbar-brand" style="padding: 0 50px 0 0" href="https://www.se.com/" target="_blank">
+				<img src="/jyt1078000_flexset_switchboards_ib/_theme/images/logos/Logo_SE_Only_White_Transparent_RGB.PNG" style="width: 119px; height: 52px;" class="headerLogo hidden-xs">
+				<img src="/jyt1078000_flexset_switchboards_ib/_theme/images/logos/Logo_SE_Only_White_Transparent_RGB.PNG" style="width: 119px; height: 52px;" class="headerLogo visible-xs">
+			</a>
+    </div>
+  </div>
+
+  
+
+    <form role="search" action='/jyt1078000_flexset_switchboards_ib/search' class="navbar-form navbar-right navbar-input-group">
+      <input type="hidden" name="maxFacetValues" value="10"/>
+      <input type="hidden" name="filter" value="-search-hidden_md:true"/>
+      <div class="form-group">
+        <label class="sr-only" for="headerTerm">Search Term</label>
+        <div class="input-group">
+          <input type="text" placeholder="Search All Documents" class="form-control"
+            id="headerTerm" name="term" value="">
+            <span class="input-group-btn">
+              <button type="submit" class="btn btn-default">
+                <span class="glyphicon glyphicon-search"></span>
+              </button>
+            </span>
+        </div>
+      </div>
+    </form>
+
+
+
+
+
+
+  <div class="collapse navbar-collapse" id="headerMenu">
+    <ul class="nav navbar-nav">
+          <li>
+            <a class="navbar-brand portal-link" href="/jyt1078000_flexset_switchboards_ib/" title="JYT1078000 FlexSeT Switchboards - Instruction Bulletin">
+              JYT1078000 FlexSeT Switchboards - Instruction Bulletin
+            </a>
+          </li>
+    </ul>
+  </div><!--/.nav-collapse -->
+</div>
+</nav>
+
+
+
+
+
+
+
+	
+<div class="publicationHeader prod-portal">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <span class="context-title" >
+          JYT1078000 FlexSeT Switchboards - Instruction Bulletin
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="container productFamilyGroup">
+  <div class="row">
+    <div class="col-xs-12">
+<noscript>
+<div id="noscript-notice">
+<p>For the best experience of this site, please enable Javascript for the <code>productinfo.se.com</code> domain.</p>
+</div>
+</noscript>
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <div class="panel se-panel">
+        <div class="panel-heading se-panelheading">
+          <h3>Available Publications</h3>
+        </div>
+        <div class="panel-body">
+  <ul>
+      <li>
+        <a href="/jyt1078000_flexset_switchboards_ib/jyt1078000-flexset-switchboards-instruction-bulletin/English/FlexSet%20Switchboards%20-%20Instruction%20Bulletin%20JYT1078000%20(bookmap)_DD00622928.xml" title="FlexSeT Switchboards – Instruction Bulletin">FlexSeT Switchboards – Instruction Bulletin <span class="glyphicon glyphicon-globe"></span></a>
+      </li>
+  </ul>
+
+        </div>
+      </div>
+
+    </div>
+  </div>  
+</div>
+    
+
+
+
+
+
+<script>
+(function() {
+  var serverTime = new Date(1789482802290);
+  window.tdinfo = {
+    userToken: null,
+    serverTime: serverTime,
+    timeSkewMS: Date.now() - serverTime.getTime()
+  };
+}());
+</script>
+</body>
+</html>

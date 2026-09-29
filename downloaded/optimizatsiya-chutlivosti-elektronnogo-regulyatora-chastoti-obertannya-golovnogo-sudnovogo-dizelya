@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+        <meta charset="UTF-8">
+
+    <link rel="shortcut icon" href="/web/images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/web/images/favicon.ico" type="image/x-icon">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+                new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+            'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-5MWLG34');</script>
+    <!-- End Google Tag Manager -->
+
+    <meta name="csrf-param" content="_csrf">
+<meta name="csrf-token" content="OpBm1uIGrdY703g4lVtrKLKk90EghNJTGSgIijznfs11xDHl1jOAlGvrLVXNY1tA8OajO2_jnSRgSWnpd49N9A==">
+    <title>Sensitivity Optimisation of a Main Marine Diesel Engine Electronic Speed Governor</title>
+                                        
+                                            
+        <link rel="schema.DC" href="http://purl.org/dc/elements/1.1/"/>
+        <meta name="DC.Contributor.Sponsor" xml:lang="en" content=""/>
+        <meta name="DC.Contributor.Sponsor" xml:lang="uk" content=""/>
+                                    <meta name="DC.Creator.PersonalName" content="Sergii Gorb">
+                            <meta name="DC.Creator.PersonalName" content="Maksym Levinskyi">
+                            <meta name="DC.Creator.PersonalName" content="Mykola Budurov">
+                                            <meta name="DC.Description" xml:lang="en" content="Electronic speed governors have become widespread on marine diesel engines. In comparison with hydromechanical ones, they have an additional setting parameter &ndash; input signal sensitivity. This parameter allows changing the response of governors to high-frequency disturbances. In camshaft diesel engines, such disturbances are generated when the cams run over fuels pump push rods, while in ME (MAN Energy Solutions) or RT-flex (W&auml;rtsil&auml;) engines they result from the use of inductive sensors with a serrated tape on the diesel shaft for speed measurement. If the engine is used as a main engine on vessels, the governor&rsquo;s sensitivity additionally allows governors to vary the response to propeller shaft resistance moment fluctuations in sea waves conditions. In practice the value of sensitivity of electronic speed governors of main marine engines is selected intuitively. As a result, the adjustment of governors doesn&rsquo;t provide satisfactory stability of speed modes at the change of sea conditions. The study aims to develop a methodology for adjusting the sensitivity of main engines electronic speed governors with considering the stochasticity of the load on the diesel engine in sea waves state. The study was carried out using the systems of automatic speed control model, which is based on the assumption of relatively small deviations of diesel engine shaft rotation speed and load parameters at sea waves conditions. Considering the character and magnitude of change of load on diesel engine at sea waves conditions depend on many variables of external conditions (waves levels, course of a vessel in relation to wind-wave conditions, wind gusts, vessel&rsquo;s loading condition, given speed of a vessel), any set value of sensitivity of electronic speed governors appears to be optimum only for a particular case of vessel movement in sea waves state. The scientific novelty is defined by the fact that recommendations on the choice of governor sensitivity are determined with considering stochasticity of propeller shaft resistance moment fluctuations at sea waves conditions, that increased accuracy, and validity of recommendations. The practical significance of the research consist in the increase of stability of speed modes of the main engine with electronic speed governor at various sea waves conditions
+"/>
+        <meta name="DC.Format" scheme="IMT" content="application/pdf"/>
+        <meta name="DC.Identifier" content="optimizatsiya-chutlivosti-elektronnogo-regulyatora-chastoti-obertannya-golovnogo-sudnovogo-dizelya"/>
+                    <meta name="DC.Identifier.pageNumber" content="9-19"/>
+                            <meta name="DC.Identifier.DOI" content="https://doi.org/10.48077/scihor.24(11).2021.9-19"/>
+                <meta name="DC.Identifier.URI" content="https://sciencehorizon.com.ua/en/journals/tom-24-11-2021/optimizatsiya-chutlivosti-elektronnogo-regulyatora-chastoti-obertannya-golovnogo-sudnovogo-dizelya"/>
+        <meta name="DC.Language" scheme="ISO639-1" content="en"/>
+                                                                                                                        <meta name="DC.Rights" content="http://creativecommons.org/licenses/by/4.0"/>
+        <meta name="DC.Source" content="Scientific Horizons"/>
+        <meta name="DC.Source.ISSN" content="2663-2144"/>
+        <meta name="DC.Source.ISSN" content="2709-8877"/>
+        <meta name="DC.Source.Issue" content="24(11)"/>
+        <meta name="DC.Source.URI" content="https://sciencehorizon.com.ua"/>
+                                                                        <meta name="DC.Subject" xml:lang="en" content="marine vessels"/>
+                                                                                <meta name="DC.Subject" xml:lang="en" content="marine diesel engine"/>
+                                                                                <meta name="DC.Subject" xml:lang="en" content="internal combustion reciprocating engine"/>
+                                                                                <meta name="DC.Subject" xml:lang="en" content="automatic speed control system"/>
+                                                                                <meta name="DC.Subject" xml:lang="en" content="electronic speed governor"/>
+                                                                                <meta name="DC.Subject" xml:lang="en" content="speed control"/>
+                                            <meta name="DC.Title" content="Sensitivity Optimisation of a Main Marine Diesel Engine Electronic Speed Governor"/>
+        <meta name="DC.Type" content="Text.Serial.Journal"/>
+        <meta name="DC.Type.articleType" xml:lang="en" content="Articles"/>
+        <meta name="DC.Type.articleType" xml:lang="uk" content="Статті"/>
+        <meta name="gs_meta_revision" content="1.1"/>
+
+
+        <meta name="citation_journal_title" content="Scientific Horizons">
+        <meta name="citation_journal_abbrev" content="SH"/>
+        <meta name="citation_issn" content="2663-2144">
+        <meta name="citation_issn" content="2709-8877">
+                                    <meta name="citation_author" content="Sergii Gorb">
+                            <meta name="citation_author" content="Maksym Levinskyi">
+                            <meta name="citation_author" content="Mykola Budurov">
+                            <meta name="citation_title" content="Sensitivity Optimisation of a Main Marine Diesel Engine Electronic Speed Governor">
+                            <meta name="citation_volume" content="11">
+                            <meta name="citation_issue" content="24">
+                            <meta name="citation_firstpage" content="9">
+                            <meta name="citation_lastpage" content="19">
+                <meta name="citation_abstract_html_url" content="https://sciencehorizon.com.ua/en/journals/tom-24-11-2021/optimizatsiya-chutlivosti-elektronnogo-regulyatora-chastoti-obertannya-golovnogo-sudnovogo-dizelya"/>
+        <meta name="citation_pdf_url" content="https://sciencehorizon.com.ua/web/uploads/pdf/Scientific Horizons_Vol. 24, No. 11_9-19.pdf">
+
+                                                                        <meta name="citation_keywords" xml:lang="en" content="marine vessels"/>
+                                                                                <meta name="citation_keywords" xml:lang="en" content="marine diesel engine"/>
+                                                                                <meta name="citation_keywords" xml:lang="en" content="internal combustion reciprocating engine"/>
+                                                                                <meta name="citation_keywords" xml:lang="en" content="automatic speed control system"/>
+                                                                                <meta name="citation_keywords" xml:lang="en" content="electronic speed governor"/>
+                                                                                <meta name="citation_keywords" xml:lang="en" content="speed control"/>
+                                    
+            
+    <script type="application/ld+json">
+        {
+            "@context" : "http://schema.org",
+            "@type" : "Website",
+            "name" : "sciencehorizon.com.ua",
+            "url" : "https://sciencehorizon.com.ua",
+            "sameAs" : [
+                "https://sciencehorizon.com.ua/uk",
+                "https://sciencehorizon.com.ua/en"
+            ]
+        }
+    </script>
+
+        
+            <link rel="alternate" hreflang="uk-UA" href="https://sciencehorizon.com.ua/uk/journals/tom-24-11-2021/optimizatsiya-chutlivosti-elektronnogo-regulyatora-chastoti-obertannya-golovnogo-sudnovogo-dizelya"/>
+        <link rel="alternate" hreflang="en-UA" href="https://sciencehorizon.com.ua/en/journals/tom-24-11-2021/optimizatsiya-chutlivosti-elektronnogo-regulyatora-chastoti-obertannya-golovnogo-sudnovogo-dizelya"/>
+        <link rel="alternate" hreflang="x-default" href="https://sciencehorizon.com.ua/en/journals/tom-24-11-2021/optimizatsiya-chutlivosti-elektronnogo-regulyatora-chastoti-obertannya-golovnogo-sudnovogo-dizelya"/>
+        <link rel="canonical" href="https://sciencehorizon.com.ua/en/journals/tom-24-11-2021/optimizatsiya-chutlivosti-elektronnogo-regulyatora-chastoti-obertannya-golovnogo-sudnovogo-dizelya"/>
+    
+
+                                                        <meta name="keywords" content="marine vessels, marine diesel engine, internal combustion reciprocating engine, automatic speed control system, electronic speed governor, speed control">
+<meta property="twitter:url" content="https://sciencehorizon.com.ua/en/journals/tom-24-11-2021/optimizatsiya-chutlivosti-elektronnogo-regulyatora-chastoti-obertannya-golovnogo-sudnovogo-dizelya">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Sensitivity Optimisation of a Main Marine Diesel Engine Electronic Speed Governor">
+<meta property="og:site_name" content="Scientific horizons">
+<meta property="og:website" content="sciencehorizon.com.ua">
+<meta property="og:image" content="https://sciencehorizon.com.ua/images/og_image.png">
+<meta property="twitter:card" content="summary_large_image">
+<meta property="twitter:title" content="Sensitivity Optimisation of a Main Marine Diesel Engine Electronic Speed Governor">
+<meta property="twitter:image" content="https://sciencehorizon.com.ua/images/og_image.png">
+<meta name="description" content="Electronic speed governors have become widespread on marine diesel engines. In comparison with hydromechanical ones, they have an additional setting parameter &amp;ndash; input signal sensitivity. This parameter allows changing the response of governors to high-frequency disturbances. In camshaft diesel engines, such disturbances are generated when the cams run over fuels pump push rods, while in ME (MAN Energy Solutions) or RT-flex (W&amp;auml;rtsil&amp;auml;) engines they result from the use of inductive sensors with a serrated tape on the diesel shaft for speed measurement. If the engine is used as a main engine on vessels, the governor&amp;rsquo;s sensitivity additionally allows governors to vary the response to propeller shaft resistance moment fluctuations in sea waves conditions. In practice the value of sensitivity of electronic speed governors of main marine engines is selected intuitively. As a result, the adjustment of governors doesn&amp;rsquo;t provide satisfactory stability of speed modes at the change of sea conditions. The study aims to develop a methodology for adjusting the sensitivity of main engines electronic speed governors with considering the stochasticity of the load on the diesel engine in sea waves state. The study was carried out using the systems of automatic speed control model, which is based on the assumption of relatively small deviations of diesel engine shaft rotation speed and load parameters at sea waves conditions. Considering the character and magnitude of change of load on diesel engine at sea waves conditions depend on many variables of external conditions (waves levels, course of a vessel in relation to wind-wave conditions, wind gusts, vessel&amp;rsquo;s loading condition, given speed of a vessel), any set value of sensitivity of electronic speed governors appears to be optimum only for a particular case of vessel movement in sea waves state. The scientific novelty is defined by the fact that recommendations on the choice of governor sensitivity are determined with considering stochasticity of propeller shaft resistance moment fluctuations at sea waves conditions, that increased accuracy, and validity of recommendations. The practical significance of the research consist in the increase of stability of speed modes of the main engine with electronic speed governor at various sea waves conditions
+">
+<meta property="og:description" content="Electronic speed governors have become widespread on marine diesel engines. In comparison with hydromechanical ones, they have an additional setting parameter &amp;ndash; input signal sensitivity. This parameter allows changing the response of governors to high-frequency disturbances. In camshaft diesel engines, such disturbances are generated when the cams run over fuels pump push rods, while in ME (MAN Energy Solutions) or RT-flex (W&amp;auml;rtsil&amp;auml;) engines they result from the use of inductive sensors with a serrated tape on the diesel shaft for speed measurement. If the engine is used as a main engine on vessels, the governor&amp;rsquo;s sensitivity additionally allows governors to vary the response to propeller shaft resistance moment fluctuations in sea waves conditions. In practice the value of sensitivity of electronic speed governors of main marine engines is selected intuitively. As a result, the adjustment of governors doesn&amp;rsquo;t provide satisfactory stability of speed modes at the change of sea conditions. The study aims to develop a methodology for adjusting the sensitivity of main engines electronic speed governors with considering the stochasticity of the load on the diesel engine in sea waves state. The study was carried out using the systems of automatic speed control model, which is based on the assumption of relatively small deviations of diesel engine shaft rotation speed and load parameters at sea waves conditions. Considering the character and magnitude of change of load on diesel engine at sea waves conditions depend on many variables of external conditions (waves levels, course of a vessel in relation to wind-wave conditions, wind gusts, vessel&amp;rsquo;s loading condition, given speed of a vessel), any set value of sensitivity of electronic speed governors appears to be optimum only for a particular case of vessel movement in sea waves state. The scientific novelty is defined by the fact that recommendations on the choice of governor sensitivity are determined with considering stochasticity of propeller shaft resistance moment fluctuations at sea waves conditions, that increased accuracy, and validity of recommendations. The practical significance of the research consist in the increase of stability of speed modes of the main engine with electronic speed governor at various sea waves conditions
+">
+<meta property="twitter:description" content="Electronic speed governors have become widespread on marine diesel engines. In comparison with hydromechanical ones, they have an additional setting parameter &amp;ndash; input signal sensitivity. This parameter allows changing the response of governors to high-frequency disturbances. In camshaft diesel engines, such disturbances are generated when the cams run over fuels pump push rods, while in ME (MAN Energy Solutions) or RT-flex (W&amp;auml;rtsil&amp;auml;) engines they result from the use of inductive sensors with a serrated tape on the diesel shaft for speed measurement. If the engine is used as a main engine on vessels, the governor&amp;rsquo;s sensitivity additionally allows governors to vary the response to propeller shaft resistance moment fluctuations in sea waves conditions. In practice the value of sensitivity of electronic speed governors of main marine engines is selected intuitively. As a result, the adjustment of governors doesn&amp;rsquo;t provide satisfactory stability of speed modes at the change of sea conditions. The study aims to develop a methodology for adjusting the sensitivity of main engines electronic speed governors with considering the stochasticity of the load on the diesel engine in sea waves state. The study was carried out using the systems of automatic speed control model, which is based on the assumption of relatively small deviations of diesel engine shaft rotation speed and load parameters at sea waves conditions. Considering the character and magnitude of change of load on diesel engine at sea waves conditions depend on many variables of external conditions (waves levels, course of a vessel in relation to wind-wave conditions, wind gusts, vessel&amp;rsquo;s loading condition, given speed of a vessel), any set value of sensitivity of electronic speed governors appears to be optimum only for a particular case of vessel movement in sea waves state. The scientific novelty is defined by the fact that recommendations on the choice of governor sensitivity are determined with considering stochasticity of propeller shaft resistance moment fluctuations at sea waves conditions, that increased accuracy, and validity of recommendations. The practical significance of the research consist in the increase of stability of speed modes of the main engine with electronic speed governor at various sea waves conditions
+">
+<link href="/images/favicon.png" rel="shortcut icon">
+<link type="image/vnd.microsoft.icon" href="/images/favicon.png" rel="shortcut icon">
+<link type="image/png" href="/images/favicon.png" rel="icon" sizes="16x16">
+<link type="image/png" href="/images/favicon.png" rel="icon" sizes="32x32">
+<link type="image/png" href="/images/favicon.png" rel="icon" sizes="96x96">
+<link type="image/png" href="/images/favicon.png" rel="icon" sizes="192x192">
+<link type="image/png" href="/images/favicon.png" rel="apple-touch-icon-precomposed" sizes="60x60">
+<link type="image/png" href="/images/favicon.png" rel="apple-touch-icon-precomposed" sizes="72x72">
+<link type="image/png" href="/images/favicon.png" rel="apple-touch-icon-precomposed" sizes="76x76">
+<link type="image/png" href="/images/favicon.png" rel="apple-touch-icon-precomposed" sizes="114x114">
+<link type="image/png" href="/images/favicon.png" rel="apple-touch-icon-precomposed" sizes="120x120">
+<link type="image/png" href="/images/favicon.png" rel="apple-touch-icon-precomposed" sizes="152x152">
+<link type="image/png" href="/images/favicon.png" rel="apple-touch-icon-precomposed" sizes="180x180">
+<link href="/assets/c2e75193/css/bootstrap.css" rel="stylesheet">
+<link href="/css/bootstrap.css" rel="stylesheet">
+<link href="/css/style.css" rel="stylesheet">
+<link href="/css/responsive.css" rel="stylesheet">
+<!--[if lte IE9]>
+<link href="/css/main_ie9.css" rel="stylesheet">
+<![endif]--></head>
+
+<body>
+<div id="preloader" class="preloader" aria-hidden="true" data-i18n='{"loading":"Loading","siteDefault":"Scientific Horizons"}'>
+    <div class="preloader__stage">
+        <div class="preloader__grid" aria-hidden="true"></div>
+
+        <div class="preloader__card">
+            <div class="preloader__brand">
+                <span class="preloader__dot" aria-hidden="true"></span>
+                <span class="preloader__name">Scientific Horizons</span>
+            </div>
+
+            <div class="preloader__meta">
+                <span class="preloader__tag" data-preloader-tag>Loading</span>
+                <span class="preloader__count" data-preloader-count>0%</span>
+            </div>
+
+            <div class="preloader__bar" aria-hidden="true">
+                <span class="preloader__bar-fill" data-preloader-bar></span>
+            </div>
+        </div>
+
+        <div class="preloader__noise" aria-hidden="true"></div>
+    </div>
+</div>
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5MWLG34" ; height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<div class="page-outer-container">
+    <div class="page-wrapper">
+
+        <header class="hdr" data-hdr>
+            <!-- meta strip -->
+            <div class="hdr__meta">
+                <div class="container">
+                    <div class="hdr__meta-row">
+                        <p class="hdr__meta-text">
+                            ISSN 2663-2144 · e-ISSN 2709-8877                            <span class="hdr__meta-sep" aria-hidden="true">/</span>
+                            UDC 63                        </p>
+
+                        <div class="hdr__meta-actions">
+                            <button class="hdr-btn hdr-btn--ghost" type="button" data-hdr-search-open aria-controls="hdr-search" aria-expanded="false">
+                                <span class="hdr-dot" aria-hidden="true"></span>
+                                <span class="hdr-btn__label">Search</span>
+                            </button>
+
+                            <div class="hdr-lang">
+                                
+<div class="lang-switch" data-lang-switch>
+    <button class="lang-switch__btn" type="button" data-lang-btn aria-haspopup="listbox" aria-expanded="false">
+        <img src="/images/icons/icon-flag.png" class="lang-switch__flag" alt="en">
+        <span class="lang-switch__label">English</span>
+        <span class="lang-switch__chev" aria-hidden="true"></span>
+    </button>
+
+    <ul class="lang-switch__list" data-lang-list role="listbox" hidden>
+                    <li class="lang-switch__item" role="option">
+                <a class="lang-switch__link" href="/uk/journals/tom-24-11-2021/optimizatsiya-chutlivosti-elektronnogo-regulyatora-chastoti-obertannya-golovnogo-sudnovogo-dizelya">
+                    <img src="/images/icons/icon-flag-uk.png" class="lang-switch__flag" alt="Українська">
+                    <span class="lang-switch__name">Українська</span>
+                    <span class="lang-switch__hint" aria-hidden="true">UK</span>
+                </a>
+            </li>
+            </ul>
+</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- main bar -->
+            <div class="hdr__main">
+                <div class="container hdr-container">
+                    <div class="hdr__row">
+                        <!-- brand -->
+                        <a class="hdr-brand" href="/" aria-label="Home">
+                    <span class="hdr-brand__txt">
+                        <span class="hdr-brand__title">Scientific Horizons</span>
+                    </span>
+                        </a>
+
+                        <button class="hdr__mobile__menu" id="mobile_menu">
+                            <span>——</span>
+                            <span>——</span>
+                            <span>——</span>
+                        </button>
+
+                        <!-- primary actions -->
+                        <div class="hdr__actions">
+                            <a class="hdr-cta" href="/en/submission">
+                                <span class="hdr-cta__tag" aria-hidden="true"></span>
+                                Submit an article                            </a>
+                        </div>
+                    </div>
+
+                    <!-- nav (ALWAYS VISIBLE) -->
+                    <nav class="hdr-nav container" id="hdr-nav" data-hdr-nav aria-label="Main navigation">
+                        <ul class="hdr-nav__list">
+
+                            <li class="hdr-nav__item has-dd" data-dd>
+                                <button class="hdr-nav__link hdr-nav__link--btn" type="button" data-dd-btn aria-expanded="false" aria-controls="dd-articles">
+                                    Articles & Issues                                    <span class="hdr-nav__chev" aria-hidden="true"></span>
+                                </button>
+                                <div class="hdr-dd" id="dd-articles" data-dd-menu hidden>
+                                    <a class="hdr-dd__link" href="/en/journals/tom-29-2-2026">
+                                        Current                                        <span class="pill">New</span>
+                                    </a>
+                                    <a class="hdr-dd__link" href="/en/archive">
+                                        All Issues                                    </a>
+                                </div>
+                            </li>
+
+                            <li class="hdr-nav__item has-dd" data-dd>
+                                <button class="hdr-nav__link hdr-nav__link--btn" type="button" data-dd-btn aria-expanded="false" aria-controls="dd-about">
+                                    About                                    <span class="hdr-nav__chev" aria-hidden="true"></span>
+                                </button>
+                                <div class="hdr-dd" id="dd-about" data-dd-menu hidden>
+                                    <a class="hdr-dd__link" href="/en/aims-and-scope">Aims and Scope</a>
+                                    <a class="hdr-dd__link" href="/en/editorial-board">Editorial Board</a>
+                                    <a class="hdr-dd__link" href="/en/indexing">Indexing</a>
+                                    <a class="hdr-dd__link" href="/en/sources-of-financing">Financing</a>
+                                </div>
+                            </li>
+
+                            <li class="hdr-nav__item has-dd" data-dd>
+                                <button class="hdr-nav__link hdr-nav__link--btn" type="button" data-dd-btn aria-expanded="false" aria-controls="dd-authors">
+                                    For Authors                                    <span class="hdr-nav__chev" aria-hidden="true"></span>
+                                </button>
+                                <div class="hdr-dd" id="dd-authors" data-dd-menu hidden>
+                                    <a class="hdr-dd__link" href="/en/publication-terms">Terms of Publication</a>
+                                    <a class="hdr-dd__link" href="/en/requirements">Formatting Guidelines</a>
+                                    <a class="hdr-dd__link" href="/en/peer-review-process">Peer Review Process</a>
+                                    <a class="hdr-dd__link" href="/en/license-agreement">License Agreement</a>
+                                </div>
+                            </li>
+
+                            <li class="hdr-nav__item has-dd" data-dd>
+                                <button class="hdr-nav__link hdr-nav__link--btn" type="button" data-dd-btn aria-expanded="false" aria-controls="dd-ethics">
+                                    Ethics & Policies                                    <span class="hdr-nav__chev" aria-hidden="true"></span>
+                                </button>
+                                <div class="hdr-dd" id="dd-ethics" data-dd-menu hidden>
+                                    <a class="hdr-dd__link" href="/en/publication-ethics">Publication Ethics</a>
+                                    <a class="hdr-dd__link" href="/en/conflict-of-interest">Conflict of Interest</a>
+                                    <a class="hdr-dd__link" href="/en/open-access-policy">Open Access Policy</a>
+                                    <a class="hdr-dd__link" href="/en/archiving">Archiving</a>
+                                    <a class="hdr-dd__link" href="/en/complaints-policy">Complaints Policy</a>
+                                    <a class="hdr-dd__link" href="/en/privacy-statement">Privacy Statement</a>
+                                    <a class="hdr-dd__link" href="/en/retraction-of-publications">Corrections and Retractions</a>
+                                    <a class="hdr-dd__link" href="/en/antiplagiarism-policy">Anti-plagiarism Policy</a>
+                                    <a class="hdr-dd__link" href="/en/ai">Generative AI Policy</a>
+                                </div>
+                            </li>
+
+                            <li class="hdr-nav__item">
+                                <a class="hdr-nav__link" href="/en/contact">Contacts</a>
+                            </li>
+                        </ul>
+                    </nav>
+
+                    <!-- search overlay (OVER NAV) -->
+                    <section class="hdr-search" id="hdr-search" data-hdr-search hidden role="dialog" aria-modal="true">
+                        <div class="hdr-search__inner" data-hdr-search-panel>
+                            <div class="hdr-search__head">
+                                <h2 class="hdr-search__title">Search</h2>
+                                <button class="hdr-btn" type="button" data-hdr-search-close>
+                                    Close                                </button>
+                            </div>
+
+                            <div class="hdr-search__box">
+                                <form id="sideBarSearchFormId" action="/en/search" method="post">
+<input type="hidden" name="_csrf" value="OpBm1uIGrdY703g4lVtrKLKk90EghNJTGSgIijznfs11xDHl1jOAlGvrLVXNY1tA8OajO2_jnSRgSWnpd49N9A==">
+<form class="s-form" action="/en/search" role="search" data-search-form>
+    <div class="s-form__row">
+        <div class="s-field">
+            <div class="s-field__control field-searchform-search required">
+
+<input type="text" id="searchform-search" class="s-input" name="SearchForm[search]" placeholder="Search" autocomplete="off" aria-required="true">
+
+<div class="s-error"></div>
+</div>
+            <button class="s-submit" type="submit" aria-label="Search">
+                <span class="s-submit__dot" aria-hidden="true"></span>
+                <span class="s-submit__label">Go</span>
+            </button>
+        </div>
+    </div>
+
+            <div class="s-form__meta">
+            <div class="form-group field-searchform-type">
+
+<input type="hidden" name="SearchForm[type]" value=""><div id="searchform-type" role="radiogroup"><label class="sradio" for="sideBarSearchFormId-type-0"><input class="sradio__input" id="sideBarSearchFormId-type-0" type="radio" name="SearchForm[type]" value="articles" checked><span class="sradio__box" aria-hidden="true"></span><span class="sradio__text">Title/Keywords/Abstract</span></label>
+<label class="sradio" for="sideBarSearchFormId-type-1"><input class="sradio__input" id="sideBarSearchFormId-type-1" type="radio" name="SearchForm[type]" value="authors"><span class="sradio__box" aria-hidden="true"></span><span class="sradio__text">Authors</span></label></div>
+
+<div class="help-block"></div>
+</div>        </div>
+    </form>
+
+</form>                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </header>
+
+        <section class="page">
+            <div class="container">
+                <main class="page__content" role="main">
+                    
+<section class="article-page" data-article-page data-i18n='{"copied":"Copied","linkCopied":"Link copied","citationCopied":"Citation copied","doiCopied":"DOI copied","showFullAbstract":"Show full abstract","hideAbstract":"Hide abstract"}'>
+    <div>
+
+        <!-- Header -->
+        <header class="article-head">
+
+            <h1 class="article-head__title">Sensitivity Optimisation of a Main Marine Diesel Engine Electronic Speed Governor</h1>
+
+            <div class="article-head__authors">
+                <a class="" href="/en/author/sergiy-ivanovich-gorb" rel="noopener" target="_blank">Sergii Gorb</a>, <a class="" href="/en/author/maksim-valeriyovich-levinsky" rel="noopener" target="_blank">Maksym Levinskyi</a>, <a class="" href="/en/author/mikola-budurov" rel="noopener" target="_blank">Mykola Budurov</a>            </div>
+
+            <div class="article-meta">
+                <div class="meta-date chipa">
+                                                                                                </div>
+
+                                    <button type="button" class="chipa chip--btn" data-copy-doi data-doi="https://doi.org/10.48077/scihor.24(11).2021.9-19">
+                        https://doi.org/10.48077/scihor.24(11).2021.9-19                    </button>
+                
+                                    <span class="chipa">
+            Retrieved from            <a href="/en/journals/tom-24-11-2021" target="_blank" rel="noopener">
+              Vol. 24, No. 11, 2021            </a>
+          </span>
+                
+                                    <span class="chipa">
+            Pages: 9-19          </span>
+                            </div>
+
+            <div class="article-actions">
+                                    <a class="btn btn--accent" href="/en/article/download/optimizatsiya-chutlivosti-elektronnogo-regulyatora-chastoti-obertannya-golovnogo-sudnovogo-dizelya" target="_blank" rel="noopener">
+                        <span class="btn__dot" aria-hidden="true"></span>
+                        Download article                    </a>
+
+                    <a class="btn btn--primary" href="/en/article/read/optimizatsiya-chutlivosti-elektronnogo-regulyatora-chastoti-obertannya-golovnogo-sudnovogo-dizelya" target="_blank" rel="noopener">
+                        <span class="btn__dot btn__dot--accent" aria-hidden="true"></span>
+                        Read article                    </a>
+                
+                <button class="btn btn--ghost" type="button" data-copy-link>
+                    <span class="btn__dot btn__dot--primary" aria-hidden="true"></span>
+                    Copy link                </button>
+
+            </div>
+
+            <div class="share-block">
+                <button class="btn btn--ghost" type="button" aria-expanded="false">
+                    <span class="btn__dot btn__dot--primary" aria-hidden="true"></span>
+                    Share                </button>
+
+                <div class="share-panel">
+                    <a href="http://www.facebook.com/sharer.php?u=https://sciencehorizon.com.ua/en/journals/tom-24-11-2021/optimizatsiya-chutlivosti-elektronnogo-regulyatora-chastoti-obertannya-golovnogo-sudnovogo-dizelya" target="_blank" rel="noopener">Facebook</a>
+                    <a href="https://twitter.com/share?url=https://sciencehorizon.com.ua/en/journals/tom-24-11-2021/optimizatsiya-chutlivosti-elektronnogo-regulyatora-chastoti-obertannya-golovnogo-sudnovogo-dizelya" target="_blank" rel="noopener">Twitter</a>
+                    <a href="https://www.linkedin.com/sharing/share-offsite/?url=https://sciencehorizon.com.ua/en/journals/tom-24-11-2021/optimizatsiya-chutlivosti-elektronnogo-regulyatora-chastoti-obertannya-golovnogo-sudnovogo-dizelya" target="_blank" rel="noopener">LinkedIn</a>
+                    <a href="mailto:?subject=Sensitivity Optimisation of a Main Marine Diesel Engine Electronic Speed Governor&amp;body=https://sciencehorizon.com.ua/en/journals/tom-24-11-2021/optimizatsiya-chutlivosti-elektronnogo-regulyatora-chastoti-obertannya-golovnogo-sudnovogo-dizelya" target="_blank" rel="noopener">Email</a>
+                    <a href="https://telegram.me/share/url?url=https://sciencehorizon.com.ua/en/journals/tom-24-11-2021/optimizatsiya-chutlivosti-elektronnogo-regulyatora-chastoti-obertannya-golovnogo-sudnovogo-dizelya" target="_blank" rel="noopener">Telegram</a>
+                    <a href="viber://forward?text=https://sciencehorizon.com.ua/en/journals/tom-24-11-2021/optimizatsiya-chutlivosti-elektronnogo-regulyatora-chastoti-obertannya-golovnogo-sudnovogo-dizelya" target="_blank" rel="noopener">Viber</a>
+                    <a href="https://api.whatsapp.com/send?text=Sensitivity%20Optimisation%20of%20a%20Main%20Marine%20Diesel%20Engine%20Electronic%20Speed%20Governor%20%2Fen%2Fjournals%2Ftom-24-11-2021%2Foptimizatsiya-chutlivosti-elektronnogo-regulyatora-chastoti-obertannya-golovnogo-sudnovogo-dizelya" target="_blank" rel="noopener">WhatsApp</a>
+                </div>
+            </div>
+
+        </header>
+
+        <!-- Body grid -->
+        <div class="article-grid">
+
+            <!-- Left: PDF preview (only if open) -->
+            <aside class="article-side">
+                                    <div class="pdf">
+                        <iframe src="/web/uploads/pdf/Scientific Horizons_Vol. 24, No. 11_9-19.pdf" class="pdf__frame" title="Sensitivity Optimisation of a Main Marine Diesel Engine Electronic Speed Governor"></iframe>
+                    </div>
+                            </aside>
+
+            <!-- Right: Abstract / Keywords / Tabs -->
+            <main class="article-main">
+
+                <section class="block">
+                    <h2 class="block__title">Abstract</h2>
+                                            <div class="block__content" data-collapsible data-collapsed="true">
+                            <p style="text-align:justify">Electronic speed governors have become widespread on marine diesel engines. In comparison with hydromechanical ones, they have an additional setting parameter &ndash; input signal sensitivity. This parameter allows changing the response of governors to high-frequency disturbances. In camshaft diesel engines, such disturbances are generated when the cams run over fuels pump push rods, while in ME (MAN Energy Solutions) or RT-flex (W&auml;rtsil&auml;) engines they result from the use of inductive sensors with a serrated tape on the diesel shaft for speed measurement. If the engine is used as a main engine on vessels, the governor&rsquo;s sensitivity additionally allows governors to vary the response to propeller shaft resistance moment fluctuations in sea waves conditions. In practice the value of sensitivity of electronic speed governors of main marine engines is selected intuitively. As a result, the adjustment of governors doesn&rsquo;t provide satisfactory stability of speed modes at the change of sea conditions. The study aims to develop a methodology for adjusting the sensitivity of main engines electronic speed governors with considering the stochasticity of the load on the diesel engine in sea waves state. The study was carried out using the systems of automatic speed control model, which is based on the assumption of relatively small deviations of diesel engine shaft rotation speed and load parameters at sea waves conditions. Considering the character and magnitude of change of load on diesel engine at sea waves conditions depend on many variables of external conditions (waves levels, course of a vessel in relation to wind-wave conditions, wind gusts, vessel&rsquo;s loading condition, given speed of a vessel), any set value of sensitivity of electronic speed governors appears to be optimum only for a particular case of vessel movement in sea waves state. The scientific novelty is defined by the fact that recommendations on the choice of governor sensitivity are determined with considering stochasticity of propeller shaft resistance moment fluctuations at sea waves conditions, that increased accuracy, and validity of recommendations. The practical significance of the research consist in the increase of stability of speed modes of the main engine with electronic speed governor at various sea waves conditions</p>
+                        </div>
+                        <button class="linkbtn" type="button" data-collapse-toggle>
+                            Show full abstract                        </button>
+                                    </section>
+
+                <section class="block">
+                    <h2 class="block__title">Keywords</h2>
+                                            <p class="block__content">marine vessels, marine diesel engine, internal combustion reciprocating engine, automatic speed control system, electronic speed governor, speed control</p>
+                                    </section>
+
+            </main>
+        </div>
+
+        <!-- Tabs -->
+        <section class="tabs" data-tabs>
+            <div class="tabs__bar" role="tablist" aria-label="Article sections">
+                <button class="tabs__btn is-active" type="button" role="tab" aria-selected="true" data-tab="refs">
+                    References                </button>
+                <button class="tabs__btn" type="button" role="tab" aria-selected="false" data-tab="cite">
+                    Suggested citation                </button>
+            </div>
+
+            <div class="tabs__panel is-active" role="tabpanel" data-panel="refs">
+                <div class="prose references-list">
+                    References in the process of publication                </div>
+            </div>
+
+            <div class="tabs__panel" role="tabpanel" data-panel="cite">
+                <div class="prose">
+                    
+    <div>
+
+        
+        Gorb, S., Levinskyi, M., & Budurov, M. (2021).
+        Sensitivity Optimisation of a Main Marine Diesel Engine Electronic Speed Governor.
+        <i>Scientific Horizons</i>,
+                    24(11),
+                            9-19.
+                            <a href="https://doi.org/10.48077/scihor.24(11).2021.9-19" target="_blank">https://doi.org/10.48077/scihor.24(11).2021.9-19</a>
+        
+    </div>
+
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+    <div class="toast" data-toast hidden></div>
+</section>                </main>
+            </div>
+        </section>
+
+        <footer class="mf" data-mf>
+            <div class="container">
+                <div class="mf__wrap">
+                    <div class="mf__brand">
+                        <div class="mf__txt">
+                            <p class="mf__title">Scientific Horizons</p>
+                            <p class="mf__meta">
+                                ISSN 2663-2144 · e-ISSN 2709-8877 · UDC 63                            </p>
+                        </div>
+                    </div>
+
+                    <div class="mf__info">
+                        <p class="mf__line">
+                            <span class="mf__k">Address:</span>
+                            <span class="mf__v">
+            10008, Ukraine, Zhytomyr, 7, Staryi Blvd          </span>
+                        </p>
+
+                        <p class="mf__line">
+                            <span class="mf__k">Email:</span>
+                            <span class="mf__v">info@sciencehorizon.com.ua</span>
+                        </p>
+                    </div>
+
+                    <div class="mf__actions">
+                        <button class="mf__top" type="button" data-mf-top>
+                            <span class="mf__dot" aria-hidden="true"></span>
+                            Back to top                        </button>
+
+                    </div>
+                </div>
+
+                <div class="mf__bottom">
+                    <p class="mf__copy">2026 Scientific Horizons</p>
+                    <div class="mf__pay" aria-label="Payment methods">
+                        <img class="mf__pay-img" src="/web/images/payment/visa_footer.svg" alt="visa logo">
+                        <img class="mf__pay-img" src="/web/images/payment/mc_check.svg" alt="mastercard logo">
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+</div>
+
+
+<script src="/web/js/jquery.js"></script>
+
+<script src="/assets/8f1d9a8c/jquery.js"></script>
+<script src="/assets/1515647a/yii.js"></script>
+<script src="https://code.jquery.com/jquery-migrate-1.4.1.min.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+<script src="/js/jquery.fancybox.pack.js"></script>
+<script src="/js/jquery.fancybox-media.js"></script>
+<script src="/js/jquery.mCustomScrollbar.concat.min.js"></script>
+<script src="/js/owl.js"></script>
+<script src="/js/wow.js"></script>
+<script src="/js/copy.js"></script>
+<script src="/js/script.js"></script>
+<script src="/assets/1515647a/yii.validation.js"></script>
+<script src="/assets/1515647a/yii.activeForm.js"></script>
+<script>jQuery(function ($) {
+jQuery('#sideBarSearchFormId').yiiActiveForm([{"id":"searchform-search","name":"search","container":".field-searchform-search","input":"#searchform-search","error":".s-error","validate":function (attribute, value, messages, deferred, $form) {yii.validation.required(value, messages, {"message":""});yii.validation.string(value, messages, {"message":"Search text... must be a string.","skipOnEmpty":1});}},{"id":"searchform-type","name":"type","container":".field-searchform-type","input":"#searchform-type","validate":function (attribute, value, messages, deferred, $form) {yii.validation.string(value, messages, {"message":"Type must be a string.","skipOnEmpty":1});}}], []);
+});</script>
+<script>
+
+    function setCountryCode(authorIndex) {
+
+        // Get the selected country name
+        console.log(authorIndex);
+
+        var searchCountryName = $('#select2-authors-' + authorIndex + '-country_id-container').text();
+        // Clear the article 'The' from the country name for search
+        var countryName = searchCountryName.replace(/^The |Federated States of | of America/i, '');
+        console.log(countryName);
+        // Find the corresponding country in the phone input dropdown
+        var $countryList = $('.field-authors-' + authorIndex + '-phone #country-listbox');
+        var $countryOption = $countryList.find('li span.iti__country-name:contains("' + countryName + '")').closest('li');
+
+        // Check if the country was found
+        if ($countryOption.length === 0) {
+            // Handle the case when the country is not found
+            console.log('Country not found in the phone input dropdown.');
+            return; // Exit the function
+        }
+
+        // Retrieve the country code
+        var countryCode = $countryOption.data('country-code');
+
+        $('#authors-' + authorIndex + '-phone').intlTelInput("setCountry", countryCode);
+    }
+
+</script>
+
+
+<script>
+    (function () {
+        const pre = document.getElementById('preloader');
+        if (!pre) return;
+
+        // i18n
+        const i18n = (() => {
+            try { return JSON.parse(pre.getAttribute('data-i18n') || '{}'); }
+            catch { return {}; }
+        })();
+        const t = (key) => i18n[key] || key;
+
+        const headlineEl = pre.querySelector('[data-preloader-headline]');
+        const tagEl = pre.querySelector('[data-preloader-tag]');
+        const countEl = pre.querySelector('[data-preloader-count]');
+        const barEl = pre.querySelector('[data-preloader-bar]');
+
+        // ====== ТІЛЬКИ НАЗВА СТОРІНКИ ======
+        let pageTitle = '';
+
+        const h1 = document.querySelector('main h1') || document.querySelector('h1');
+        if (h1 && h1.textContent.trim()) {
+            pageTitle = h1.textContent.trim();
+        } else if (document.title) {
+            pageTitle = document.title.replace(/\s*\|.*$/, '').trim();
+        } else {
+            pageTitle = t('siteDefault');
+        }
+
+        if (headlineEl) headlineEl.textContent = pageTitle;
+        if (tagEl) tagEl.textContent = t('loading');
+
+        // ====== FAKE PROGRESS (плавний) ======
+        let p = 0;
+        const timer = setInterval(() => {
+            if (p < 92) {
+                p += (p < 60 ? 6 : 2);
+                const v = Math.min(Math.round(p), 92);
+                if (barEl) barEl.style.width = v + '%';
+                if (countEl) countEl.textContent = v + '%';
+            }
+        }, 140);
+
+        // ====== HIDE ON LOAD ======
+        window.addEventListener('load', () => {
+            clearInterval(timer);
+
+            if (barEl) barEl.style.width = '100%';
+            if (countEl) countEl.textContent = '100%';
+
+            setTimeout(() => {
+                pre.classList.add('is-hidden');
+                setTimeout(() => pre.remove(), 700);
+            }, 200);
+        }, { once: true });
+    })();
+</script>
+
+</body>
+</html>

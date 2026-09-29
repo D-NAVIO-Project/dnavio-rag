@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en" class="style_light" id="home">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+        <!--
+        *************************************************************************
+        * Realisation   : Onsweb B.V. creates it                                *
+        *               : Heulweg 47                                         *
+        *               : 2641 KP Pijnacker                                     *
+        * Website       : http://www.onsweb.nl                                  *
+        * Email         : mail &#64; onsweb.nl                                  *
+        *************************************************************************
+        -->
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta about="/product-eigenschappen/approvals-4" typeof="skos:Concept" property="rdfs:label skos:prefLabel" content="Approvals" />
+<link rel="shortcut icon" href="https://www.dhr.nl/sites/all/themes/dhr/favicon.ico" type="image/vnd.microsoft.icon" />
+<meta name="description" content="Navigation lights control panel to operate ships navigation lamps on seagoing and inland navigation vessels." />
+<meta name="generator" content="Drupal 7 (https://www.drupal.org)" />
+<link rel="canonical" href="https://www.dhr.nl/dhr-marine/products/navigation-lights/control-panel" />
+<link rel="shortlink" href="https://www.dhr.nl/node/450" />
+        <title>Control Panel | Navigation lights | Den Haan Rotterdam Netherlands</title>
+        <style type="text/css" media="all">
+@import url("https://www.dhr.nl/modules/system/system.base.css?sy5o8l");
+@import url("https://www.dhr.nl/modules/system/system.menus.css?sy5o8l");
+@import url("https://www.dhr.nl/modules/system/system.messages.css?sy5o8l");
+@import url("https://www.dhr.nl/modules/system/system.theme.css?sy5o8l");
+</style>
+<style type="text/css" media="all">
+@import url("https://www.dhr.nl/modules/comment/comment.css?sy5o8l");
+@import url("https://www.dhr.nl/modules/field/theme/field.css?sy5o8l");
+@import url("https://www.dhr.nl/modules/node/node.css?sy5o8l");
+@import url("https://www.dhr.nl/modules/search/search.css?sy5o8l");
+@import url("https://www.dhr.nl/modules/user/user.css?sy5o8l");
+@import url("https://www.dhr.nl/sites/all/modules/views/css/views.css?sy5o8l");
+</style>
+<style type="text/css" media="all">
+@import url("https://www.dhr.nl/sites/all/modules/ctools/css/ctools.css?sy5o8l");
+@import url("https://www.dhr.nl/modules/taxonomy/taxonomy.css?sy5o8l");
+</style>
+<style type="text/css" media="all">
+@import url("https://www.dhr.nl/sites/all/themes/dhr/css/animate.min.css?sy5o8l");
+@import url("https://www.dhr.nl/sites/all/themes/dhr/css/bootstrap.min.css?sy5o8l");
+@import url("https://www.dhr.nl/sites/all/themes/dhr/css/bootstrap-select.min.css?sy5o8l");
+@import url("https://www.dhr.nl/sites/all/themes/dhr/css/style.css?sy5o8l");
+@import url("https://www.dhr.nl/sites/all/themes/dhr/css/odometer-theme-default.css?sy5o8l");
+@import url("https://www.dhr.nl/sites/all/themes/dhr/css/elegant-icon.css?sy5o8l");
+@import url("https://www.dhr.nl/sites/all/themes/dhr/css/responsive.css?sy5o8l");
+@import url("https://www.dhr.nl/sites/all/themes/dhr/css/YTPlayer.css?sy5o8l");
+@import url("https://www.dhr.nl/sites/all/themes/dhr/css/colors/light.css?sy5o8l");
+@import url("https://www.dhr.nl/sites/all/themes/dhr/css/idangerous.swiper.css?sy5o8l");
+@import url("https://www.dhr.nl/sites/all/themes/dhr/css/owl.carousel.css?sy5o8l");
+@import url("https://www.dhr.nl/sites/all/themes/dhr/css/owl.theme.css?sy5o8l");
+@import url("https://www.dhr.nl/sites/all/themes/dhr/css/fresco/fresco.css?sy5o8l");
+@import url("https://www.dhr.nl/sites/all/themes/dhr/css/custom-overrides.css?sy5o8l");
+</style>
+        <script type="text/javascript" src="https://www.dhr.nl/sites/all/modules/jquery_update/replace/jquery/1.8/jquery.min.js?v=1.8.3"></script>
+<script type="text/javascript" src="https://www.dhr.nl/misc/jquery-extend-3.4.0.js?v=1.8.3"></script>
+<script type="text/javascript" src="https://www.dhr.nl/misc/jquery-html-prefilter-3.5.0-backport.js?v=1.8.3"></script>
+<script type="text/javascript" src="https://www.dhr.nl/misc/jquery.once.js?v=1.2"></script>
+<script type="text/javascript" src="https://www.dhr.nl/misc/drupal.js?sy5o8l"></script>
+<script type="text/javascript" src="https://www.dhr.nl/sites/all/themes/dhr/js/modernizr-latest.min.js?sy5o8l"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"dhr","theme_token":"daSVpzLDFxVAC8RF64s_qCDdimPpCx6G9juTG-8p_kY","js":{"sites\/all\/modules\/jquery_update\/replace\/jquery\/1.8\/jquery.min.js":1,"misc\/jquery-extend-3.4.0.js":1,"misc\/jquery-html-prefilter-3.5.0-backport.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/themes\/dhr\/js\/modernizr-latest.min.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"modules\/comment\/comment.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"modules\/taxonomy\/taxonomy.css":1,"sites\/all\/themes\/dhr\/css\/animate.min.css":1,"sites\/all\/themes\/dhr\/css\/bootstrap.min.css":1,"sites\/all\/themes\/dhr\/css\/bootstrap-select.min.css":1,"sites\/all\/themes\/dhr\/css\/style.css":1,"sites\/all\/themes\/dhr\/css\/odometer-theme-default.css":1,"sites\/all\/themes\/dhr\/css\/elegant-icon.css":1,"sites\/all\/themes\/dhr\/css\/responsive.css":1,"sites\/all\/themes\/dhr\/css\/YTPlayer.css":1,"sites\/all\/themes\/dhr\/css\/colors\/light.css":1,"sites\/all\/themes\/dhr\/css\/idangerous.swiper.css":1,"sites\/all\/themes\/dhr\/css\/owl.carousel.css":1,"sites\/all\/themes\/dhr\/css\/owl.theme.css":1,"sites\/all\/themes\/dhr\/css\/fresco\/fresco.css":1,"sites\/all\/themes\/dhr\/css\/custom-overrides.css":1}},"currentPath":"node\/450","currentPathIsAdmin":false,"better_exposed_filters":{"views":{"recently_viewed":{"displays":{"block":{"filters":[]}}}}}});
+//--><!]]>
+</script>
+    </head>
+    <body id="homepage" class="padding_top_zero html not-front not-logged-in no-sidebars page-node page-node- page-node-450 node-type-product-display">
+		<!-- Google Tag Manager -->
+		<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-52HWXR"
+		height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+		<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+		new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+		j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+		'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+		})(window,document,'script','dataLayer','GTM-52HWXR');</script>
+		<!-- End Google Tag Manager -->
+        <div id="skip-link">
+            <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+        </div>
+        <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+                    <div class="top-image-wrapper">
+	<div class="top-title">
+            Control Panel        </div>
+        <div class="top-image" style="background:url(https://www.dhr.nl/sites/default/files/userfiles/Banners/Banner%20Marine%20lr.jpg); background-size:cover; background-position: 50% 50%;"></div>
+    </div>
+
+
+<!-- Navigation -->
+<section class="main_nav visible-nav white-nav container jsNoBoxed whiteversion">
+    <!-- Navigation Inner -->
+    <div class="nav-inner">
+        <!-- Site Logo -->
+        <a class="mini-nav-button navbar-toggle collapsed" data-toggle="collapse" data-target=".menu">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </a>
+        <!-- Navigation Menu -->
+        <nav class="menu nav-menu cl-effect-8 t-center collapse yamm">
+            
+    
+
+    
+
+    <ul class="main-menu nav uppercase bold"><li class=""><a href="/" data-scroll="" data-options="{ &quot;easing&quot;: &quot;easeInOutQuad&quot; }"><i class="arrow_carrot-right"></i><div class="after"></div>Home<span class="caret"></span></a><ul class="dropdown-menu sub_menu"><li class=""><a href="/dhr-marine" data-scroll="" data-options="{ &quot;easing&quot;: &quot;easeInOutQuad&quot; }"><span class="arrow_carrot-2right"></span>DHR marine</a></li>
+<li class=""><a href="/dhr-decorative" data-scroll="" data-options="{ &quot;easing&quot;: &quot;easeInOutQuad&quot; }"><span class="arrow_carrot-2right"></span>DHR decorative</a></li>
+</ul></li>
+<li class=""><a href="/dhr-marine/products/navigation-lights" data-scroll="" data-options="{ &quot;easing&quot;: &quot;easeInOutQuad&quot; }"><i class="arrow_carrot-right"></i><div class="after"></div>Products<span class="caret"></span></a>
+  <ul class="dropdown-menu sub_menu sub_menu_small mega-menu clearfix" >
+	<li>
+	  <div class="col-lg-12 col-md-6 col-sm-12 col-xs-12 mega-menu-content">
+		<ul><li><a href="/dhr-marine/products/navigation-lights"><img typeof="foaf:Image" src="https://www.dhr.nl/sites/default/files/styles/menu_product_thumb/public/userfiles/Productcategorieen/navigation-lights-active.png?itok=Z2M-ewwR" alt="" />Navigation lights</a></li><li><a href="/dhr-marine/products/searchlights"><img typeof="foaf:Image" src="https://www.dhr.nl/sites/default/files/styles/menu_product_thumb/public/userfiles/Productcategorieen/search-lights-icon-active.png?itok=5yioEtS2" alt="" />Searchlights</a></li><li><a href="/dhr-marine/products/air-horns"><img typeof="foaf:Image" src="https://www.dhr.nl/sites/default/files/styles/menu_product_thumb/public/userfiles/Productcategorieen/air-horns-icon-active.png?itok=BCrRJ5Dz" alt="" />Air Horns</a></li><li><a href="/dhr-marine/products/accessories"><img typeof="foaf:Image" src="https://www.dhr.nl/sites/default/files/styles/menu_product_thumb/public/userfiles/Productcategorieen/accessoires-icon-active.png?itok=JRoNNfhZ" alt="" />Accessories</a></li><li><a href="/dhr-marine/products/spare-parts"><img typeof="foaf:Image" src="https://www.dhr.nl/sites/default/files/styles/menu_product_thumb/public/userfiles/Productcategorieen/Spar%20Parts%20Active.png?itok=vK_7TBwn" alt="" />Spare parts</a></li></ul>
+	  </div>
+	</li>
+  </ul></li>
+<li class=""><a href="/dhr-marine/knowledge" data-scroll="" data-options="{ &quot;easing&quot;: &quot;easeInOutQuad&quot; }"><i class="arrow_carrot-right"></i><div class="after"></div>Knowledge</a></li>
+<li class=""><a href="/family-company" data-scroll="" data-options="{ &quot;easing&quot;: &quot;easeInOutQuad&quot; }"><i class="arrow_carrot-right"></i><div class="after"></div>A family company</a></li>
+<li class=""><a href="/our-heritage" data-scroll="" data-options="{ &quot;easing&quot;: &quot;easeInOutQuad&quot; }"><i class="arrow_carrot-right"></i><div class="after"></div>Our heritage</a></li>
+<li class=""><a href="/dhr-marine/store-locator" data-scroll="" data-options="{ &quot;easing&quot;: &quot;easeInOutQuad&quot; }"><i class="arrow_carrot-right"></i><div class="after"></div>Store locator</a></li>
+<li class=""><a href="/dhr-marine/contact/dhr-marine" data-scroll="" data-options="{ &quot;easing&quot;: &quot;easeInOutQuad&quot; }"><i class="arrow_carrot-right"></i><div class="after"></div>Contact</a></li>
+</ul>
+
+
+            <div class="cart-button">
+                            </div>
+        </nav><!-- End Navigation Menu -->
+        <div class="site-logo wrapper_logo pull-left">
+            <a href="/" class="scroll logo"></a>
+        </div><!-- End Site Logo -->
+        
+
+    </div><!-- End Navigation Inner -->
+
+
+</section><!-- End Navigation Section -->
+
+<div><ul class="breadcrumb"><li class="first"><a href="/">Home</a></li>
+<li><a href="/dhr-marine">DHR Marine</a></li>
+<li><a href="/dhr-marine/products/navigation-lights">Navigation lights</a></li>
+<li class="last">Control Panel</li>
+</ul></div>
+<section class="container content_bg ">
+            <div class="tabs">
+                    </div>
+        
+            <div class="col-md-12">
+            <div class="content-box">
+                
+    <div id="block-system-main" class="block block-system">
+
+    
+  <div class="content">
+    <div id="product-450" class="post-450">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="row">
+                <div class="col-md-2 col-sm-2 col-xs-3">
+                    <div class="large-1 columns product_summary_thumbnails_wrapper">
+                        <div class="product_thumbnails">
+                            <div class="swiper-container">
+                                <div class="swiper-wrapper">
+																		
+										<div class="swiper-slide">
+											<img class="attachment-shop_thumbnail" alt="" typeof="foaf:Image" src="https://www.dhr.nl/sites/default/files/styles/product_detail_thumb/public/userfiles/Producten/Navigatie/Operator%20panel%20with%20buttons.jpg?itok=GsDW2fCw" />										</div>
+																		
+										<div class="swiper-slide">
+											<img class="attachment-shop_thumbnail" alt="" typeof="foaf:Image" src="https://www.dhr.nl/sites/default/files/styles/product_detail_thumb/public/userfiles/Producten/Navigatie/Operator%20panel%20with%20TFT%20screen.jpg?itok=8Bccs8dA" />										</div>
+																		
+										<div class="swiper-slide">
+											<img class="attachment-shop_thumbnail" alt="" typeof="foaf:Image" src="https://www.dhr.nl/sites/default/files/styles/product_detail_thumb/public/userfiles/Producten/Navigatie/NCLS%20IO%20Module.jpg?itok=kzLskxnT" />										</div>
+									                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-10 col-sm-10 col-xs-9">
+                    <div class="columns">
+                        <div class="featured_img_temp">
+                            <img width="570" height="708" src="https://www.dhr.nl/sites/default/files/userfiles/Producten/Navigatie/Operator%20panel%20with%20buttons.jpg" class="attachment-shop_single wp-post-image" alt="0" />
+                        </div>
+                        <div class="images">
+                            <div class="product_images">
+                                <div id="product-images-carousel" class="owl-carousel">
+																			<div>
+											<a data-fresco-group="product-gallery" adta-fresco-options="fit: 'width'" class="fresco" href="https://www.dhr.nl/sites/default/files/userfiles/Producten/Navigatie/Operator%20panel%20with%20buttons.jpg">
+												<img width="570" height="708" src="https://www.dhr.nl/sites/default/files/userfiles/Producten/Navigatie/Operator%20panel%20with%20buttons.jpg" class="" alt="0"  />
+												<div class="product-images-zoom-icon">
+													<i class="fa fa-plus"></i>
+												</div>
+											</a>
+										</div>
+																			<div>
+											<a data-fresco-group="product-gallery" adta-fresco-options="fit: 'width'" class="fresco" href="https://www.dhr.nl/sites/default/files/userfiles/Producten/Navigatie/Operator%20panel%20with%20TFT%20screen.jpg">
+												<img width="570" height="708" src="https://www.dhr.nl/sites/default/files/userfiles/Producten/Navigatie/Operator%20panel%20with%20TFT%20screen.jpg" class="" alt="1" data-src="https://www.dhr.nl/sites/default/files/userfiles/Producten/Navigatie/Operator%20panel%20with%20TFT%20screen.jpg" />
+												<div class="product-images-zoom-icon">
+													<i class="fa fa-plus"></i>
+												</div>
+											</a>
+										</div>
+																			<div>
+											<a data-fresco-group="product-gallery" adta-fresco-options="fit: 'width'" class="fresco" href="https://www.dhr.nl/sites/default/files/userfiles/Producten/Navigatie/NCLS%20IO%20Module.jpg">
+												<img width="570" height="708" src="https://www.dhr.nl/sites/default/files/userfiles/Producten/Navigatie/NCLS%20IO%20Module.jpg" class="" alt="2" data-src="https://www.dhr.nl/sites/default/files/userfiles/Producten/Navigatie/NCLS%20IO%20Module.jpg" />
+												<div class="product-images-zoom-icon">
+													<i class="fa fa-plus"></i>
+												</div>
+											</a>
+										</div>
+									
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="row">
+                <div class="col-md-10">
+                    <div class="product_summary_top">
+                        <h1 itemprop="name" class="product_title entry-title">Control Panel</h1>
+                    </div>
+                    <div class="large-6 large-push-0 columns">
+                        <div class="product_infos">
+                            <div itemprop="description" class="product_description">
+                                                                <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"></div></div></div>                                                                                                
+																                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="recently-viewed">
+                        <h2>Recently viewed</h2>
+						<div class="view view-recently-viewed view-id-recently_viewed view-display-id-block view-dom-id-fd5cfb985eab162d74e842ca4677d2b6">
+        
+  
+  
+  
+  
+  
+  
+  
+  
+</div>                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <div class="product-tabs">
+
+                <div role="tabpanel">
+                    <ul class="nav nav-tabs" role="tablist">
+						<li role="presentation" class="active"><a href="#tab-529"  aria-controls="description" role="tab" data-toggle="tab">Description</a></li><li role="presentation" class=""><a href="#tab-530"  aria-controls="description" role="tab" data-toggle="tab">TFT NLCS</a></li><li role="presentation" class=""><a href="#tab-531"  aria-controls="description" role="tab" data-toggle="tab">Push-button NLCS</a></li><li role="presentation" class=""><a href="#tab-532"  aria-controls="description" role="tab" data-toggle="tab">I/O Module</a></li><li role="presentation" class=""><a href="#tab-533"  aria-controls="description" role="tab" data-toggle="tab">Approvals</a></li>                    </ul>
+                    <div class="tab-content">
+						<div role="tabpanel" class="tab-pane active" id="tab-529">
+	<div class="taxonomy-term-description"><p><strong>Application</strong><br>To operate LED or incandescent bulb navigation lights.&nbsp;(19~32VDC Max 60W)<strong>Approval</strong><br>Meets ColReg'72 Requirements.<strong>Features</strong><br>Each lamp has its own on/off button.<br>A number of lamps can be grouped together for simultanious on/off control.<br>Spare lamp is automatically activated in case of failure Main lamp.<br>Main and back-up power supply indication.<br>USB Port to upload configuration.<br>Ethernet port to connect to other Mega-Guard operater panels.<br>Dimming push-buttons<strong>Versions</strong><br>There are two versions of the NCLS Mega-Guard system.<br>The TFT display version and the push-button version.<br>Both are connected with an I/O Module wich has output for main and spare lamps.&nbsp;<br>&nbsp;&nbsp;</p>
+</div></div><div role="tabpanel" class="tab-pane " id="tab-530">
+	<div class="taxonomy-term-description"><p>Navigation Light Control System (NCLS)&nbsp;<br>8.4" TFT screen with 12 corresponding buttons.<strong>Size </strong><br>240x160mm<strong>Mounting</strong><br>Flush panel mounting<strong>Support</strong><br>Supports up to 48 lamps with 4 I/O Modules</p>
+</div></div><div role="tabpanel" class="tab-pane " id="tab-531">
+	<div class="taxonomy-term-description"><p>Navigation Light Control System (NLCS)<br>Panel with 12 pushbuttons and navigation mast.&nbsp;<strong>Size </strong><br>144x144mm<strong>Support</strong><br>Up to 12 lamps with 1 I/O Module.<strong>Mounting</strong><br>Flush panel mounting</p>
+</div></div><div role="tabpanel" class="tab-pane " id="tab-532">
+	<div class="taxonomy-term-description"><p><strong>Size</strong><br>127x198x29 mm (WxHxD)Support<br>12 Navigation lights main output.<br>12 Navigation lights spare output.<br>LED or Incandescent Bulb (19~32VDC Max 60W)<strong>Switches</strong><br>12 manual switches with 3 positions: Main lamp On, Remote or Spare lamp On.<br>In Remote position the navigation lights are controlled by the NLCS.<strong>Power</strong><br>Main power input: 19~32VDC.<br>Back-up power input: 19~32VDC.<br>Power output: 19~32VDC. (Connects with NLCS)<strong>Wiring</strong><br>Connects with 3 or 5 meter long I/O cable to NLCS.<strong>Mounting</strong><br>DIN rail mounting<br>I/O module needs to be installed in a cabinet.<br>The Module needs to be mounted so it can be reached without using tools in order to fulfill class requirements.</p>
+</div></div><div role="tabpanel" class="tab-pane " id="tab-533">
+	<div class="taxonomy-term-description"><p><a href="/sites/default/files/userfiles/Producten/Navigatie/Approvals/BV%20Type%20Approval%20Certificate%20Navigation%20Light%20System%2022-11-2022.pdf" target="_blank"></a><a href="/sites/default/files/userfiles/Producten/Navigatie/Approvals/Lloyds%20Reg%20Certificate%20extension%2004-30009%28E5%29%2030-12-2020.pdf" target="_blank"></a><a href="/sites/default/files/userfiles/Producten/Navigatie/Approvals/BV%20Type%20Approval%20Certificate%20Navigation%20Light%20System%2022-11-2022.pdf" target="_blank">Type Approval</a><a href="/sites/default/files/userfiles/Producten/Navigatie/Approvals/BV%20Type%20Approval%20Certificate%20Navigation%20Light%20System%2022-11-2022.pdf" target="_blank">Bureau Veritas</a><a href="/sites/default/files/userfiles/Producten/Navigatie/Approvals/Lloyds%20Reg%20Certificate%20extension%2004-30009%28E5%29%2030-12-2020.pdf" target="_blank">Type Approval</a><a href="/sites/default/files/userfiles/Producten/Navigatie/Approvals/Lloyds%20Reg%20Certificate%20extension%2004-30009%28E5%29%2030-12-2020.pdf" target="_blank">Lloyd's Register</a>&nbsp;</p>
+</div></div>                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <div class="product_meta">
+                <span class="sku_wrapper">
+                    <span class="sku"></span>
+                    <span class="product_meta_separator">/</span>
+                </span>
+                <span class="posted_in">
+					<span class="product_meta_title">Categories:</span> <a href="/dhr-marine">DHR Marine</a>, <a href="/dhr-marine/products/navigation-lights">Navigation lights</a>				</span>
+            </div>
+        </div>
+    </div>
+</div>
+<script type="text/javascript" async defer  data-pin-color="red" data-pin-height="28" data-pin-hover="true" src="//assets.pinterest.com/js/pinit.js"></script>  </div>
+</div>
+
+            </div>
+        </div>
+    </section>
+    
+<footer class="footer container jsNoBoxed">
+    <h2 class="company-name  uppercase white bold">
+        <a href="/" class="logo_wt"></a>
+    </h2>
+    <p class="copyright ">&copy; 2013&ndash;2026 . All rights reserved &nbsp;&nbsp; | 
+    <div id="block-menu-menu-footer-menu" class="block block-menu">
+
+    
+  <div class="content">
+    <ul class="menu"><li class="first leaf"><a href="/sitemap" title="">Sitemap</a></li>
+<li class="leaf"><a href="/newsletter-subscription" title="Sign up for our newsletter. Every few weeks we send a newsletter with news about our products, interesting subjects from the maritime field and some nice to know facts.
+Don&#039;t worry, we will never use your e-mail for anything else than our newsletter.">Newsletter subscription</a></li>
+<li class="leaf"><a href="http://www.dhr.nl/node/438" title="DHR website disclaimer.">Disclaimer</a></li>
+<li class="last leaf"><a href="/careers" title="">News</a></li>
+</ul>  </div>
+</div>
+
+</p>
+    <p class="copyright "><a href="http://www.onsweb.nl/diensten/website-ontwikkeling" target="_blank">Website ontwikkeling</a> door <a href="http://www.onsweb.nl" target="_blank">Onsweb</a></p>
+    <div class="slidetop scroll">
+        <img src="/sites/all/themes/dhr/images/icons/slidetotop-icon.png" alt="">
+    </div>
+</footer>
+
+<div class="alerts-bottom">
+  <div class="alert alert-bottom alert-cookie alert-dismissible" role="alert" id="cookie_message" style="display:none;">
+    <div class="container">
+    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+      <span aria-hidden="true">&times;</span>
+    </button>
+    <i class="fa fa-exclamation-triangle"></i> This website uses cookies    <a href="#" class="btn btn-default btn-cookie" data-dismiss="alert" aria-label="Close">Accept</a>
+</div>
+  </div>
+</div>        
+        <!-- JS Files -->
+
+        <script type="text/javascript" src="/sites/all/themes/dhr/js/video.js"></script>
+        <script type="text/javascript" src="/sites/all/themes/dhr/js/bootstrap.js"></script>
+        <script type="text/javascript" src="/sites/all/themes/dhr/js/bootstrap-tabs.js"></script>
+        <script type="text/javascript" src="/sites/all/themes/dhr/js/smooth-scroll.min.js"></script>
+        <script type="text/javascript" src="/sites/all/themes/dhr/js/jquery-ui-1.10.4.custom.min.js"></script>
+        <!-- <script type="text/javascript" src="/sites/all/themes/dhr/js/odometer.min.js"></script> -->
+        <script type="text/javascript" src="/sites/all/themes/dhr/js/jquery-hoverdirection.min.js"></script>
+        <script type="text/javascript" src="/sites/all/themes/dhr/js/jquery_006.js"></script>
+        <script type="text/javascript" src="/sites/all/themes/dhr/js/elastislide.min.js"></script>
+        <script type="text/javascript" src="/sites/all/themes/dhr/js/main.js"></script>
+        <script type="text/javascript" src="/sites/all/themes/dhr/js/isotope.pkgd.min.js"></script>
+        <script type="text/javascript" src="/sites/all/themes/dhr/js/packery-mode.js"></script>
+        <script type="text/javascript" src="/sites/all/themes/dhr/js/jquery_012.js"></script>
+        <script type="text/javascript" src="/sites/all/themes/dhr/js/jquery_005.js"></script>
+        <script type="text/javascript" src="/sites/all/themes/dhr/js/jquery_003.js"></script>
+        <script>if (jQuery().parallax) {
+                jQuery(".parallax-section").parallax()
+            }</script>
+        <script type="text/javascript" src="/sites/all/themes/dhr/js/safari.js"></script>
+        <script type="text/javascript" src="/sites/all/themes/dhr/js/script.js"></script>
+<!--        <script type="text/javascript" src="/sites/all/themes/dhr/js/retina.min.js"></script>-->
+        <script type="text/javascript" src="/sites/all/themes/dhr/js/select2.min.js"></script>
+        <script type="text/javascript" src="/sites/all/themes/dhr/js/jquery.touchSwipe.min.js"></script>
+        <script type="text/javascript" src="/sites/all/themes/dhr/js/idangerous.swiper.min.js"></script>
+        <script type="text/javascript" src="/sites/all/themes/dhr/js/owl.carousel.min.js"></script>
+        <script type="text/javascript" src="/sites/all/themes/dhr/js/jquery.stellar.min.js"></script>
+        <script type="text/javascript" src="/sites/all/themes/dhr/js/foundation.min.js"></script>
+        <script type="text/javascript" src="/sites/all/themes/dhr/js/foundation.interchange.js"></script>
+        <script type="text/javascript" src="/sites/all/themes/dhr/js/fresco.js"></script>
+        <script type="text/javascript" src="/sites/all/themes/dhr/js/scripts.js"></script>
+        <script type="text/javascript" src="/sites/all/themes/dhr/js/masonry.pkgd.min.js"></script>
+        <!--<script type="text/javascript" src="/sites/all/themes/dhr/js/imagesloaded.pkgd.min.js"></script>-->
+		
+					<script type="text/javascript">window.paceOptions = {target: '.jsBoxProgress'}</script>
+			<script src="/sites/all/themes/dhr/js/pace.js"></script>
+				
+		<script type="text/javascript">
+			var _gaq = _gaq || [];
+			_gaq.push(['_setAccount', 'UA-21137411-1']);
+			_gaq.push(['_trackPageview']);
+
+			(function() {
+			  var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			  ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+			})();
+		  </script>
+
+    </body>
+</html>

@@ -1,0 +1,985 @@
+	<!DOCTYPE html>
+<html lang="en-US" xml:lang="en-US">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>
+		Optimization of electronic speed governors sensitivity for marine diesel engines
+							| Eastern-European Journal of Enterprise Technologies
+			</title>
+
+	
+<meta name="generator" content="Open Journal Systems 3.2.1.2">
+<link rel="schema.DC" href="http://purl.org/dc/elements/1.1/" />
+<meta name="DC.Creator.PersonalName" content="Mykola Budurov"/>
+<meta name="DC.Creator.PersonalName" content="Sergii Gorb"/>
+<meta name="DC.Creator.PersonalName" content="Alexey Popovskii"/>
+<meta name="DC.Date.created" scheme="ISO8601" content="2025-04-21"/>
+<meta name="DC.Date.dateSubmitted" scheme="ISO8601" content="2025-02-13"/>
+<meta name="DC.Date.issued" scheme="ISO8601" content="2025-04-21"/>
+<meta name="DC.Date.modified" scheme="ISO8601" content="2025-04-21"/>
+<meta name="DC.Description" xml:lang="en" content="The object of the study is multicylinder marine diesel installations equipped with electronic speed governors (ESGs) operating under wave disturbance conditions. Modern marine diesel engines used in ship power plants are equipped with ESGs which have the technical capability to adjust the sensitivity of the governor's input signal. This parameter allows modifying the governor’s response to high-frequency disturbances, which is a characteristic feature of diesel engine operation. However, assuming constant engine speed throughout the working cycle overly idealizes the governor’s input signal. This leads to distorted optimal settings and reduced speed stability, especially under variable load torque conditions on the propeller shaft. To improve the efficiency of the automatic speed control system, a specialized model of a multicylinder marine diesel engine as a speed control object has been developed. This model takes into account the influence of cyclic torque instability on the governor’s input signal across the entire operating range of diesel engines of various stroke types, speeds, and numbers of cylinders. For the two- and four-stroke marine main diesel engines HYUNDAI-MAN B&amp;amp;W 6S60MC-C7 and MaK 9M25C under study, modeling determined the governor sensitivity optimal settings for different sea wave disturbance intensities and periods. The model’s capabilities for calculating changes in cylinder gas pressure in diesel engines of different stroke types enable an analysis of non-uniformity in working processes during the optimization of ESGs and determining the optimal combination of their tuning parameters. These findings allow improving the stability of automatic speed regulation over the entire range of possible operating conditions of main marine diesel engines"/>
+<meta name="DC.Description" xml:lang="uk" content="Об’єктом дослідження є багатоциліндрові суднові дизельні установки з електронними регуляторами частоти обертання (РЧО), які експлуатуються в умовах морського хвилювання. На суднах світового торгового флоту використовуються сучасні дизелі, управління частотою обертання яких здійснюється електронними РЧО, які мають технічну можливість регулювати чутливість вхідного сигналу. Цей параметр дозволяє змінювати реакцію регуляторів на високочастотні збурення, що є характерною особливістю роботи дизелів. Однак припущення про незмінність частоти обертання впродовж робочого циклу надмірно ідеалізують вхідний сигнал регулятора. Це спричиняє спотворення оптимальних налаштувань і знижує стабільність швидкісного режиму, особливо за змінного моменту опору на гребному валу. З метою підвищення ефективності автоматичного регулювання частоти обертання розроблено спеціалізовану модель суднового багатоциліндрового дизеля. Вона враховує вплив циклової нестабільності крутного моменту на вхідний сигнал регулятора в усьому діапазоні роботи дизелів різної тактності, частоти обертання та кількості циліндрів. Для досліджуваних дво- та чотиритактного головних дизелів HYUNDAI-MAN B&amp;amp;W 6S60MC-C7 та MaK 9M25C моделюванням визначені значення параметрів налаштування чутливості регулятора при хвилюванні моря різної інтенсивності та періоді збурювального впливу. Представлені можливості щодо розрахунку зміни тиску газів в циліндрах дизелів різної тактності дозволяють аналізувати вплив нерівномірності робочих процесів під час оптимізації електронних РЧО та знаходженні оптимального поєднання параметрів налаштування. Отримані результати дозволяють підвищити стабільність автоматичного регулювання частоти обертання в усьому діапазоні можливих експлуатаційних режимів головних дизелів"/>
+<meta name="DC.Format" scheme="IMT" content="application/pdf"/>
+<meta name="DC.Identifier" content="322851"/>
+<meta name="DC.Identifier.pageNumber" content="26-35"/>
+<meta name="DC.Identifier.DOI" content="10.15587/1729-4061.2025.322851"/>
+<meta name="DC.Identifier.URI" content="https://journals.uran.ua/eejet/article/view/322851"/>
+<meta name="DC.Language" scheme="ISO639-1" content="en"/>
+<meta name="DC.Rights" content="Copyright (c) 2025 Mykola Budurov, Sergii Gorb, Alexey Popovskii"/>
+<meta name="DC.Rights" content="http://creativecommons.org/licenses/by/4.0"/>
+<meta name="DC.Source" content="Eastern-European Journal of Enterprise Technologies"/>
+<meta name="DC.Source.ISSN" content="1729-4061"/>
+<meta name="DC.Source.Issue" content="8 (134)"/>
+<meta name="DC.Source.Volume" content="2"/>
+<meta name="DC.Source.URI" content="https://journals.uran.ua/eejet"/>
+<meta name="DC.Subject" xml:lang="en" content="deadband control"/>
+<meta name="DC.Title" content="Optimization of electronic speed governors sensitivity for marine diesel engines"/>
+<meta name="DC.Title.Alternative" xml:lang="uk" content="Оптимізація налаштування чутливості електронних регуляторів частоти обертання суднових дизелів"/>
+<meta name="DC.Type" content="Text.Serial.Journal"/>
+<meta name="DC.Type.articleType" content="Energy-saving technologies and equipment"/>
+<meta name="gs_meta_revision" content="1.1"/>
+<meta name="citation_journal_title" content="Eastern-European Journal of Enterprise Technologies"/>
+<meta name="citation_journal_abbrev" content="EEJET"/>
+<meta name="citation_issn" content="1729-4061"/> 
+<meta name="citation_author" content="Mykola Budurov"/>
+<meta name="citation_author_institution" content="National University “Odessa Maritime Academy”"/>
+<meta name="citation_author" content="Sergii Gorb"/>
+<meta name="citation_author_institution" content="National University “Odessa Maritime Academy”"/>
+<meta name="citation_author" content="Alexey Popovskii"/>
+<meta name="citation_author_institution" content="National University “Odessa Maritime Academy"/>
+<meta name="citation_title" content="Optimization of electronic speed governors sensitivity for marine diesel engines"/>
+<meta name="citation_language" content="en"/>
+<meta name="citation_date" content="2025/04/21"/>
+<meta name="citation_volume" content="2"/>
+<meta name="citation_issue" content="8 (134)"/>
+<meta name="citation_firstpage" content="26"/>
+<meta name="citation_lastpage" content="35"/>
+<meta name="citation_doi" content="10.15587/1729-4061.2025.322851"/>
+<meta name="citation_abstract_html_url" content="https://journals.uran.ua/eejet/article/view/322851"/>
+<meta name="citation_keywords" xml:lang="en" content="vessel’s main engine"/>
+<meta name="citation_keywords" xml:lang="en" content="electronic speed governor"/>
+<meta name="citation_keywords" xml:lang="en" content="cyclic instability"/>
+<meta name="citation_keywords" xml:lang="en" content="deadband control"/>
+<meta name="citation_pdf_url" content="https://journals.uran.ua/eejet/article/download/322851/317145"/>
+<meta name="citation_reference" content="Setiawan, B., Firdaus, M. K., Wibowo, S., Agafta, I., Zain, F. (2023). Identifiying the PID-N method performance for speed control of BLDC motor propeller on catamaran ships model. Eastern-European Journal of Enterprise Technologies, 3 (2 (123)), 35–43. https://doi.org/10.15587/1729-4061.2023.274713"/>
+<meta name="citation_reference" content="Tijan, E., Jović, M., Aksentijević, S., Pucihar, A. (2021). Digital transformation in the maritime transport sector. Technological Forecasting and Social Change, 170, 120879. https://doi.org/10.1016/j.techfore.2021.120879"/>
+<meta name="citation_reference" content="Kondratenko, A. A., Zhang, M., Tavakoli, S., Altarriba, E., Hirdaris, S. (2025). Existing technologies and scientific advancements to decarbonize shipping by retrofitting. Renewable and Sustainable Energy Reviews, 212, 115430. https://doi.org/10.1016/j.rser.2025.115430"/>
+<meta name="citation_reference" content="Guo, Y., Li, W., Yu, S., Han, X., Yuan, Y., Wang, Z., Ma, X. (2017). Diesel engine torsional vibration control coupling with speed control system. Mechanical Systems and Signal Processing, 94, 1–13. https://doi.org/10.1016/j.ymssp.2017.01.017"/>
+<meta name="citation_reference" content="Wang, Y., Wang, G., Yao, G., Shen, L. (2021). Research on the Characteristics of Operating Non-Uniformity of a High-Pressure Common-Rail Diesel Engine Based on Crankshaft Segment Signals. IEEE Access, 9, 64906–64917. https://doi.org/10.1109/access.2021.3075963"/>
+<meta name="citation_reference" content="Desbazeille, M., Randall, R. B., Guillet, F., El Badaoui, M., Hoisnard, C. (2010). Model-based diagnosis of large diesel engines based on angular speed variations of the crankshaft. Mechanical Systems and Signal Processing, 24 (5), 1529–1541. https://doi.org/10.1016/j.ymssp.2009.12.004"/>
+<meta name="citation_reference" content="Xie, L., Sun, S., Dong, F. (2023). The Non-Uniformity Control Strategy of a Marine High-Speed Diesel Engine Based on Each Cylinder’s Exhaust Temperature. Processes, 11 (4), 1068. https://doi.org/10.3390/pr11041068"/>
+<meta name="citation_reference" content="Acanfora, M., Altosole, M., Balsamo, F., Micoli, L., Campora, U. (2021). Simulation Modeling of a Ship Propulsion System in Waves for Control Purposes. Journal of Marine Science and Engineering, 10 (1), 36. https://doi.org/10.3390/jmse10010036"/>
+<meta name="citation_reference" content="Trimby, S., Dunne, J. F., Bennett, C., Richardson, D. (2016). Unified approach to engine cylinder pressure reconstruction using time-delay neural networks with crank kinematics or block vibration measurements. International Journal of Engine Research, 18 (3), 256–272. https://doi.org/10.1177/1468087416655013"/>
+<meta name="citation_reference" content="Kyrtatos, P., Hoyer, K., Obrecht, P., Boulouchos, K. (2013). Apparent effects of in-cylinder pressure oscillations and cycle-to-cycle variability on heat release rate and soot concentration under long ignition delay conditions in diesel engines. International Journal of Engine Research, 15 (3), 325–337. https://doi.org/10.1177/1468087413483288"/>
+<meta name="citation_reference" content="Gorb, S., Budurov, M. (2021). Increasing the Accuracy of a Marine Diesel Engine Operation Limit by Thermal Factor. International Review of Mechanical Engineering (IREME), 15 (3), 115. https://doi.org/10.15866/ireme.v15i3.20865"/>
+<meta name="citation_reference" content="Sagin, S., Madey, V., Sagin, A., Stoliaryk, T., Fomin, O., Kučera, P. (2022). Ensuring Reliable and Safe Operation of Trunk Diesel Engines of Marine Transport Vessels. Journal of Marine Science and Engineering, 10 (10), 1373. https://doi.org/10.3390/jmse10101373"/>
+<meta name="citation_reference" content="Wang, H., Wang, L., Liao, Y., Yang, H. (2019). Research on Engine Speed Control System Based on Fuzzy Adaptive PID Controller. Manufacturing Technology, 19 (6), 1080–1087. https://doi.org/10.21062/ujep/421.2019/a/1213-2489/mt/19/6/1080"/>
+<meta name="citation_reference" content="Varbanets, R., Minchev, D., Kucherenko, Y., Zalozh, V., Kyrylash, O., Tarasenko, T. (2024). Methods of Real-Time Parametric Diagnostics for Marine Diesel Engines. Polish Maritime Research, 31 (3), 71–84. https://doi.org/10.2478/pomr-2024-0037"/>
+<meta name="citation_reference" content="Geertsma, R. D., Negenborn, R. R., Visser, K., Hopman, J. J. (2017). Design and control of hybrid power and propulsion systems for smart ships: A review of developments. Applied Energy, 194, 30–54. https://doi.org/10.1016/j.apenergy.2017.02.060"/>
+<meta name="citation_reference" content="Sagin, S., Kuropyatnyk, O., Matieiko, O., Razinkin, R., Stoliaryk, T., Volkov, O. (2024). Ensuring Operational Performance and Environmental Sustainability of Marine Diesel Engines through the Use of Biodiesel Fuel. Journal of Marine Science and Engineering, 12 (8), 1440. https://doi.org/10.3390/jmse12081440"/>
+<meta name="citation_reference" content="Shop Test Result for Main Engine HYUNDAI-MAN B&amp;W 6S60MC-C7 No. K630-IR11A-5984 (2011). HHI-EMD, 18."/>
+<meta name="citation_reference" content="Acceptance Test Record No. 271204 of Engine MaK 9M25C No. 45229 (2011). Caterpillar Motoren GmbH &amp; Co., 21."/>
+<meta name="citation_reference" content="Xu, H., Pires da Silva, P., Guedes Soares, C. (2024). Effect of Sampling Rate in Sea Trial Tests on the Estimation of Hydrodynamic Parameters for a Nonlinear Ship Manoeuvring Model. Journal of Marine Science and Engineering, 12 (3), 407. https://doi.org/10.3390/jmse12030407"/>
+<meta name="citation_reference" content="Bondarenko, O., Kashiwagi, M. (2011). Statistical consideration of propeller load fluctuation at racing condition in irregular waves. Journal of Marine Science and Technology, 16 (4), 402–410. https://doi.org/10.1007/s00773-011-0136-z"/>
+<meta name="citation_reference" content="Suzuki, R., Ueno, M., Tsukada, Y. (2021). Numerical simulation of 6-degrees-of-freedom motions for a manoeuvring ship in regular waves. Applied Ocean Research, 113, 102732. https://doi.org/10.1016/j.apor.2021.102732"/>
+<meta name="citation_reference" content="Asprion, J., Chinellato, O., Guzzella, L. (2014). Optimal Control of Diesel Engines: Numerical Methods, Applications, and Experimental Validation. Mathematical Problems in Engineering, 2014 (1). https://doi.org/10.1155/2014/286538"/>
+<meta name="citation_reference" content="Maftei, C., Moreira, L., Soares, C. G. (2009). Simulation of the dynamics of a marine diesel engine. Journal of Marine Engineering &amp; Technology, 8 (3), 29–43. https://doi.org/10.1080/20464177.2009.11020225"/>
+<meta name="citation_reference" content="Gorb, S. (2020). Improving the accuracy of Numerical Simulation of the Working Process of DieselEngine. Automation of Ship Technical Facilities, 26 (1), 03–26. https://doi.org/10.31653/1819-3293-2020-1-26-03-26"/>
+<meta name="citation_reference" content="Gorb, S., Popovskii, A., Budurov, M. (2023). Adjustment of speed governor for marine diesel generator engine. International Journal of GEOMATE, 25 (109), 125–132. https://doi.org/10.21660/2023.109.m2312"/>
+<meta name="citation_reference" content="Gorb, S., Levinskyi, M., Budurov, M. (2022). Sensitivity Optimisation of a Main Marine Diesel Engine Electronic Speed Governor. Scientific Horizons, 24 (11), 9–19. https://doi.org/10.48077/scihor.24(11).2021.9-19"/>
+<meta name="citation_reference" content="Tsitsilonis, K.-M., Theotokatos, G. (2021). A novel method for in-cylinder pressure prediction using the engine instantaneous crankshaft torque. Proceedings of the Institution of Mechanical Engineers, Part M: Journal of Engineering for the Maritime Environment, 236 (1), 131–149. https://doi.org/10.1177/14750902211028419"/>
+<meta name="citation_reference" content="Sinha, R. P., Balaji, R. (2017). A Mathematical Model of Marine Diesel Engine Speed Control System. Journal of The Institution of Engineers (India): Series C, 99 (1), 63–70. https://doi.org/10.1007/s40032-017-0420-8"/>
+<meta name="citation_reference" content="Yuan, Y., Zhang, M., Chen, Y., Mao, X. (2016). Multi-sliding surface control for the speed regulation system of ship diesel engines. Transactions of the Institute of Measurement and Control, 40 (1), 22–34. https://doi.org/10.1177/0142331216649022"/>
+<meta name="citation_reference" content="Li, X., Ahmed, Q., Rizzoni, G. (2016). Nonlinear robust control of marine diesel engine. Journal of Marine Engineering &amp; Technology, 16 (1), 1–10. https://doi.org/10.1080/20464177.2016.1254455"/>
+<link rel="alternate" type="application/atom+xml" href="https://journals.uran.ua/eejet/gateway/plugin/AnnouncementFeedGatewayPlugin/atom">
+<link rel="alternate" type="application/rdf+xml" href="https://journals.uran.ua/eejet/gateway/plugin/AnnouncementFeedGatewayPlugin/rss">
+<link rel="alternate" type="application/rss+xml" href="https://journals.uran.ua/eejet/gateway/plugin/AnnouncementFeedGatewayPlugin/rss2">
+	<link rel="stylesheet" href="https://journals.uran.ua/eejet/$$$call$$$/page/page/css?name=stylesheet" type="text/css" /><link rel="stylesheet" href="//fonts.googleapis.com/css?family=Noto+Sans:400,400italic,700,700italic" type="text/css" /><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css?v=3.2.1.2" type="text/css" /><link rel="stylesheet" href="https://journals.uran.ua/plugins/generic/lucene/templates/lucene.css?v=3.2.1.2" type="text/css" />
+</head>
+<body class="pkp_page_article pkp_op_view" dir="ltr">
+
+	<div class="pkp_structure_page">
+
+				<header class="pkp_structure_head" id="headerNavigationContainer" role="banner">
+						 <nav class="cmp_skip_to_content" aria-label="Jump to content links">
+	<a href="#pkp_content_main">Skip to main content</a>
+	<a href="#siteNav">Skip to main navigation menu</a>
+		<a href="#pkp_content_footer">Skip to site footer</a>
+</nav>
+
+			<div class="pkp_head_wrapper">
+
+				<div class="pkp_site_name_wrapper">
+					<button class="pkp_site_nav_toggle">
+						<span>Open Menu</span>
+					</button>
+										<div class="pkp_site_name">
+																<a href="						https://journals.uran.ua/eejet/index
+					" class="is_text">Eastern-European Journal of Enterprise Technologies</a>
+										</div>
+				</div>
+				
+				<nav class="pkp_site_nav_menu" aria-label="Site Navigation">
+					<a id="siteNav"></a>
+					<div class="pkp_navigation_primary_row">
+						<div class="pkp_navigation_primary_wrapper">
+																				<ul id="navigationPrimary" class="pkp_navigation_primary pkp_nav_list">
+								<li class="">
+				<a href="https://journals.uran.ua/eejet/about">
+					About
+				</a>
+									<ul>
+																					<li class="">
+									<a href="https://journals.uran.ua/eejet/about">
+										About the Journal
+									</a>
+								</li>
+																												<li class="">
+									<a href="https://journals.uran.ua/eejet/establishers">
+										Establishers
+									</a>
+								</li>
+																												<li class="">
+									<a href="https://journals.uran.ua/eejet/access_policy">
+										Open Access Policy
+									</a>
+								</li>
+																		</ul>
+							</li>
+								<li class="">
+				<a href="https://journals.uran.ua/eejet/about/editorialTeam">
+					Editorial Team
+				</a>
+							</li>
+								<li class="">
+				<a href="https://journals.uran.ua/eejet/terms">
+					Publication Terms
+				</a>
+									<ul>
+																					<li class="">
+									<a href="https://journals.uran.ua/eejet/General_Terms_and_Conditions">
+										General Terms and Conditions
+									</a>
+								</li>
+																												<li class="">
+									<a href="https://journals.uran.ua/eejet/frequency">
+										Frequency of publication
+									</a>
+								</li>
+																												<li class="">
+									<a href="https://journals.uran.ua/eejet/payment">
+										Terms of Рayment for Publication
+									</a>
+								</li>
+																												<li class="">
+									<a href="https://journals.uran.ua/eejet/documents">
+										Package of documents
+									</a>
+								</li>
+																												<li class="">
+									<a href="https://journals.uran.ua/eejet/about/submissions">
+										Requirments for articles
+									</a>
+								</li>
+																												<li class="">
+									<a href="https://journals.uran.ua/eejet/submission_rules">
+										Submission to the editor
+									</a>
+								</li>
+																												<li class="">
+									<a href="https://journals.uran.ua/eejet/editing">
+										Editing process
+									</a>
+								</li>
+																												<li class="">
+									<a href="https://journals.uran.ua/eejet/review">
+										Peer Review Process
+									</a>
+								</li>
+																		</ul>
+							</li>
+								<li class="">
+				<a href="https://journals.uran.ua/eejet/ind">
+					Indexing
+				</a>
+									<ul>
+																					<li class="">
+									<a href="https://journals.uran.ua/eejet/indexing">
+										International indexing
+									</a>
+								</li>
+																												<li class="">
+									<a href="https://journals.uran.ua/eejet/state-accreditation">
+										State accreditation
+									</a>
+								</li>
+																												<li class="">
+									<a href="https://journals.uran.ua/eejet/international-accreditation">
+										International accreditation and membership
+									</a>
+								</li>
+																		</ul>
+							</li>
+								<li class="">
+				<a href="https://journals.uran.ua/eejet/policy">
+					Publishing policy
+				</a>
+									<ul>
+																					<li class="">
+									<a href="https://journals.uran.ua/eejet/main_policy">
+										The main provisions of the publishing house's policy
+									</a>
+								</li>
+																												<li class="">
+									<a href="https://journals.uran.ua/eejet/ethics">
+										Ethics publications and unfair practices
+									</a>
+								</li>
+																												<li class="">
+									<a href="https://journals.uran.ua/eejet/author">
+										Authorship identification
+									</a>
+								</li>
+																												<li class="">
+									<a href="https://journals.uran.ua/eejet/copyright_notice">
+										Copyright notice
+									</a>
+								</li>
+																												<li class="">
+									<a href="https://journals.uran.ua/eejet/selection-policy-of-editor">
+										Selection policy of editor
+									</a>
+								</li>
+																												<li class="">
+									<a href="https://journals.uran.ua/eejet/plagiat">
+										Policy on plagiarism and self-plagiats
+									</a>
+								</li>
+																												<li class="">
+									<a href="https://journals.uran.ua/eejet/conflict">
+										Conflict of Interest
+									</a>
+								</li>
+																												<li class="">
+									<a href="https://journals.uran.ua/eejet/rules">
+										Policy of retraction and correction of published article
+									</a>
+								</li>
+																												<li class="">
+									<a href="https://journals.uran.ua/eejet/complaints">
+										Handling complaints
+									</a>
+								</li>
+																												<li class="">
+									<a href="https://journals.uran.ua/eejet/manipulation">
+										Prevention of manipulation and falsifications
+									</a>
+								</li>
+																												<li class="">
+									<a href="https://journals.uran.ua/eejet/data-sharing-policy">
+										Data Sharing Policy
+									</a>
+								</li>
+																												<li class="">
+									<a href="https://journals.uran.ua/eejet/archiving">
+										Archiving
+									</a>
+								</li>
+																												<li class="">
+									<a href="https://journals.uran.ua/eejet/policy_regarding_advertising">
+										Publication policy regarding advertising
+									</a>
+								</li>
+																												<li class="">
+									<a href="https://journals.uran.ua/eejet/business-model">
+										Business model
+									</a>
+								</li>
+																												<li class="">
+									<a href="https://journals.uran.ua/eejet/artificial-intelligence">
+										Use of artificial intelligence
+									</a>
+								</li>
+																		</ul>
+							</li>
+								<li class="">
+				<a href="https://journals.uran.ua/eejet/terms-and-conditions">
+					Terms and conditions
+				</a>
+							</li>
+								<li class="">
+				<a href="https://journals.uran.ua/eejet/issue/current">
+					Current
+				</a>
+							</li>
+								<li class="">
+				<a href="https://journals.uran.ua/eejet/issue/archive">
+					Archives
+				</a>
+							</li>
+								<li class="">
+				<a href="https://journals.uran.ua/eejet/announcement">
+					Announcements
+				</a>
+							</li>
+								<li class="">
+				<a href="https://journals.uran.ua/eejet/contacts">
+					Contacts
+				</a>
+							</li>
+			</ul>
+
+				
+
+																									
+	<form class="pkp_search pkp_search_desktop" action="https://journals.uran.ua/eejet/search/search" method="get" role="search" aria-label="Article Search">
+		<input type="hidden" name="csrfToken" value="027875b75ceb36504be9771e9acf32ca">
+				
+			<input name="query" value="" type="text" aria-label="Search Query">
+		
+
+		<button type="submit">
+			Search
+		</button>
+		<div class="search_controls" aria-hidden="true">
+			<a href="https://journals.uran.ua/eejet/search/search" class="headerSearchPrompt search_prompt" aria-hidden="true">
+				Search
+			</a>
+			<a href="#" class="search_cancel headerSearchCancel" aria-hidden="true"></a>
+			<span class="search_loading" aria-hidden="true"></span>
+		</div>
+	</form>
+													</div>
+					</div>
+					<div class="pkp_navigation_user_wrapper" id="navigationUserWrapper">
+							<ul id="navigationUser" class="pkp_navigation_user pkp_nav_list">
+								<li class="profile">
+				<a href="https://journals.uran.ua/eejet/user/register">
+					Register
+				</a>
+							</li>
+								<li class="profile">
+				<a href="https://journals.uran.ua/eejet/login">
+					Login
+				</a>
+							</li>
+										</ul>
+
+					</div>
+																			
+	<form class="pkp_search pkp_search_mobile" action="https://journals.uran.ua/eejet/search/search" method="get" role="search" aria-label="Article Search">
+		<input type="hidden" name="csrfToken" value="027875b75ceb36504be9771e9acf32ca">
+				
+			<input name="query" value="" type="text" aria-label="Search Query">
+		
+
+		<button type="submit">
+			Search
+		</button>
+		<div class="search_controls" aria-hidden="true">
+			<a href="https://journals.uran.ua/eejet/search/search" class="headerSearchPrompt search_prompt" aria-hidden="true">
+				Search
+			</a>
+			<a href="#" class="search_cancel headerSearchCancel" aria-hidden="true"></a>
+			<span class="search_loading" aria-hidden="true"></span>
+		</div>
+	</form>
+									</nav>
+			</div><!-- .pkp_head_wrapper -->
+		</header><!-- .pkp_structure_head -->
+
+						<div class="pkp_structure_content has_sidebar">
+			<div class="pkp_structure_main" role="main">
+				<a id="pkp_content_main"></a>
+
+<div class="page page_article">
+			<nav class="cmp_breadcrumbs" role="navigation" aria-label="You are here:">
+	<ol>
+		<li>
+			<a href="https://journals.uran.ua/eejet/index">
+				Home
+			</a>
+			<span class="separator">/</span>
+		</li>
+		<li>
+			<a href="https://journals.uran.ua/eejet/issue/archive">
+				Archives
+			</a>
+			<span class="separator">/</span>
+		</li>
+					<li>
+				<a href="https://journals.uran.ua/eejet/issue/view/19214">
+					Vol. 2 No. 8 (134) (2025): Energy-saving technologies and equipment
+				</a>
+				<span class="separator">/</span>
+			</li>
+				<li class="current" aria-current="page">
+			<span aria-current="page">
+									Energy-saving technologies and equipment
+							</span>
+		</li>
+	</ol>
+</nav>
+	
+				<article class="obj_article_details">
+
+			<h1 class="page_title">
+		Optimization of electronic speed governors sensitivity for marine diesel engines
+	</h1>
+	
+	<div class="row">
+		<div class="main_entry">
+
+							<section class="item authors">
+					<h2 class="pkp_screen_reader">Authors</h2>
+					<ul class="authors">
+																		<li>
+								<span class="name">
+									Mykola Budurov <a href="mailto:budurovuk@gmail.com"><span class="fa fa-envelope"></span></a>								</span>
+																	<span class="affiliation">
+																					National University “Odessa Maritime Academy”, Ukraine
+																			</span>
+																									<span class="orcid">
+										
+										<a href="https://orcid.org/0000-0002-3634-306X" target="_blank">
+											https://orcid.org/0000-0002-3634-306X
+										</a>
+									</span>
+															</li>
+																								<li>
+								<span class="name">
+									Sergii Gorb								</span>
+																	<span class="affiliation">
+																					National University “Odessa Maritime Academy”, Ukraine
+																			</span>
+																									<span class="orcid">
+										
+										<a href="https://orcid.org/0000-0001-8609-1465" target="_blank">
+											https://orcid.org/0000-0001-8609-1465
+										</a>
+									</span>
+															</li>
+																								<li>
+								<span class="name">
+									Alexey Popovskii								</span>
+																	<span class="affiliation">
+																					National University “Odessa Maritime Academy, Ukraine
+																			</span>
+																									<span class="orcid">
+										
+										<a href="https://orcid.org/0000-0003-0928-4452" target="_blank">
+											https://orcid.org/0000-0003-0928-4452
+										</a>
+									</span>
+															</li>
+																</ul>
+				</section>
+			
+																												<section class="item doi">
+						<h2 class="label">
+														DOI:
+						</h2>
+						<span class="value">
+							<a href="https://doi.org/10.15587/1729-4061.2025.322851">
+								https://doi.org/10.15587/1729-4061.2025.322851
+							</a>
+						</span>
+					</section>
+							
+									<section class="item keywords">
+				<h2 class="label">
+										Keywords:
+				</h2>
+				<span class="value">
+											vessel’s main engine, 											electronic speed governor, 											cyclic instability, 											deadband control									</span>
+			</section>
+			
+										<section class="item abstract">
+					<h2 class="label">Abstract</h2>
+					<p>The object of the study is multicylinder marine diesel installations equipped with electronic speed governors (ESGs) operating under wave disturbance conditions. Modern marine diesel engines used in ship power plants are equipped with ESGs which have the technical capability to adjust the sensitivity of the governor's input signal. This parameter allows modifying the governor’s response to high-frequency disturbances, which is a characteristic feature of diesel engine operation. However, assuming constant engine speed throughout the working cycle overly idealizes the governor’s input signal. This leads to distorted optimal settings and reduced speed stability, especially under variable load torque conditions on the propeller shaft. To improve the efficiency of the automatic speed control system, a specialized model of a multicylinder marine diesel engine as a speed control object has been developed. This model takes into account the influence of cyclic torque instability on the governor’s input signal across the entire operating range of diesel engines of various stroke types, speeds, and numbers of cylinders. For the two- and four-stroke marine main diesel engines HYUNDAI-MAN B&amp;W 6S60MC-C7 and MaK 9M25C under study, modeling determined the governor sensitivity optimal settings for different sea wave disturbance intensities and periods. The model’s capabilities for calculating changes in cylinder gas pressure in diesel engines of different stroke types enable an analysis of non-uniformity in working processes during the optimization of ESGs and determining the optimal combination of their tuning parameters. These findings allow improving the stability of automatic speed regulation over the entire range of possible operating conditions of main marine diesel engines</p>
+				</section>
+			
+			
+			
+
+																																																																<section class="item author_bios">
+					<h2 class="label">
+													Author Biographies
+											</h2>
+																		<section class="sub_item">
+								<h3 class="label">
+																																							Mykola Budurov, <span class="affiliation">National University “Odessa Maritime Academy”</span>
+																	</h3>
+								<div class="value">
+									<p>PhD Student</p>
+<p>Department of Postgraduate and Doctoral Studies</p>
+								</div>
+							</section>
+																								<section class="sub_item">
+								<h3 class="label">
+																																							Sergii Gorb, <span class="affiliation">National University “Odessa Maritime Academy”</span>
+																	</h3>
+								<div class="value">
+									<p>Doctor of Technical Sciences</p>
+<p>Department of Theory of Automatic Control and Computer Science</p>
+								</div>
+							</section>
+																								<section class="sub_item">
+								<h3 class="label">
+																																							Alexey Popovskii, <span class="affiliation">National University “Odessa Maritime Academy</span>
+																	</h3>
+								<div class="value">
+									<p>PhD</p>
+<p>Department of Higher Mathematics and Physics</p>
+								</div>
+							</section>
+															</section>
+			
+										<section class="item references">
+					<h2 class="label">
+						References
+					</h2>
+					<div class="value">
+														<ol>
+			<li>Setiawan, B., Firdaus, M. K., Wibowo, S., Agafta, I., Zain, F. (2023). Identifiying the PID-N method performance for speed control of BLDC motor propeller on catamaran ships model. Eastern-European Journal of Enterprise Technologies, 3 (2 (123)), 35–43. <a href="https://doi.org/10.15587/1729-4061.2023.274713">https://doi.org/10.15587/1729-4061.2023.274713</a> </li>
+			<li>Tijan, E., Jović, M., Aksentijević, S., Pucihar, A. (2021). Digital transformation in the maritime transport sector. Technological Forecasting and Social Change, 170, 120879. <a href="https://doi.org/10.1016/j.techfore.2021.120879">https://doi.org/10.1016/j.techfore.2021.120879</a> </li>
+			<li>Kondratenko, A. A., Zhang, M., Tavakoli, S., Altarriba, E., Hirdaris, S. (2025). Existing technologies and scientific advancements to decarbonize shipping by retrofitting. Renewable and Sustainable Energy Reviews, 212, 115430. <a href="https://doi.org/10.1016/j.rser.2025.115430">https://doi.org/10.1016/j.rser.2025.115430</a> </li>
+			<li>Guo, Y., Li, W., Yu, S., Han, X., Yuan, Y., Wang, Z., Ma, X. (2017). Diesel engine torsional vibration control coupling with speed control system. Mechanical Systems and Signal Processing, 94, 1–13. <a href="https://doi.org/10.1016/j.ymssp.2017.01.017">https://doi.org/10.1016/j.ymssp.2017.01.017</a> </li>
+			<li>Wang, Y., Wang, G., Yao, G., Shen, L. (2021). Research on the Characteristics of Operating Non-Uniformity of a High-Pressure Common-Rail Diesel Engine Based on Crankshaft Segment Signals. IEEE Access, 9, 64906–64917. <a href="https://doi.org/10.1109/access.2021.3075963">https://doi.org/10.1109/access.2021.3075963</a> </li>
+			<li>Desbazeille, M., Randall, R. B., Guillet, F., El Badaoui, M., Hoisnard, C. (2010). Model-based diagnosis of large diesel engines based on angular speed variations of the crankshaft. Mechanical Systems and Signal Processing, 24 (5), 1529–1541. <a href="https://doi.org/10.1016/j.ymssp.2009.12.004">https://doi.org/10.1016/j.ymssp.2009.12.004</a> </li>
+			<li>Xie, L., Sun, S., Dong, F. (2023). The Non-Uniformity Control Strategy of a Marine High-Speed Diesel Engine Based on Each Cylinder’s Exhaust Temperature. Processes, 11 (4), 1068. <a href="https://doi.org/10.3390/pr11041068">https://doi.org/10.3390/pr11041068</a> </li>
+			<li>Acanfora, M., Altosole, M., Balsamo, F., Micoli, L., Campora, U. (2021). Simulation Modeling of a Ship Propulsion System in Waves for Control Purposes. Journal of Marine Science and Engineering, 10 (1), 36. <a href="https://doi.org/10.3390/jmse10010036">https://doi.org/10.3390/jmse10010036</a> </li>
+			<li>Trimby, S., Dunne, J. F., Bennett, C., Richardson, D. (2016). Unified approach to engine cylinder pressure reconstruction using time-delay neural networks with crank kinematics or block vibration measurements. International Journal of Engine Research, 18 (3), 256–272. <a href="https://doi.org/10.1177/1468087416655013">https://doi.org/10.1177/1468087416655013</a> </li>
+			<li>Kyrtatos, P., Hoyer, K., Obrecht, P., Boulouchos, K. (2013). Apparent effects of in-cylinder pressure oscillations and cycle-to-cycle variability on heat release rate and soot concentration under long ignition delay conditions in diesel engines. International Journal of Engine Research, 15 (3), 325–337. <a href="https://doi.org/10.1177/1468087413483288">https://doi.org/10.1177/1468087413483288</a> </li>
+			<li>Gorb, S., Budurov, M. (2021). Increasing the Accuracy of a Marine Diesel Engine Operation Limit by Thermal Factor. International Review of Mechanical Engineering (IREME), 15 (3), 115. <a href="https://doi.org/10.15866/ireme.v15i3.20865">https://doi.org/10.15866/ireme.v15i3.20865</a> </li>
+			<li>Sagin, S., Madey, V., Sagin, A., Stoliaryk, T., Fomin, O., Kučera, P. (2022). Ensuring Reliable and Safe Operation of Trunk Diesel Engines of Marine Transport Vessels. Journal of Marine Science and Engineering, 10 (10), 1373. <a href="https://doi.org/10.3390/jmse10101373">https://doi.org/10.3390/jmse10101373</a> </li>
+			<li>Wang, H., Wang, L., Liao, Y., Yang, H. (2019). Research on Engine Speed Control System Based on Fuzzy Adaptive PID Controller. Manufacturing Technology, 19 (6), 1080–1087. <a href="https://doi.org/10.21062/ujep/421.2019/a/1213-2489/mt/19/6/1080">https://doi.org/10.21062/ujep/421.2019/a/1213-2489/mt/19/6/1080</a> </li>
+			<li>Varbanets, R., Minchev, D., Kucherenko, Y., Zalozh, V., Kyrylash, O., Tarasenko, T. (2024). Methods of Real-Time Parametric Diagnostics for Marine Diesel Engines. Polish Maritime Research, 31 (3), 71–84. <a href="https://doi.org/10.2478/pomr-2024-0037">https://doi.org/10.2478/pomr-2024-0037</a> </li>
+			<li>Geertsma, R. D., Negenborn, R. R., Visser, K., Hopman, J. J. (2017). Design and control of hybrid power and propulsion systems for smart ships: A review of developments. Applied Energy, 194, 30–54. <a href="https://doi.org/10.1016/j.apenergy.2017.02.060">https://doi.org/10.1016/j.apenergy.2017.02.060</a> </li>
+			<li>Sagin, S., Kuropyatnyk, O., Matieiko, O., Razinkin, R., Stoliaryk, T., Volkov, O. (2024). Ensuring Operational Performance and Environmental Sustainability of Marine Diesel Engines through the Use of Biodiesel Fuel. Journal of Marine Science and Engineering, 12 (8), 1440. <a href="https://doi.org/10.3390/jmse12081440">https://doi.org/10.3390/jmse12081440</a> </li>
+			<li>Shop Test Result for Main Engine HYUNDAI-MAN B&amp;W 6S60MC-C7 No. K630-IR11A-5984 (2011). HHI-EMD, 18. </li>
+			<li>Acceptance Test Record No. 271204 of Engine MaK 9M25C No. 45229 (2011). Caterpillar Motoren GmbH &amp; Co., 21. </li>
+			<li>Xu, H., Pires da Silva, P., Guedes Soares, C. (2024). Effect of Sampling Rate in Sea Trial Tests on the Estimation of Hydrodynamic Parameters for a Nonlinear Ship Manoeuvring Model. Journal of Marine Science and Engineering, 12 (3), 407. <a href="https://doi.org/10.3390/jmse12030407">https://doi.org/10.3390/jmse12030407</a> </li>
+			<li>Bondarenko, O., Kashiwagi, M. (2011). Statistical consideration of propeller load fluctuation at racing condition in irregular waves. Journal of Marine Science and Technology, 16 (4), 402–410. <a href="https://doi.org/10.1007/s00773-011-0136-z">https://doi.org/10.1007/s00773-011-0136-z</a> </li>
+			<li>Suzuki, R., Ueno, M., Tsukada, Y. (2021). Numerical simulation of 6-degrees-of-freedom motions for a manoeuvring ship in regular waves. Applied Ocean Research, 113, 102732. <a href="https://doi.org/10.1016/j.apor.2021.102732">https://doi.org/10.1016/j.apor.2021.102732</a> </li>
+			<li>Asprion, J., Chinellato, O., Guzzella, L. (2014). Optimal Control of Diesel Engines: Numerical Methods, Applications, and Experimental Validation. Mathematical Problems in Engineering, 2014 (1). <a href="https://doi.org/10.1155/2014/286538">https://doi.org/10.1155/2014/286538</a> </li>
+			<li>Maftei, C., Moreira, L., Soares, C. G. (2009). Simulation of the dynamics of a marine diesel engine. Journal of Marine Engineering &amp; Technology, 8 (3), 29–43. <a href="https://doi.org/10.1080/20464177.2009.11020225">https://doi.org/10.1080/20464177.2009.11020225</a> </li>
+			<li>Gorb, S. (2020). Improving the accuracy of Numerical Simulation of the Working Process of DieselEngine. Automation of Ship Technical Facilities, 26 (1), 03–26. <a href="https://doi.org/10.31653/1819-3293-2020-1-26-03-26">https://doi.org/10.31653/1819-3293-2020-1-26-03-26</a> </li>
+			<li>Gorb, S., Popovskii, A., Budurov, M. (2023). Adjustment of speed governor for marine diesel generator engine. International Journal of GEOMATE, 25 (109), 125–132. <a href="https://doi.org/10.21660/2023.109.m2312">https://doi.org/10.21660/2023.109.m2312</a> </li>
+			<li>Gorb, S., Levinskyi, M., Budurov, M. (2022). Sensitivity Optimisation of a Main Marine Diesel Engine Electronic Speed Governor. Scientific Horizons, 24 (11), 9–19. <a href="https://doi.org/10.48077/scihor.24(11).2021.9-19">https://doi.org/10.48077/scihor.24(11).2021.9-19</a> </li>
+			<li>Tsitsilonis, K.-M., Theotokatos, G. (2021). A novel method for in-cylinder pressure prediction using the engine instantaneous crankshaft torque. Proceedings of the Institution of Mechanical Engineers, Part M: Journal of Engineering for the Maritime Environment, 236 (1), 131–149. <a href="https://doi.org/10.1177/14750902211028419">https://doi.org/10.1177/14750902211028419</a> </li>
+			<li>Sinha, R. P., Balaji, R. (2017). A Mathematical Model of Marine Diesel Engine Speed Control System. Journal of The Institution of Engineers (India): Series C, 99 (1), 63–70. <a href="https://doi.org/10.1007/s40032-017-0420-8">https://doi.org/10.1007/s40032-017-0420-8</a> </li>
+			<li>Yuan, Y., Zhang, M., Chen, Y., Mao, X. (2016). Multi-sliding surface control for the speed regulation system of ship diesel engines. Transactions of the Institute of Measurement and Control, 40 (1), 22–34. <a href="https://doi.org/10.1177/0142331216649022">https://doi.org/10.1177/0142331216649022</a> </li>
+			<li>Li, X., Ahmed, Q., Rizzoni, G. (2016). Nonlinear robust control of marine diesel engine. Journal of Marine Engineering &amp; Technology, 16 (1), 1–10. <a href="https://doi.org/10.1080/20464177.2016.1254455">https://doi.org/10.1080/20464177.2016.1254455</a> </li>
+		</ol>
+											</div>
+				</section>
+			
+		</div><!-- .main_entry -->
+
+		<div class="entry_details">
+
+										<div class="item cover_image">
+					<div class="sub_item">
+																				<img
+								src="https://journals.uran.ua/public/journals/3/submission_322851_361615_coverImage_en_US.png"
+								alt="Optimization of electronic speed governors sensitivity for marine diesel engines"
+							>
+											</div>
+				</div>
+			
+										<div class="item galleys">
+					<h2 class="pkp_screen_reader">
+						Downloads
+					</h2>
+					<ul class="value galleys_links">
+													<li>
+								
+	
+							
+
+<a class="obj_galley_link pdf" href="https://journals.uran.ua/eejet/article/view/322851/317145">
+
+		
+	PDF
+
+	</a>
+							</li>
+											</ul>
+				</div>
+						
+						<div class="item published">
+												<section class="sub_item">
+					<h2 class="label">
+						Published
+					</h2>
+					<div class="value">
+																			<span>2025-04-21</span>
+																	</div>
+				</section>
+							</div>
+			
+										<div class="item citation">
+					<section class="sub_item citation_display">
+						<h2 class="label">
+							How to Cite
+						</h2>
+						<div class="value">
+							<div id="citationOutput" role="region" aria-live="polite">
+								<div class="csl-bib-body">
+  <div class="csl-entry">Budurov, M., Gorb, S., &#38; Popovskii, A. (2025). Optimization of electronic speed governors sensitivity for marine diesel engines. <i>Eastern-European Journal of Enterprise Technologies</i>, <i>2</i>(8 (134), 26–35. https://doi.org/10.15587/1729-4061.2025.322851</div>
+</div>
+							</div>
+							<div class="citation_formats">
+								<button class="cmp_button citation_formats_button" aria-controls="cslCitationFormats" aria-expanded="false" data-csl-dropdown="true">
+									More Citation Formats
+								</button>
+								<div id="cslCitationFormats" class="citation_formats_list" aria-hidden="true">
+									<ul class="citation_formats_styles">
+																					<li>
+												<a
+													aria-controls="citationOutput"
+													href="https://journals.uran.ua/eejet/citationstylelanguage/get/acm-sig-proceedings?submissionId=322851&amp;publicationId=361615"
+													data-load-citation
+													data-json-href="https://journals.uran.ua/eejet/citationstylelanguage/get/acm-sig-proceedings?submissionId=322851&amp;publicationId=361615&amp;return=json"
+												>
+													ACM
+												</a>
+											</li>
+																					<li>
+												<a
+													aria-controls="citationOutput"
+													href="https://journals.uran.ua/eejet/citationstylelanguage/get/acs-nano?submissionId=322851&amp;publicationId=361615"
+													data-load-citation
+													data-json-href="https://journals.uran.ua/eejet/citationstylelanguage/get/acs-nano?submissionId=322851&amp;publicationId=361615&amp;return=json"
+												>
+													ACS
+												</a>
+											</li>
+																					<li>
+												<a
+													aria-controls="citationOutput"
+													href="https://journals.uran.ua/eejet/citationstylelanguage/get/apa?submissionId=322851&amp;publicationId=361615"
+													data-load-citation
+													data-json-href="https://journals.uran.ua/eejet/citationstylelanguage/get/apa?submissionId=322851&amp;publicationId=361615&amp;return=json"
+												>
+													APA
+												</a>
+											</li>
+																					<li>
+												<a
+													aria-controls="citationOutput"
+													href="https://journals.uran.ua/eejet/citationstylelanguage/get/associacao-brasileira-de-normas-tecnicas?submissionId=322851&amp;publicationId=361615"
+													data-load-citation
+													data-json-href="https://journals.uran.ua/eejet/citationstylelanguage/get/associacao-brasileira-de-normas-tecnicas?submissionId=322851&amp;publicationId=361615&amp;return=json"
+												>
+													ABNT
+												</a>
+											</li>
+																					<li>
+												<a
+													aria-controls="citationOutput"
+													href="https://journals.uran.ua/eejet/citationstylelanguage/get/chicago-author-date?submissionId=322851&amp;publicationId=361615"
+													data-load-citation
+													data-json-href="https://journals.uran.ua/eejet/citationstylelanguage/get/chicago-author-date?submissionId=322851&amp;publicationId=361615&amp;return=json"
+												>
+													Chicago
+												</a>
+											</li>
+																					<li>
+												<a
+													aria-controls="citationOutput"
+													href="https://journals.uran.ua/eejet/citationstylelanguage/get/harvard-cite-them-right?submissionId=322851&amp;publicationId=361615"
+													data-load-citation
+													data-json-href="https://journals.uran.ua/eejet/citationstylelanguage/get/harvard-cite-them-right?submissionId=322851&amp;publicationId=361615&amp;return=json"
+												>
+													Harvard
+												</a>
+											</li>
+																					<li>
+												<a
+													aria-controls="citationOutput"
+													href="https://journals.uran.ua/eejet/citationstylelanguage/get/ieee?submissionId=322851&amp;publicationId=361615"
+													data-load-citation
+													data-json-href="https://journals.uran.ua/eejet/citationstylelanguage/get/ieee?submissionId=322851&amp;publicationId=361615&amp;return=json"
+												>
+													IEEE
+												</a>
+											</li>
+																					<li>
+												<a
+													aria-controls="citationOutput"
+													href="https://journals.uran.ua/eejet/citationstylelanguage/get/modern-language-association?submissionId=322851&amp;publicationId=361615"
+													data-load-citation
+													data-json-href="https://journals.uran.ua/eejet/citationstylelanguage/get/modern-language-association?submissionId=322851&amp;publicationId=361615&amp;return=json"
+												>
+													MLA
+												</a>
+											</li>
+																					<li>
+												<a
+													aria-controls="citationOutput"
+													href="https://journals.uran.ua/eejet/citationstylelanguage/get/turabian-fullnote-bibliography?submissionId=322851&amp;publicationId=361615"
+													data-load-citation
+													data-json-href="https://journals.uran.ua/eejet/citationstylelanguage/get/turabian-fullnote-bibliography?submissionId=322851&amp;publicationId=361615&amp;return=json"
+												>
+													Turabian
+												</a>
+											</li>
+																					<li>
+												<a
+													aria-controls="citationOutput"
+													href="https://journals.uran.ua/eejet/citationstylelanguage/get/vancouver?submissionId=322851&amp;publicationId=361615"
+													data-load-citation
+													data-json-href="https://journals.uran.ua/eejet/citationstylelanguage/get/vancouver?submissionId=322851&amp;publicationId=361615&amp;return=json"
+												>
+													Vancouver
+												</a>
+											</li>
+																			</ul>
+																			<div class="label">
+											Download Citation
+										</div>
+										<ul class="citation_formats_styles">
+																							<li>
+													<a href="https://journals.uran.ua/eejet/citationstylelanguage/download/ris?submissionId=322851&amp;publicationId=361615">
+														<span class="fa fa-download"></span>
+														Endnote/Zotero/Mendeley (RIS)
+													</a>
+												</li>
+																							<li>
+													<a href="https://journals.uran.ua/eejet/citationstylelanguage/download/bibtex?submissionId=322851&amp;publicationId=361615">
+														<span class="fa fa-download"></span>
+														BibTeX
+													</a>
+												</li>
+																					</ul>
+																	</div>
+							</div>
+						</div>
+					</section>
+				</div>
+			
+										<div class="item issue">
+
+											<section class="sub_item">
+							<h2 class="label">
+								Issue
+							</h2>
+							<div class="value">
+								<a class="title" href="https://journals.uran.ua/eejet/issue/view/19214">
+									Vol. 2 No. 8 (134) (2025): Energy-saving technologies and equipment
+								</a>
+							</div>
+						</section>
+					
+											<section class="sub_item">
+							<h2 class="label">
+								Section
+							</h2>
+							<div class="value">
+								Energy-saving technologies and equipment
+							</div>
+						</section>
+									</div>
+			
+															
+										<div class="item copyright">
+					<h2 class="label">
+						License
+					</h2>
+																										<p>Copyright (c) 2025 Mykola Budurov, Sergii Gorb, Alexey Popovskii</p>
+														<a rel="license" href="https://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" src="//i.creativecommons.org/l/by/4.0/88x31.png" /></a><p>This work is licensed under a <a rel="license" href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.</p>
+																<p>The consolidation and conditions for the transfer of copyright (identification of authorship) is carried out in the License Agreement. In particular, the authors reserve the right to the authorship of their manuscript and transfer the first publication of this work to the journal under the terms of the Creative Commons CC BY license. At the same time, they have the right to conclude on their own additional agreements concerning the non-exclusive distribution of the work in the form in which it was published by this journal, but provided that the link to the first publication of the article in this journal is preserved.</p>
+<p>A license agreement is a document in which the author warrants that he/she owns all copyright for the work (manuscript, article, etc.).<br />The authors, signing the License Agreement with TECHNOLOGY CENTER PC, have all rights to the further use of their work, provided that they link to our edition in which the work was published.<br />According to the terms of the License Agreement, the Publisher TECHNOLOGY CENTER PC does not take away your copyrights and receives permission from the authors to use and dissemination of the publication through the world's scientific resources (own electronic resources, scientometric databases, repositories, libraries, etc.).<br />In the absence of a signed License Agreement or in the absence of this agreement of identifiers allowing to identify the identity of the author, the editors have no right to work with the manuscript.<br />It is important to remember that there is another type of agreement between authors and publishers – when copyright is transferred from the authors to the publisher. In this case, the authors lose ownership of their work and may not use it in any way.</p>
+				</div>
+			
+			 <!-- Plum Analytics -->
+<a href="https://plu.mx/plum/a/?doi=10.15587/1729-4061.2025.322851" class="plumx-plum-print-popup" data-hide-when-empty="false" data-popup="right" ></a>
+<!-- /Plum Analytics -->
+
+
+		</div><!-- .entry_details -->
+	</div><!-- .row -->
+
+</article>
+
+	<!-- Plum Analytics -->
+<script type="text/javascript" src="//cdn.plu.mx/widget-all.js"></script>
+<!-- /Plum Analytics -->
+
+
+
+</div><!-- .page -->
+
+	</div><!-- pkp_structure_main -->
+
+									<div class="pkp_structure_sidebar left" role="complementary" aria-label="Sidebar">
+				 
+<div class="pkp_block block_custom" id="customblock--">
+	<div class="content">
+		<p>&nbsp; &nbsp; &nbsp; &nbsp; <a href="http://jet.com.ua/"><img src="/public/site/images/nataliiayena/imgonline-com-ua-Resize-31SfXWih1Su2JLb.jpg" alt=""></a></p>
+<p><a href="http://jet.com.ua/">Information site</a></p>
+	</div>
+</div>
+<div class="pkp_block block_custom" id="customblock-grants">
+	<div class="content">
+		
+	</div>
+</div>
+<div class="pkp_block block_language" id="sidebarFlagToggle">
+										<img src="https://journals.uran.ua/plugins/blocks/flagToggle/locale/en_US/flag.png" alt="English" title="English" width="24" height="24" />
+											<a class="icon" href='https://journals.uran.ua/eejet/user/setLocale/uk_UA?source=%2Feejet%2Farticle%2Fview%2F322851'>
+									<img src="https://journals.uran.ua/plugins/blocks/flagToggle/locale/uk_UA/flag.png" alt="Українська" title="Українська" width="24" height="24" />
+							</a>
+			</div>
+<div class="pkp_block block_language">
+	<h2 class="title">
+		Language
+	</h2>
+
+	<div class="content">
+		<ul>
+							<li class="locale_en_US current" lang="en-US">
+					<a href="https://journals.uran.ua/eejet/user/setLocale/en_US?source=%2Feejet%2Farticle%2Fview%2F322851">
+						English
+					</a>
+				</li>
+							<li class="locale_uk_UA" lang="uk-UA">
+					<a href="https://journals.uran.ua/eejet/user/setLocale/uk_UA?source=%2Feejet%2Farticle%2Fview%2F322851">
+						Українська
+					</a>
+				</li>
+					</ul>
+	</div>
+</div><!-- .block_language -->
+<div class="pkp_block block_information">
+	<h2 class="title">Information</h2>
+	<div class="content">
+		<ul>
+							<li>
+					<a href="https://journals.uran.ua/eejet/information/readers">
+						For Readers
+					</a>
+				</li>
+										<li>
+					<a href="https://journals.uran.ua/eejet/information/authors">
+						For Authors
+					</a>
+				</li>
+										<li>
+					<a href="https://journals.uran.ua/eejet/information/librarians">
+						For Librarians
+					</a>
+				</li>
+					</ul>
+	</div>
+</div>
+<div class="pkp_block block_make_submission">
+	<h2 class="pkp_screen_reader">
+		Make a Submission
+	</h2>
+
+	<div class="content">
+		<a class="block_make_submission_link" href="https://journals.uran.ua/eejet/about/submissions">
+			Make a Submission
+		</a>
+	</div>
+</div>
+<div class="pkp_block block_developed_by">
+	<h2 class="pkp_screen_reader">
+		Developed By
+	</h2>
+
+	<div class="content">
+		<a href="http://pkp.sfu.ca/ojs/">
+			Open Journal Systems
+		</a>
+	</div>
+</div>
+<div class="pkp_block block_custom" id="customblock-hot_monograph">
+	<div class="content">
+		<p><img src="https://journals.uran.ua/public/site/images/nataliiayena/15.jpg" alt="" width="1366" height="683"></p>
+<p>&nbsp;</p>
+	</div>
+</div>
+<div class="pkp_block block_custom" id="customblock-collective_monograph">
+	<div class="content">
+		<p><a href="https://monograph.com.ua/catalog" target="_blank" rel="noopener"><img src="https://journals.uran.ua/public/site/images/nataliiayena/technology-center-pc-1.gif" alt="" width="150" height="150"></a><br><span style="text-decoration: underline;"><a href="https://monograph.com.ua/catalog" target="_blank" rel="noopener">Collective monographs <br>with Scopus indexing <br>from TECHNOLOGY CENTER PC®</a></span></p>
+	</div>
+</div>
+<div class="pkp_block block_custom" id="customblock-soc_media">
+	<div class="content">
+		<p><a href="https://twitter.com/TechnolCenter" target="_blank" rel="noopener"><img src="http://journals.uran.ua/public/site/images/anna1992/twitter-38.png" alt="" width="38" height="38"></a> <a href="https://www.linkedin.com/in/eejet" target="_blank" rel="noopener"><img src="http://journals.uran.ua/public/site/images/anna1992/linkedin-38.png" alt="" width="38" height="38"></a> <a href="https://wa.me/380503033801" target="_blank" rel="noopener"><img src="http://journals.uran.ua/public/site/images/anna1992/whatsapp-38.png" alt="" width="38" height="38"></a> <a href="https://t.me/+rBCWu_UtcAY5ZTc6"><img src="http://journals.uran.ua/public/site/images/anna1992/telegram-38.png" alt="" width="38" height="38"></a>&nbsp;<a href="viber://add?number=380503811077" target="_blank" rel="noopener"><img src="http://journals.uran.ua/public/site/images/anna1992/viber-38.png" alt="" width="38" height="38"></a></p>
+	</div>
+</div>
+<div class="pkp_block block_custom" id="customblock-Info_link">
+	<div class="content">
+		<p><a href="https://www.youtube.com/watch?v=nOh1uFpWwv4" target="_blank" rel="noopener">How to correctly link to an article in the Eastern European Journal of Enterprise Technologies</a></p>
+	</div>
+</div>
+<div class="pkp_block block_custom" id="customblock-Scopus">
+	<div class="content">
+		<p><a href="https://www.scopus.com/sourceid/21100450083" target="_blank" rel="noopener"><img src="https://journals.uran.ua/public/site/images/nataliiayena/--.jpg" alt="" width="200" height="200"></a></p>
+	</div>
+</div>
+<div class="pkp_block block_custom" id="customblock-Youtube">
+	<div class="content">
+		<p><a href="https://www.youtube.com/c/PCTechnologyCenter"><img src="/public/site/images/nataliiayena/imgonline-com-ua-Resize-R3mZZPRvOKZ3mSf.png" alt=""><br></a><span style="font-size: medium; font-family: 'times new roman', times;">&nbsp; &nbsp;&nbsp;<span style="text-decoration: underline;"><a href="https://www.youtube.com/c/PCTechnologyCenter">Subscribe</a></span></span></p>
+	</div>
+</div>
+<div class="pkp_block block_web_feed">
+	<h2 class="title">Current Issue</h2>
+	<div class="content">
+		<ul>
+			<li>
+				<a href="https://journals.uran.ua/eejet/gateway/plugin/WebFeedGatewayPlugin/atom">
+					<img src="https://journals.uran.ua/lib/pkp/templates/images/atom.svg" alt="Atom logo">
+				</a>
+			</li>
+			<li>
+				<a href="https://journals.uran.ua/eejet/gateway/plugin/WebFeedGatewayPlugin/rss2">
+					<img src="https://journals.uran.ua/lib/pkp/templates/images/rss20_logo.svg" alt="RSS2 logo">
+				</a>
+			</li>
+			<li>
+				<a href="https://journals.uran.ua/eejet/gateway/plugin/WebFeedGatewayPlugin/rss">
+					<img src="https://journals.uran.ua/lib/pkp/templates/images/rss10_logo.svg" alt="RSS1 logo">
+				</a>
+			</li>
+		</ul>
+	</div>
+</div>
+
+			</div><!-- pkp_sidebar.left -->
+			</div><!-- pkp_structure_content -->
+
+<div class="pkp_structure_footer_wrapper" role="contentinfo">
+	<a id="pkp_content_footer"></a>
+
+	<div class="pkp_structure_footer">
+
+					<div class="pkp_footer_content">
+				<p><a href="https://portal.issn.org/resource/ISSN/1729-3774" target="_blank" rel="noopener noreferrer">ISSN 1729-3774</a>, <a href="https://portal.issn.org/resource/ISSN/1729-4061" target="_blank" rel="noopener noreferrer">E- ISSN 1729-4061</a>, <a href="https://portal.issn.org/resource/ISSN/1729-3774">ISSN-L 1729-3774</a></p>
+			</div>
+		
+		<div class="pkp_brand_footer" role="complementary">
+			<a href="https://journals.uran.ua/eejet/about/aboutThisPublishingSystem">
+				<img alt="More information about the publishing system, Platform and Workflow by OJS/PKP." src="https://journals.uran.ua/templates/images/ojs_brand.png">
+			</a>
+		</div>
+	</div>
+</div><!-- pkp_structure_footer_wrapper -->
+
+</div><!-- pkp_structure_page -->
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js?v=3.2.1.2" type="text/javascript"></script><script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js?v=3.2.1.2" type="text/javascript"></script><script src="https://journals.uran.ua/lib/pkp/js/lib/jquery/plugins/jquery.tag-it.js?v=3.2.1.2" type="text/javascript"></script><script src="https://journals.uran.ua/plugins/themes/default/js/lib/popper/popper.js?v=3.2.1.2" type="text/javascript"></script><script src="https://journals.uran.ua/plugins/themes/default/js/lib/bootstrap/util.js?v=3.2.1.2" type="text/javascript"></script><script src="https://journals.uran.ua/plugins/themes/default/js/lib/bootstrap/dropdown.js?v=3.2.1.2" type="text/javascript"></script><script src="https://journals.uran.ua/plugins/themes/default/js/main.js?v=3.2.1.2" type="text/javascript"></script><script src="https://journals.uran.ua/plugins/generic/citationStyleLanguage/js/articleCitation.js?v=3.2.1.2" type="text/javascript"></script><script type="text/javascript">
+(function(i,s,o,g,r,q,a,m){i[q]=i[q]||[];i[r]=i[r]||function(){i[q].push(arguments)}; a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','https://www.googletagmanager.com/gtag/js?id=UA-91102088-1','gtag','dataLayer');
+  gtag('js', new Date());
+  gtag('config', 'UA-91102088-1');
+</script>
+
+
+</body>
+</html>

@@ -1,0 +1,2700 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="utf-8">
+<!-- 
+	This website is powered by TYPO3 - inspiring people to share!
+	TYPO3 is a free open source Content Management Framework initially created by Kasper Skaarhoj and licensed under GNU/GPL.
+	TYPO3 is copyright 1998-2026 of Kasper Skaarhoj. Extensions are copyright of their respective owners.
+	Information and contribution at https://typo3.org/
+-->
+
+
+<link rel="icon" href="/_assets/bd18d6cf0a82e89ac33e9be14d7cbe42/Icons/favicon.ico" type="image/vnd.microsoft.icon">
+
+<meta http-equiv="x-ua-compatible" content="IE=edge">
+<meta name="generator" content="TYPO3 CMS">
+<meta name="description" content="TOA provides professional maritime audio solutions for your safety and communication on board (and off board). The new type approved public address and general alarm system (PA/GA) ensures safety on various types of vessels and intelligibility communication with passengers and crew.  ">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="NOODP">
+<meta name="author" content="TOA Marketing">
+<meta name="keywords" content="maritime sound solutions,
+public address and general alarm,
+DNV certified voice alarm systems for ships, 
+yards and vessels, marine soundsystem, Emergency alarm for ships, general alarm system for ships,
+maritime solutions,">
+<meta property="og:description" content="TOA provides professional maritime audio solutions for your safety and communication on board (and off board). The new type approved public address and general alarm system (PA/GA) ensures safety on various types of vessels and intelligibility communication with passengers and crew.">
+<meta name="twitter:card" content="summary">
+<meta name="apple-mobile-web-app-capable" content="no">
+
+
+<link rel="stylesheet" href="/typo3temp/assets/compressed/b16b99d51632328111e35488677f0829-ac49f5c11a4c057b7de2fc960229a2b9.css?1788937684" media="all">
+<link rel="stylesheet" href="/typo3temp/assets/compressed/main.min-4c3bd8a5606db2b48e92191c71bb64e4.css?1788937684" media="all">
+<link rel="stylesheet" href="/typo3temp/assets/compressed/jquery.fancybox.min-eb127248adf80aa45b4e30249c7d704c.css?1788937684" media="all">
+
+
+
+
+
+
+<script src="https://consent.cookiefirst.com/sites/toa.co.uk-ae71227b-e351-45eb-9fc6-bb3cde0cc43c/consent.js"></script>    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() { dataLayer.push(arguments); }
+      gtag('consent', 'default', {
+        'ad_user_data': 'denied',
+        'ad_personalization': 'denied',
+        'ad_storage': 'denied',
+        'analytics_storage': 'denied',
+        'wait_for_update': 500,
+      });
+      gtag('js', new Date());
+      gtag('config', 'GTM-MVMDFZ54');
+    </script>
+    <script type="text/plain" data-cookiefirst-category="performance">
+      (function(w,d,s,l,i){
+          w[l]=w[l]||[];
+          w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});
+          var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';
+          j.async=true;
+          j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-MVMDFZ54');
+    </script>  <script>
+    (function(){
+      var awId = 'AW-776108309';
+      window.__gtagAWLoaded = false;
+      function loadGtagAW(){
+        if(window.__gtagAWLoaded) return;
+        window.__gtagAWLoaded = true;
+        var s=document.createElement('script');
+        s.async=true;
+        s.src='https://www.googletagmanager.com/gtag/js?id='+awId;
+        document.head.appendChild(s);
+        if(typeof gtag==='function'){
+          gtag('js',new Date());
+          gtag('config',awId,{'anonymize_ip':true});
+        }
+      }
+      function checkAW(detail){
+        if(detail && detail.advertising===true){ loadGtagAW(); }
+      }
+      window.addEventListener('cf_init',function(){
+        if(window.CookieFirst && window.CookieFirst.consent){ checkAW(window.CookieFirst.consent); }
+      });
+      window.addEventListener('cf_consent_loaded',function(e){ checkAW(e.detail); });
+      window.addEventListener('cf_consent',function(e){ checkAW(e.detail); });
+    })();
+  </script><meta name="theme-color" content="#8b8a8a">
+<meta property="og:url" content="https://www.toa.co.uk/solutions/maritime" /><title>Maritime Solutions - TOA Electronics</title><meta property="og:image" content="/fileadmin/TCU/07_-_boat-3480914_1920_cropped.jpg" />
+<link rel="canonical" href="https://www.toa.co.uk/solutions/maritime"/>
+
+<!-- VhsAssetsDependenciesLoaded 0a95b98d2185c35c95040bb2b552786c -->
+</head>
+<body>
+<div class="languages">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <ul class="language-menu" data-track-component="language_navigation">
+    
+        <li class="">
+            <!-- <a href="https://www.toa.de/">DE</a> -->
+            <a href="https://www.toa.de/">DE</a>
+        </li>
+    
+        <li class="">
+            <!-- <a href="https://www.toa.eu/">EN</a> -->
+            <a href="https://www.toa.eu/">EN</a>
+        </li>
+    
+        <li class="">
+            <!-- <a href="https://www.toa.fr/">FR</a> -->
+            <a href="https://www.toa.fr/">FR</a>
+        </li>
+    
+        <li class="">
+            <!-- <a href="https://www.toa.pl/">PL</a> -->
+            <a href="https://www.toa.pl/">PL</a>
+        </li>
+    
+        <li class="">
+            <!-- <a href="https://www.toa.nl/">NL</a> -->
+            <a href="https://www.toa.nl/">NL</a>
+        </li>
+    
+        <li class="">
+            <!-- <a href="https://www.toa-russia.com/">RU</a> -->
+            <a href="https://www.toa-russia.com/">RU</a>
+        </li>
+    
+        <li class="active">
+            <!-- <a href="https://www.toa.co.uk/">UK</a> -->
+            <a href="/">UK</a>
+        </li>
+    
+        <li class="">
+            <!-- <a href="https://www.toa-spain.com">ES</a> -->
+            <a href="https://www.toa-spain.com/">ES</a>
+        </li>
+    
+</ul>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<header class="header">
+    
+
+<div class="header__top" data-track-component="header">
+    <div class="container">
+        <div class="row header__top--inner">
+            <div class="col-md-4 col-xs-4">
+                <a href="/" class="logo" data-track-component="header_logo" data-track-label="TOA home"></a>
+            </div>
+            <div class="col-md-8 col-xs-8">
+                <ul class="header__top--language-and-meta">
+                    <li class="header__top-meta--wrapper">
+                        
+                            <ul class="header__top-meta--content" data-track-component="meta_navigation">
+                                
+                                    <li>
+                                        <a href="/service/join-our-mailing-list">
+                                            
+                                                
+                                            
+                                            Newsletter
+                                        </a>
+                                    </li>
+                                
+                            </ul>
+                        
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)" class="header__top--language_trigger" data-track-component="language_selector" data-track-action="toggle_language_selector">
+                            <div class="lang-icon"><svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" viewBox="0 0 512 512"><path d="M256 0C114.5 0 0 114.5 0 256s114.5 256 256 256 256-114.5 256-256S397.5 0 256 0m-26.1 473.8c-48.4-5.6-93.1-27.9-128.5-62.4-41.8-41.8-64.2-96.8-64.2-155.4 0-53.1 18.6-102.4 52.1-142.4.9 10.2 2.8 21.4 2.8 29.8-1.9 28.9-4.7 47.5 12.1 72.6 6.5 9.3 8.4 23.3 11.2 34.4 2.8 11.2 15.8 16.8 24.2 23.3 17.7 14 34.4 28.9 53.1 41 12.1 7.4 20.5 12.1 16.8 27-2.8 12.1-3.7 19.5-10.2 30.7-1.9 3.7 7.4 24.2 10.2 27.9 9.3 9.3 18.6 17.7 28.9 26.1 15.7 12.1-1.9 28.8-8.5 47.4m181.6-62.3c-31.7 31.7-70.7 52.1-113.6 60.5 6.5-14.9 16.8-28.9 27-36.3 8.4-6.5 19.5-19.5 24.2-29.8s10.2-19.5 16.8-28.9c8.4-13-21.4-33.5-31.7-38.2-22.3-9.3-38.2-22.3-57.7-36.3-14-10.2-41.9 4.7-57.7-1.9-21.4-9.3-39.1-26.1-57.7-40-19.5-14.9-18.6-31.7-18.6-53.1 14.9.9 36.3-3.7 46.5 8.4 2.8 3.7 14 21.4 21.4 14.9 5.6-4.7-4.7-25.1-6.5-29.8-6.5-14 13-19.5 24.2-28.9 13-13 42.8-32.6 40-41.9-1.9-9.3-28.9-35.4-44.7-30.7-2.8.9-23.3 22.3-27 26.1v-21.4c0-4.7-8.4-9.3-8.4-12.1.9-7.4 21.4-20.5 26.1-26.1-3.7-1.9-15.8-12.1-19.5-11.2-8.4 3.7-18.6 6.5-27.9 10.2 0-2.8 0-5.6-.9-8.4 17.7-7.4 36.3-13 55.9-15.8l17.7 6.5 12.1 14.9 12.1 13 10.2 3.7 16.8-15.8-4.7-11.2v-10c33.5 4.7 65.2 17.7 93.1 36.3-4.7 0-10.2.9-16.8 1.9-2.8-1.9-5.6-1.9-8.4-2.8 8.4 17.7 16.8 34.4 25.1 51.2 9.3 18.6 28.9 38.2 32.6 56.8 3.7 22.3.9 42.8 3.7 69.8C417 281.1 444 310 444 310s12.1 4.7 22.3 2.8c-7.4 35.4-26.9 69.8-54.8 98.7"/></svg></div>
+                            
+                                    <span>Choose your language.</span>
+                                
+                        </a>
+                    </li>
+                    <button class="hamburger hamburger--slider" type="button" data-track-component="mobile_navigation" data-track-action="toggle_mobile_navigation">
+                        <span class="hamburger-box">
+                            <span class="hamburger-inner"></span>
+                        </span>
+                    </button>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="header__bottom">
+    <div class="container-fluid">
+        <div class="row">
+            <nav data-track-component="main_navigation">
+                
+
+<div class="nav__wrapper" data-track-component="main_navigation">
+
+    <ul class="nav-main">
+        
+            <li class="nav-main__item">
+                <a href="/news-1" class="nav-main__link">News</a>
+                <div class="nav-details">
+                    <div class="container">
+                        <div class="row">
+                            
+                        </div>
+                    </div>
+                </div>
+            </li>
+        
+            <li class="nav-main__item">
+                <a href="/products" class="nav-main__link">Products</a>
+                <div class="nav-details">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-4"><ul><li><a href="/products/voice-alarm-systems/">Voice alarm systems</a></li><li><a href="/products/intercom-systems/">Intercom systems</a></li><li><a href="/products/ip-audio/">IP Audio</a></li><li><a href="/products/speaker/">Speaker</a></li><li><a href="/products/prosound/">ProSound</a></li></ul></div><div class="col-lg-4"><ul><li><a href="/products/distribution/">Distribution</a></li><li><a href="/products/wireless-systems/">Wireless systems</a></li><li><a href="/products/conference-systems/">Conference systems</a></li><li><a href="/products/amplifiers-1/">Amplifiers</a></li><li><a href="/products/mixers-1/">Mixers</a></li></ul></div><div class="col-lg-4"><ul><li><a href="/products/megaphones-1/">Megaphones</a></li><li><a href="/products/microphones-1/">Microphones</a></li><li><a href="/products/racks-accessories-2/">Racks & Accessories</a></li></ul></div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+        
+            <li class="nav-main__item">
+                <a href="/applications" class="nav-main__link">Applications</a>
+                <div class="nav-details">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-4"><ul><li><a href="/applications/educational-institutions">Educational institutions</a></li><li><a href="/applications/sports-and-leisure-venues">Sports and leisure venues</a></li><li><a href="/applications/restaurants-and-retail">Restaurants and retail</a></li><li><a href="/applications/hotels-and-conference-centres">Hotels and conference centres</a></li></ul></div><div class="col-lg-4"><ul><li><a href="/applications/health-care-facilities">Health Care Facilities</a></li><li><a href="/applications/airport-solutions">Airport Solutions</a></li><li><a href="/applications/sports-and-leisure-venues-1">Houses of Worship</a></li><li><a href="/solutions/maritime">Maritime Solutions</a></li></ul></div><div class="col-lg-4"><ul><li><a href="/applications/custom-built-voice-alarm-and-public-address-rack-systems">Custom-Built Voice Alarm and Public Address Rack Systems</a></li><li><a href="/applications/entertainment-venues">Entertainment Venues</a></li><li><a href="/applications/corporate-office-buildings">Corporate, Office & Warehouse Buildings</a></li></ul></div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+        
+            <li class="nav-main__item">
+                <a href="/references" class="nav-main__link">References</a>
+                <div class="nav-details">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-4"><ul><li><a href="/references/educational-facilities/">Educational facilities</a></li><li><a href="/references/hotels/">Hotels</a></li><li><a href="/references/factories/">Factories</a></li><li><a href="/references/outdoor/">Outdoor</a></li></ul></div><div class="col-lg-4"><ul><li><a href="/references/governmental-buildings/">Governmental Buildings</a></li><li><a href="/references/shopping-centers-retail-stores/">Shopping centers / Retail stores</a></li><li><a href="/references/sports-and-leisure-venues/">Sports and leisure venues</a></li><li><a href="/references/office-buildings/">Office buildings</a></li></ul></div><div class="col-lg-4"><ul><li><a href="/references/hospitals-health-care/">Hospitals / Health care</a></li><li><a href="/references/houses-of-worship/">Houses of worship</a></li><li><a href="/references/transportation/">Transportation</a></li></ul></div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+        
+            <li class="nav-main__item">
+                <a href="/trantec/about-trantec" class="nav-main__link">Trantec</a>
+                <div class="nav-details">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-4"><ul><li><a href="/trantec/about-trantec">About Trantec</a></li><li><a href="/trantec/trantec-product-range">Trantec product range</a></li></ul></div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+        
+            <li class="nav-main__item">
+                <a href="/" class="nav-main__link">Service</a>
+                <div class="nav-details">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-4"><ul><li><a href="/service/download-bim-data">Download BIM data</a></li><li><a href="/service/training-courses">Training courses</a></li><li><a href="/service/soundcheck">Soundcheck</a></li><li><a href="/service/join-our-mailing-list">Join our Mailing List</a></li><li><a href="/service/toa-online-academy">TOA Online Academy</a></li><li><a href="/service/general-catalogues-and-price-lists">General Catalogues and Price Lists</a></li></ul></div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+        
+            <li class="nav-main__item">
+                <a href="/about" class="nav-main__link">About</a>
+                <div class="nav-details">
+                    <div class="container">
+                        <div class="row">
+                            
+                        </div>
+                    </div>
+                </div>
+            </li>
+        
+            <li class="nav-main__item">
+                <a href="/contact-1" class="nav-main__link">Contact</a>
+                <div class="nav-details">
+                    <div class="container">
+                        <div class="row">
+                            
+                        </div>
+                    </div>
+                </div>
+            </li>
+        
+    </ul>
+
+    <div class="search-field__wrapper" data-track-component="site_search">
+    <div class="search">
+
+        <script type="text/javascript">
+            var searchPageSettings = {};
+            searchPageSettings.url = "/search";
+            searchPageSettings.l10n = {};
+            searchPageSettings.l10n.placeholder = "Search";
+            searchPageSettings.l10n.products = "Products";
+            searchPageSettings.l10n.references = "References";
+            searchPageSettings.l10n.website = "Website";
+            searchPageSettings.l10n.display_all = "Display all";
+            searchPageSettings.l10n.nothing_found = "No results";
+        </script>
+
+        <div id="toa-search-app"></div>
+    </div>
+    <a href="javascript:void(0)" class="header__top--search_trigger search-icon" data-track-action="open_search" aria-label="Open search">
+        <svg  viewBox="0 0 512 512" aria-hidden="true">
+            <path d="M505 442.7L405.3 343c28.4-34.9 
+            45.7-79.3 45.7-127C451 96.5 
+            354.5 0 232 0S13 96.5 13 
+            216s96.5 216 216 216c47.7 
+            0 92.1-17.3 127-45.7L455.3 
+            505c9.4 9.4 24.6 9.4 33.9 
+            0l16-16c9.4-9.4 9.4-24.6 
+            0-33.9zM232 376c-88.2 
+            0-160-71.8-160-160S143.8 
+            56 232 56s160 71.8 
+            160 160-71.8 160-160 
+            160z"/>
+        </svg>
+    </a>
+</div>
+
+    <div class="nav-main__mobile" data-track-component="mobile_navigation">
+        <div id="dl-menu" class="dl-menuwrapper">
+            <ul id="dlmenu" class="dl-menu dl-menuopen">
+                
+                    <li>
+                        <a href="/news-1" class="nav-main__link">
+                            News
+                            <span class="dl-arrow angle-right-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 1024 1024"><path d="M338.752 104.704a64 64 0 0 0 0 90.496l316.8 316.8-316.8 316.8a64 64 0 0 0 90.496 90.496l362.048-362.048a64 64 0 0 0 0-90.496L429.248 104.704a64 64 0 0 0-90.496 0"/></svg>
+                            </span>
+                        </a>
+
+                        
+                    </li>
+                
+                    <li>
+                        <a href="/products" class="nav-main__link">
+                            Products
+                            <span class="dl-arrow angle-right-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 1024 1024"><path d="M338.752 104.704a64 64 0 0 0 0 90.496l316.8 316.8-316.8 316.8a64 64 0 0 0 90.496 90.496l362.048-362.048a64 64 0 0 0 0-90.496L429.248 104.704a64 64 0 0 0-90.496 0"/></svg>
+                            </span>
+                        </a>
+
+                        
+                    </li>
+                
+                    <li>
+                        <a href="/applications" class="nav-main__link">
+                            Applications
+                            <span class="dl-arrow angle-right-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 1024 1024"><path d="M338.752 104.704a64 64 0 0 0 0 90.496l316.8 316.8-316.8 316.8a64 64 0 0 0 90.496 90.496l362.048-362.048a64 64 0 0 0 0-90.496L429.248 104.704a64 64 0 0 0-90.496 0"/></svg>
+                            </span>
+                        </a>
+
+                        
+                            <ul class="dl-submenu">
+                                <li class="dl-back">
+                                    <a href="javascript:void(0)" data-track-action="mobile_navigation_back">Applications
+                                        <span class="dl-arrow angle-left-icon">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" class="icon" viewBox="0 0 1024 1024"><path d="M685.248 104.704a64 64 0 0 1 0 90.496L368.448 512l316.8 316.8a64 64 0 0 1-90.496 90.496L232.704 557.248a64 64 0 0 1 0-90.496l362.048-362.048a64 64 0 0 1 90.496 0"/></svg>
+                                        </span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <div class="col-lg-4"><ul><li><a href="/applications/educational-institutions">Educational institutions</a></li><li><a href="/applications/sports-and-leisure-venues">Sports and leisure venues</a></li><li><a href="/applications/restaurants-and-retail">Restaurants and retail</a></li><li><a href="/applications/hotels-and-conference-centres">Hotels and conference centres</a></li></ul></div><div class="col-lg-4"><ul><li><a href="/applications/health-care-facilities">Health Care Facilities</a></li><li><a href="/applications/airport-solutions">Airport Solutions</a></li><li><a href="/applications/sports-and-leisure-venues-1">Houses of Worship</a></li><li><a href="/solutions/maritime">Maritime Solutions</a></li></ul></div><div class="col-lg-4"><ul><li><a href="/applications/custom-built-voice-alarm-and-public-address-rack-systems">Custom-Built Voice Alarm and Public Address Rack Systems</a></li><li><a href="/applications/entertainment-venues">Entertainment Venues</a></li><li><a href="/applications/corporate-office-buildings">Corporate, Office & Warehouse Buildings</a></li></ul></div>
+                                </li>
+                            </ul>
+                        
+                    </li>
+                
+                    <li>
+                        <a href="/references" class="nav-main__link">
+                            References
+                            <span class="dl-arrow angle-right-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 1024 1024"><path d="M338.752 104.704a64 64 0 0 0 0 90.496l316.8 316.8-316.8 316.8a64 64 0 0 0 90.496 90.496l362.048-362.048a64 64 0 0 0 0-90.496L429.248 104.704a64 64 0 0 0-90.496 0"/></svg>
+                            </span>
+                        </a>
+
+                        
+                    </li>
+                
+                    <li>
+                        <a href="/trantec/about-trantec" class="nav-main__link">
+                            Trantec
+                            <span class="dl-arrow angle-right-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 1024 1024"><path d="M338.752 104.704a64 64 0 0 0 0 90.496l316.8 316.8-316.8 316.8a64 64 0 0 0 90.496 90.496l362.048-362.048a64 64 0 0 0 0-90.496L429.248 104.704a64 64 0 0 0-90.496 0"/></svg>
+                            </span>
+                        </a>
+
+                        
+                            <ul class="dl-submenu">
+                                <li class="dl-back">
+                                    <a href="javascript:void(0)" data-track-action="mobile_navigation_back">Trantec
+                                        <span class="dl-arrow angle-left-icon">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" class="icon" viewBox="0 0 1024 1024"><path d="M685.248 104.704a64 64 0 0 1 0 90.496L368.448 512l316.8 316.8a64 64 0 0 1-90.496 90.496L232.704 557.248a64 64 0 0 1 0-90.496l362.048-362.048a64 64 0 0 1 90.496 0"/></svg>
+                                        </span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <div class="col-lg-4"><ul><li><a href="/trantec/about-trantec">About Trantec</a></li><li><a href="/trantec/trantec-product-range">Trantec product range</a></li></ul></div>
+                                </li>
+                            </ul>
+                        
+                    </li>
+                
+                    <li>
+                        <a href="/" class="nav-main__link">
+                            Service
+                            <span class="dl-arrow angle-right-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 1024 1024"><path d="M338.752 104.704a64 64 0 0 0 0 90.496l316.8 316.8-316.8 316.8a64 64 0 0 0 90.496 90.496l362.048-362.048a64 64 0 0 0 0-90.496L429.248 104.704a64 64 0 0 0-90.496 0"/></svg>
+                            </span>
+                        </a>
+
+                        
+                            <ul class="dl-submenu">
+                                <li class="dl-back">
+                                    <a href="javascript:void(0)" data-track-action="mobile_navigation_back">Service
+                                        <span class="dl-arrow angle-left-icon">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" class="icon" viewBox="0 0 1024 1024"><path d="M685.248 104.704a64 64 0 0 1 0 90.496L368.448 512l316.8 316.8a64 64 0 0 1-90.496 90.496L232.704 557.248a64 64 0 0 1 0-90.496l362.048-362.048a64 64 0 0 1 90.496 0"/></svg>
+                                        </span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <div class="col-lg-4"><ul><li><a href="/service/download-bim-data">Download BIM data</a></li><li><a href="/service/training-courses">Training courses</a></li><li><a href="/service/soundcheck">Soundcheck</a></li><li><a href="/service/join-our-mailing-list">Join our Mailing List</a></li><li><a href="/service/toa-online-academy">TOA Online Academy</a></li><li><a href="/service/general-catalogues-and-price-lists">General Catalogues and Price Lists</a></li></ul></div>
+                                </li>
+                            </ul>
+                        
+                    </li>
+                
+                    <li>
+                        <a href="/about" class="nav-main__link">
+                            About
+                            <span class="dl-arrow angle-right-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 1024 1024"><path d="M338.752 104.704a64 64 0 0 0 0 90.496l316.8 316.8-316.8 316.8a64 64 0 0 0 90.496 90.496l362.048-362.048a64 64 0 0 0 0-90.496L429.248 104.704a64 64 0 0 0-90.496 0"/></svg>
+                            </span>
+                        </a>
+
+                        
+                    </li>
+                
+                    <li>
+                        <a href="/contact-1" class="nav-main__link">
+                            Contact
+                            <span class="dl-arrow angle-right-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 1024 1024"><path d="M338.752 104.704a64 64 0 0 0 0 90.496l316.8 316.8-316.8 316.8a64 64 0 0 0 90.496 90.496l362.048-362.048a64 64 0 0 0 0-90.496L429.248 104.704a64 64 0 0 0-90.496 0"/></svg>
+                            </span>
+                        </a>
+
+                        
+                    </li>
+                
+            </ul>
+        </div>
+    </div>
+
+</div>
+
+            </nav>
+        </div>
+    </div>
+</div>
+</header>
+
+
+    
+        <div aria-labelledby="breadcrumb" role="navigation" class="breadcrumb-section hidden-xs hidden-sm" data-track-component="breadcrumb_navigation">
+            <div class="container">
+                <ol class="breadcrumbs">
+                    
+                        <li class="">
+                            
+                                    <a href="/" title="Start">
+                                        <span>Start</span>
+                                    </a>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="15" height="10" viewBox="0 0 1024 1024"><path d="M338.752 104.704a64 64 0 0 0 0 90.496l316.8 316.8-316.8 316.8a64 64 0 0 0 90.496 90.496l362.048-362.048a64 64 0 0 0 0-90.496L429.248 104.704a64 64 0 0 0-90.496 0"/></svg>
+                                
+                        </li>
+                    
+                        <li class="">
+                            
+                                    <a href="/applications" title="Applications">
+                                        <span>Applications</span>
+                                    </a>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="15" height="10" viewBox="0 0 1024 1024"><path d="M338.752 104.704a64 64 0 0 0 0 90.496l316.8 316.8-316.8 316.8a64 64 0 0 0 90.496 90.496l362.048-362.048a64 64 0 0 0 0-90.496L429.248 104.704a64 64 0 0 0-90.496 0"/></svg>
+                                
+                        </li>
+                    
+                        <li class="active">
+                            
+                                    <span>Maritime Solutions</span>
+                                
+                        </li>
+                    
+                </ol>
+            </div>
+        </div>
+    
+
+
+
+
+<!--TYPO3SEARCH_begin-->
+
+
+    <div class="container">
+        
+    <div class="row">
+        <div class="col-md-12">
+            <h1>Maritime Solutions</h1>
+        </div>
+    </div>
+
+
+
+
+        <div class="row">
+            <div class="col-md-12">
+                
+
+
+    
+
+    <div id="carousel16774" class="carousel slide big-carousel" data-ride="carousel" data-track-component="carousel" data-track-id="ce-16774">
+        <ol class="carousel-indicators">
+            
+                <li data-target="#carousel16774" data-slide-to="0" class="active"></li>
+            
+                <li data-target="#carousel16774" data-slide-to="1" class=""></li>
+            
+                <li data-target="#carousel16774" data-slide-to="2" class=""></li>
+            
+        </ol>
+
+        <div class="carousel-inner fix-carousel-inner" role="listbox">
+            
+
+                <div class="item active">
+
+                    
+                            <div class="carousel-slide">
+                                
+                                        <div style="background-image: url(/fileadmin/_processed_/b/c/csm_Slider_Cruise_mobile_44cf0f9795.jpg)"
+                                            class="slider-size slider-size--mobile">
+                                        </div>
+                                    
+                                
+                                        <div style="background-image: url(/fileadmin/_processed_/0/1/csm_Slider-cruise-ship_5c754df736.jpg)"
+                                            class="slider-size slider-size--desktop">
+                                        </div>
+                                    
+                                
+
+                                
+
+                                
+                                        <picture class="slider-bg-picture">
+                                            
+                                                <img
+                                                    class="slider-size slider-size--mobile"
+                                                    src="
+                                    
+                                            /fileadmin/_processed_/b/c/csm_Slider_Cruise_mobile_fadbcfa929.webp
+                                        
+                                "
+                                                    alt="All sound on deck"
+                                                    fetchpriority="high"
+                                                    loading="eager"
+                                                    decoding="async"
+                                                />
+                                            
+                                            
+                                                <img
+                                                    class="slider-size slider-size--desktop"
+                                                    src="
+                                    
+                                           /fileadmin/_processed_/0/1/csm_Slider-cruise-ship_a027b5bfb4.webp
+                                        
+                                "
+                                                    alt="All sound on deck"
+                                                    fetchpriority="high"
+                                                    loading="eager"
+                                                    decoding="async"
+                                                />
+                                            
+                                        </picture>
+                                    
+                                
+                                    <div class="slide-text-box slide-text-box--orange slide-text-box--kurze">
+                                        
+                                                
+                                                        <h2>All sound on deck</h2>
+                                                    
+                                            
+                                        <p>
+                                            New type approved PA/GA system for safety and sound on board
+                                        </p>
+
+                                    </div>
+                                
+                            </div>
+
+                        
+                </div>
+
+
+
+            
+
+                <div class="item ">
+
+                    
+                            <div class="carousel-slide">
+                                
+                                        <div style="background-image: url(/fileadmin/_processed_/d/3/csm_Slider_Cargo_mobil_c97d219985.jpg)"
+                                            class="slider-size slider-size--mobile">
+                                        </div>
+                                    
+                                
+                                        <div style="background-image: url(/fileadmin/_processed_/7/1/csm_Slider-freigther_5b75cb4ebf.jpg)"
+                                            class="slider-size slider-size--desktop">
+                                        </div>
+                                    
+                                
+
+                                
+
+                                
+                                        
+                                            <div style="background-image:url(
+                                    
+                                            /fileadmin/_processed_/d/3/csm_Slider_Cargo_mobil_addddc6752.webp
+                                        
+                                )" class="slider-size slider-size--mobile"></div>
+                                        
+                                        
+                                            <div style="background-image:url(
+                                    
+                                           /fileadmin/_processed_/7/1/csm_Slider-freigther_a887faca56.webp
+                                        
+                                )" class="slider-size slider-size--desktop"></div>
+                                        
+                                    
+                                
+                                    <div class="slide-text-box slide-text-box--orange slide-text-box--kurze">
+                                        
+                                                
+                                                        <h2>Setting sail with confidence</h2>
+                                                    
+                                            
+                                        <p>
+                                            Certified Public Address System VX-3000 ensures reliable ship communication
+                                        </p>
+
+                                    </div>
+                                
+                            </div>
+
+                        
+                </div>
+
+
+
+            
+
+                <div class="item ">
+
+                    
+                            <div class="carousel-slide">
+                                
+                                        <div style="background-image: url(/fileadmin/_processed_/c/9/csm_Slider_Maritime_mobile_f6502a1ceb.jpg)"
+                                            class="slider-size slider-size--mobile">
+                                        </div>
+                                    
+                                
+                                        <div style="background-image: url(/fileadmin/_processed_/b/0/csm_Slider-Making-announcement_a794fd7a68.jpg)"
+                                            class="slider-size slider-size--desktop">
+                                        </div>
+                                    
+                                
+
+                                
+
+                                
+                                        
+                                            <div style="background-image:url(
+                                    
+                                            /fileadmin/_processed_/c/9/csm_Slider_Maritime_mobile_8eaec75430.webp
+                                        
+                                )" class="slider-size slider-size--mobile"></div>
+                                        
+                                        
+                                            <div style="background-image:url(
+                                    
+                                           /fileadmin/_processed_/b/0/csm_Slider-Making-announcement_0f616364ba.webp
+                                        
+                                )" class="slider-size slider-size--desktop"></div>
+                                        
+                                    
+                                
+                                    <div class="slide-text-box slide-text-box--orange slide-text-box--kurze">
+                                        
+                                                
+                                                        <h2>Reliability anchored</h2>
+                                                    
+                                            
+                                        <p>
+                                            Choose TOAs sound expertise and win a trustworthy partner for your projects at sea
+                                        </p>
+
+                                    </div>
+                                
+                            </div>
+
+                        
+                </div>
+
+
+
+            
+        </div>
+    </div>
+
+<div class="row">
+    <div class="col-md-8">
+        
+    
+
+            <div id="c16772" class="frame frame-default frame-type-text frame-layout-0 frame-space-before-medium frame-space-after-medium">
+                
+                
+                    
+
+
+
+                
+                
+                    
+
+    
+
+
+
+                
+                
+
+    <p class="pf0">Reliable and clear communication onboard is essential for issuing general commands to the crew on a cargo ship, providing pleasant background audio on the deck of a cruise ship, or sounding a general alarm to alert crew and passengers in emergencies.</p>
+<p class="pf0">A <strong>public address and general alarm system (PA/GA</strong>) fulfills all these essential functions. At sea, this system must meet stringent requirements, enduring harsh weather conditions, functioning flawlessly in emergencies, and boasting a robust, durable, and weatherproof design. Additionally, it must provide loud output and maintain first-class sound quality with clear speech intelligibility.</p>
+<p class="pf0">This is precisely where our PA/GA systems excel, offering intelligible and high-quality sound across all areas of your vessel. Our system ensures seamless communication with guests and crew during routine operations as well as during critical emergency announcements.</p>
+
+
+                
+                    
+
+
+
+                
+                
+                    
+
+
+
+                
+            </div>
+
+        
+
+
+    </div>
+    <div class="col-md-4">
+        
+    
+
+            <div id="c16771" class="frame frame-default frame-type-image frame-layout-0">
+                
+                
+                    
+
+
+
+                
+                
+                    
+
+    
+
+
+
+                
+                
+
+    
+
+<div class="row">
+    
+
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+
+            
+                    <img src="/fileadmin/_processed_/a/1/csm_Intro-Content_b93429c812.png" class="img-responsive">
+                    
+                
+
+        </div>
+
+    
+</div>
+
+
+
+                
+                    
+
+
+
+                
+                
+                    
+
+
+
+                
+            </div>
+
+        
+
+
+    </div>
+</div>
+    
+
+            <div id="c16770" class="frame frame-default frame-type-text frame-layout-0">
+                
+                
+                    
+
+
+
+                
+                
+                    
+
+    
+
+
+
+                
+                
+
+    <h3>Tailored solutions&nbsp;</h3>
+<p>Our Public Address and General Alarm system is tailored to meet the unique requirements of various vessels, including cruise ships, cargo ships, yachts, and more. Here's how our system benefits different types of vessels.</p>
+
+
+                
+                    
+
+
+
+                
+                
+                    
+
+
+
+                
+            </div>
+
+        
+
+<div class="row">
+    <div class="col-md-4">
+        
+    
+
+            <div id="c16763" class="frame frame-default frame-type-image frame-layout-0 frame-space-before-small frame-space-after-small">
+                
+                
+                    
+
+
+
+                
+                
+                    
+
+    
+
+
+
+                
+                
+
+    
+
+<div class="row">
+    
+
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+
+            
+                    <img src="/fileadmin/_processed_/6/a/csm_Content-img-landscape_bf443ffe36.jpg" class="img-responsive">
+                    
+                
+
+        </div>
+
+    
+</div>
+
+
+
+                
+                    
+
+
+
+                
+                
+                    
+
+
+
+                
+            </div>
+
+        
+
+
+    
+
+            <div id="c16768" class="frame frame-default frame-type-textpic frame-layout-0">
+                
+                
+                    
+
+
+
+                
+                
+                    
+
+    
+
+
+
+                
+                
+	<div class="row">
+		
+
+		
+				<div class="col-md-12 col-xs-12">
+					
+
+<div class="row">
+    
+</div>
+
+				</div>
+				<div class="col-md-12 col-xs-12">
+					<p><strong>Cruise ships</strong><br> Ensures seamless communication via paging and BGM, enhancing safety and guest experience.</p>
+				</div>
+			
+	</div>
+
+                
+                    
+
+
+
+                
+                
+                    
+
+
+
+                
+            </div>
+
+        
+
+
+    </div>
+    <div class="col-md-4">
+        
+    
+
+            <div id="c16762" class="frame frame-default frame-type-image frame-layout-0 frame-space-before-small frame-space-after-small">
+                
+                
+                    
+
+
+
+                
+                
+                    
+
+    
+
+
+
+                
+                
+
+    
+
+<div class="row">
+    
+
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+
+            
+                    <img src="/fileadmin/_processed_/7/4/csm_Content-CARGO_ea174adb21.jpg" class="img-responsive">
+                    
+                
+
+        </div>
+
+    
+</div>
+
+
+
+                
+                    
+
+
+
+                
+                
+                    
+
+
+
+                
+            </div>
+
+        
+
+
+    
+
+            <div id="c16767" class="frame frame-default frame-type-text frame-layout-0">
+                
+                
+                    
+
+
+
+                
+                
+                    
+
+    
+
+
+
+                
+                
+
+    <p><strong>Cargo ships</strong><br> Facilitates efficient communication for crew members in different areas of the ship, improving operational productivity.</p>
+
+
+                
+                    
+
+
+
+                
+                
+                    
+
+
+
+                
+            </div>
+
+        
+
+
+    </div>
+    <div class="col-md-4">
+        
+    
+
+            <div id="c16761" class="frame frame-default frame-type-image frame-layout-0 frame-space-before-small frame-space-after-small">
+                
+                
+                    
+
+
+
+                
+                
+                    
+
+    
+
+
+
+                
+                
+
+    
+
+<div class="row">
+    
+
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+
+            
+                    <img src="/fileadmin/_processed_/a/0/csm_Content-YACHT_fa569ebbd6.jpg" class="img-responsive">
+                    
+                
+
+        </div>
+
+    
+</div>
+
+
+
+                
+                    
+
+
+
+                
+                
+                    
+
+
+
+                
+            </div>
+
+        
+
+
+    
+
+            <div id="c16764" class="frame frame-default frame-type-text frame-layout-0">
+                
+                
+                    
+
+
+
+                
+                
+                    
+
+    
+
+
+
+                
+                
+
+    <p><strong>Yachts</strong><br> Provides customisable solutions for luxury yacht owners, combining functionality with elegance.</p>
+
+
+                
+                    
+
+
+
+                
+                
+                    
+
+
+
+                
+            </div>
+
+        
+
+
+    </div>
+</div>
+    
+
+            <div id="c16760" class="frame frame-default frame-type-div frame-layout-0">
+                
+                
+                    
+
+
+
+                
+                
+                
+
+    <hr class="ce-div" />
+
+
+                
+                    
+
+
+
+                
+                
+                    
+
+
+
+                
+            </div>
+
+        
+
+
+    
+
+            <div id="c16759" class="frame frame-default frame-type-header frame-layout-0 frame-space-after-medium">
+                
+                
+                    
+
+
+
+                
+                
+                    
+
+    
+        <header>
+            
+
+    
+            
+                
+
+    
+            <h2 class="">
+                At sea but always connected: elevate safety and communication with our VX-3000
+            </h2>
+        
+
+
+
+            
+        
+
+
+
+            
+
+
+
+            
+
+
+
+        </header>
+    
+
+
+
+                
+                
+                
+                    
+
+
+
+                
+                
+                    
+
+
+
+                
+            </div>
+
+        
+
+<div class="row">
+    <div class="col-md-4">
+        
+    
+
+            <div id="c16752" class="frame frame-default frame-type-text frame-layout-0 frame-space-after-small">
+                
+                
+                    
+
+
+
+                
+                
+                    
+
+    
+
+
+
+                
+                
+
+    <p>The <strong>VX-3000 public adress and general alarm</strong> system is designed for demanding maritime environments and offers consistent communication in every area in accordance with all obligatory<strong>&nbsp;requirements (SOLAS, IMO etc.).</strong></p>
+<p>Our <strong>DNV-type approved </strong>system can be scaled from yachts up to large cargo or cruise ships and combines<strong> announcement (PA)</strong>,&nbsp;<strong>general alarm</strong> <strong>(GA)</strong> and <strong>background music</strong> management applications in a single system, also fulfilling the Safe Return to Port requirements.</p>
+
+
+                
+                    
+
+
+
+                
+                
+                    
+
+
+
+                
+            </div>
+
+        
+
+
+    
+
+            <div id="c16757" class="frame frame-default frame-type-image frame-layout-0 frame-space-after-medium">
+                
+                
+                    
+
+
+
+                
+                
+                    
+
+    
+
+
+
+                
+                
+
+    
+
+<div class="row">
+    
+
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+
+            
+                    <img src="/fileadmin/_processed_/3/3/csm_Content-Container-ship_fd3aeb782e.jpg" class="img-responsive">
+                    
+                
+
+        </div>
+
+    
+</div>
+
+
+
+                
+                    
+
+
+
+                
+                
+                    
+
+
+
+                
+            </div>
+
+        
+
+
+    </div>
+    <div class="col-md-4">
+        
+    
+
+            <div id="c16753" class="frame frame-default frame-type-image frame-layout-0">
+                
+                
+                    
+
+
+
+                
+                
+                    
+
+    
+
+
+
+                
+                
+
+    
+
+<div class="row">
+    
+
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+
+            
+                    <img src="/fileadmin/_processed_/0/5/csm_Content-Certificate_a2923e1051.png" class="img-responsive">
+                    
+                
+
+        </div>
+
+    
+</div>
+
+
+
+                
+                    
+
+
+
+                
+                
+                    
+
+
+
+                
+            </div>
+
+        
+
+
+    
+
+            <div id="c16756" class="frame frame-default frame-type-text frame-layout-0">
+                
+                
+                    
+
+
+
+                
+                
+                    
+
+    
+
+
+
+                
+                
+
+    <p>Seamlessly connected to existing fire alarm and entertainment systems, the VX-3000 is installed in a <strong>redundant system</strong> design, ensuring the system's functionality even in case of a disturbance by a single failure.<br> <br> The system is constantly monitored, beginning at the microphone capsule, over the central equipment along the amplifiers and wiring up to the last speaker on each speaker line. Even if the main power supply fails, the system will operate using backup batteries.</p>
+
+
+                
+                    
+
+
+
+                
+                
+                    
+
+
+
+                
+            </div>
+
+        
+
+
+    </div>
+    <div class="col-md-4">
+        
+    
+
+            <div id="c16754" class="frame frame-default frame-type-html frame-layout-0">
+                
+                
+                    
+
+
+
+                
+                
+                
+
+    <p>To create a pleasant atmosphere, background music control is handled through <strong>zone management</strong> functions, enabling varied sounds and announcements in different ship areas.<br /> <br /> Combined with our wide range of complementary <strong><a style="color:#fb8200;text-decoration:underline;font-weight:700;" href="https://www.toa.eu/products/speaker/en-54-speakers/" target="_blank">EN-54 certified speakers</a></strong>, VX-3000 ensures intelligible announcements, alarms and background sound distribution with high sound pressure and audio quality, enhancing safety and relaxation for passengers and crew.</p>
+
+
+
+
+                
+                    
+
+
+
+                
+                
+                    
+
+
+
+                
+            </div>
+
+        
+
+
+    
+
+            <div id="c16755" class="frame frame-default frame-type-image frame-layout-0 frame-space-before-small frame-space-after-medium">
+                
+                
+                    
+
+
+
+                
+                
+                    
+
+    
+
+
+
+                
+                
+
+    
+
+<div class="row">
+    
+
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+
+            
+                    <img src="/fileadmin/_processed_/e/b/csm_Content-People-1_cf42999d73.jpg" class="img-responsive">
+                    
+                
+
+        </div>
+
+    
+</div>
+
+
+
+                
+                    
+
+
+
+                
+                
+                    
+
+
+
+                
+            </div>
+
+        
+
+
+    </div>
+</div><div class="row">
+    <div class="col-md-4">
+        
+    
+
+            <div id="c16750" class="frame frame-default frame-type-image frame-layout-0 frame-space-before-medium">
+                
+                
+                    
+
+
+
+                
+                
+                    
+
+    
+
+
+
+                
+                
+
+    
+
+<div class="row">
+    
+
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+
+            
+                    <img src="/fileadmin/_processed_/4/6/csm_VX-3000_83f557917b.png" class="img-responsive">
+                    
+                
+
+        </div>
+
+    
+</div>
+
+
+
+                
+                    
+
+
+
+                
+                
+                    
+
+
+
+                
+            </div>
+
+        
+
+
+    </div>
+    <div class="col-md-8">
+        
+    
+
+            <div id="c16749" class="frame frame-default frame-type-text frame-layout-0 frame-space-before-medium">
+                
+                
+                    
+
+
+
+                
+                
+                    
+
+    
+
+
+
+                
+                
+
+    <h3>VX-3000 ensures communication in every situation</h3>
+<p>Whether informative, entertaining, or vital – every message is delivered with crystal-clear precision and reliability, ensuring a safe and pleasant journey for crew and passengers.</p><ul> 	<li>Reliable</li> 	<li>TCP/IP-based</li> 	<li>Scalable to fit vessels of various sizes</li> 	<li>Energy- and cost-saving</li> 	<li>Offering zoning options for customised sound distribution in different areas</li> 	<li>Integrating seamlessly into existing onboard systems for enhanced functionality</li> 	<li><a href="https://www.toa.co.uk/products/voice-alarm-systems/vx-3000-series/" target="_blank">Combining all important functions for Public Address and General Alarm in one single system</a></li> </ul><p><a href="https://www.toa.eu/products/voice-alarm-systems/vx-3000-series/" target="_blank" class="btn btn-primary">More about VX-3000</a></p>
+
+
+                
+                    
+
+
+
+                
+                
+                    
+
+
+
+                
+            </div>
+
+        
+
+
+    </div>
+</div>
+
+    
+
+            <div id="c16748" class="frame frame-default frame-type-div frame-layout-0">
+                
+                
+                    
+
+
+
+                
+                
+                
+
+    <hr class="ce-div" />
+
+
+                
+                    
+
+
+
+                
+                
+                    
+
+
+
+                
+            </div>
+
+        
+
+<div class="row">
+    <div class="col-md-8">
+        
+    
+
+            <div id="c16745" class="frame frame-default frame-type-textpic frame-layout-0">
+                
+                
+                    
+
+
+
+                
+                
+                    
+
+    
+        <header>
+            
+
+    
+            
+                
+
+    
+            <h2 class="">
+                Why choose TOA as your sound partner?
+            </h2>
+        
+
+
+
+            
+        
+
+
+
+            
+
+
+
+            
+
+
+
+        </header>
+    
+
+
+
+                
+                
+	<div class="row">
+		
+
+		
+				<div class="col-md-12 col-xs-12">
+					
+
+<div class="row">
+    
+</div>
+
+				</div>
+				<div class="col-md-12 col-xs-12">
+					<p><br> With over 90 years of audio expertise, TOA has established itself as a trustworthy partner for your next maritime project. TOA combines extensive know-how in research and development of high-quality products, project planning expertise across various industries, and a team of knowledgeable experts in technical installations.<br> We are dedicated to supporting installers, shipyards, and ship owners in planning suitable, reliable, and intelligible PA/GA systems on board.</p>
+<p>Our team of sound experts offer comprehensive technical support and training services to ensure seamless integration and operation of our PA/GA system:</p><ul> 	<li>Expert knowledge in selecting the best loudspeakers for your ship's size and type</li> 	<li>Sound coverage simulations using EASE<strong>®</strong>&nbsp;AFMG system&nbsp;for speaker positioning</li> 	<li>Technical expertise during system installation</li> 	<li>Commissioning process with extensive documentation</li> 	<li>Onboarding your team with VX-3000 system <a href="https://www.toa.eu/service/training-courses" target="_blank">training</a>&nbsp;contact <a href="#" data-mailto-token="ocknvq,octmgvkpiBvqc0eq0wm" data-mailto-vector="2">marketing(a)toa.co.uk&nbsp;</a></li> </ul>
+				</div>
+			
+	</div>
+
+                
+                    
+
+
+
+                
+                
+                    
+
+
+
+                
+            </div>
+
+        
+
+
+    
+
+            <div id="c16746" class="frame frame-default frame-type-text frame-layout-0">
+                
+                
+                    
+
+
+
+                
+                
+                    
+
+    
+
+
+
+                
+                
+
+    <h3>With TOA on board, you ensure safety on board for passengers and crew.</h3>
+
+
+                
+                    
+
+
+
+                
+                
+                    
+
+
+
+                
+            </div>
+
+        
+
+
+    </div>
+    <div class="col-md-4">
+        
+    
+
+            <div id="c16744" class="frame frame-default frame-type-image frame-layout-0 frame-space-before-medium frame-space-after-medium">
+                
+                
+                    
+
+
+
+                
+                
+                    
+
+    
+
+
+
+                
+                
+
+    
+
+<div class="row">
+    
+
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+
+            
+                    <img src="/fileadmin/_processed_/f/1/csm_Content-Training_27afcfa06d.jpg" class="img-responsive">
+                    
+                
+
+        </div>
+
+    
+</div>
+
+
+
+                
+                    
+
+
+
+                
+                
+                    
+
+
+
+                
+            </div>
+
+        
+
+
+    </div>
+</div><div class="row">
+    <div class="col-md-3 col-sm-6 col-s-6">
+        
+    
+
+            <div id="c16737" class="frame frame-default frame-type-textmedia frame-layout-0">
+                
+                
+                    
+
+
+
+                
+                
+
+    
+        
+
+    
+
+
+
+    
+
+
+                
+
+    <div class="ce-textpic ce-center ce-above">
+        
+            
+
+<div class="row">
+    
+
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+
+            
+                    <img src="/fileadmin/Solutions/Maritime/Icons_Maritim-_planning.svg" class="img-responsive">
+                    
+                
+
+        </div>
+
+    
+</div>
+
+        
+
+        
+                
+            
+
+        
+    </div>
+
+
+                
+                    
+
+
+
+                
+                
+                    
+
+
+
+                
+            </div>
+
+        
+
+
+    
+
+            <div id="c16742" class="frame frame-default frame-type-html frame-layout-0">
+                
+                
+                    
+
+
+
+                
+                
+                
+
+    <center><p>
+  <b>System &amp; Project Planning</b>
+</p></center>
+
+
+                
+                    
+
+
+
+                
+                
+                    
+
+
+
+                
+            </div>
+
+        
+
+
+    </div>
+    <div class="col-md-3 col-sm-6 col-s-6">
+        
+    
+
+            <div id="c16740" class="frame frame-default frame-type-textmedia frame-layout-0">
+                
+                
+                    
+
+
+
+                
+                
+
+    
+        
+
+    
+
+
+
+    
+
+
+                
+
+    <div class="ce-textpic ce-center ce-above">
+        
+            
+
+<div class="row">
+    
+
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+
+            
+                    <img src="/fileadmin/Solutions/Maritime/Icons_Maritim-assambling.svg" class="img-responsive">
+                    
+                
+
+        </div>
+
+    
+</div>
+
+        
+
+        
+                
+            
+
+        
+    </div>
+
+
+                
+                    
+
+
+
+                
+                
+                    
+
+
+
+                
+            </div>
+
+        
+
+
+    
+
+            <div id="c16741" class="frame frame-default frame-type-html frame-layout-0">
+                
+                
+                    
+
+
+
+                
+                
+                
+
+    <center><p>
+  <b>Rack Assembling</b>
+</p></center>
+
+
+                
+                    
+
+
+
+                
+                
+                    
+
+
+
+                
+            </div>
+
+        
+
+
+    </div>
+    <div class="col-md-3 col-sm-6 col-s-6">
+        
+    
+
+            <div id="c16736" class="frame frame-default frame-type-textmedia frame-layout-0">
+                
+                
+                    
+
+
+
+                
+                
+
+    
+        
+
+    
+
+
+
+    
+
+
+                
+
+    <div class="ce-textpic ce-center ce-above">
+        
+            
+
+<div class="row">
+    
+
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+
+            
+                    <img src="/fileadmin/Solutions/Maritime/Icons_Maritim-support.svg" class="img-responsive">
+                    
+                
+
+        </div>
+
+    
+</div>
+
+        
+
+        
+                
+            
+
+        
+    </div>
+
+
+                
+                    
+
+
+
+                
+                
+                    
+
+
+
+                
+            </div>
+
+        
+
+
+    
+
+            <div id="c16739" class="frame frame-default frame-type-html frame-layout-0">
+                
+                
+                    
+
+
+
+                
+                
+                
+
+    <center><p>
+  <b>Technical Support</b>
+</p></center>
+
+
+                
+                    
+
+
+
+                
+                
+                    
+
+
+
+                
+            </div>
+
+        
+
+
+    </div>
+    <div class="col-md-3 col-sm-6 col-s-6">
+        
+    
+
+            <div id="c16735" class="frame frame-default frame-type-textmedia frame-layout-0">
+                
+                
+                    
+
+
+
+                
+                
+
+    
+        
+
+    
+
+
+
+    
+
+
+                
+
+    <div class="ce-textpic ce-center ce-above">
+        
+            
+
+<div class="row">
+    
+
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+
+            
+                    <img src="/fileadmin/Solutions/Maritime/Icons_Maritim-training.svg" class="img-responsive">
+                    
+                
+
+        </div>
+
+    
+</div>
+
+        
+
+        
+                
+            
+
+        
+    </div>
+
+
+                
+                    
+
+
+
+                
+                
+                    
+
+
+
+                
+            </div>
+
+        
+
+
+    
+
+            <div id="c16738" class="frame frame-default frame-type-html frame-layout-0">
+                
+                
+                    
+
+
+
+                
+                
+                
+
+    <center><p>
+  <b>Trainings &amp; Seminars</b>
+</p></center>
+
+
+                
+                    
+
+
+
+                
+                
+                    
+
+
+
+                
+            </div>
+
+        
+
+
+    </div>
+</div>
+
+    
+
+            <div id="c16734" class="frame frame-default frame-type-div frame-layout-0">
+                
+                
+                    
+
+
+
+                
+                
+                
+
+    <hr class="ce-div" />
+
+
+                
+                    
+
+
+
+                
+                
+                    
+
+
+
+                
+            </div>
+
+        
+
+
+    
+
+            <div id="c16733" class="frame frame-default frame-type-html frame-layout-0 frame-space-before-small frame-space-after-small">
+                
+                
+                    
+
+
+
+                
+                
+                
+
+    <div class="embed-responsive embed-responsive-16by9">
+  <iframe width="620px" height="600px" src="https://ebooks.toa.eu/toa_maritime_solution_brochure_web/index.html" frameborder="0" allowfullscreen="true"  allowtransparency="true"></iframe></div>
+
+
+                
+                    
+
+
+
+                
+                
+                    
+
+
+
+                
+            </div>
+
+        
+
+
+            </div>
+        </div>
+    </div>
+
+<!--TYPO3SEARCH_end-->
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="social-buttons-section">
+
+                    
+                        <a href="https://www.toa.eu/service/newsletter-registration" target="_blank" data-track-component="social_link" data-track-id="social-46" data-track-label="envelope-o">
+                            <!-- <div class="fa fa-envelope-o fa-position"></div> -->
+                            <span class="social-icon social-icon--envelope-o">
+                                
+        <svg  viewBox="0 0 512 512" aria-hidden="true">
+            <path d="M502.3 190.8L327.4 338c-15.6 13.2-38.2 13.2-53.8 0L9.7 190.8C3.9 186 0 178.9 0 171.3V112c0-26.5 21.5-48 48-48h416c26.5 0 48 21.5 48 48v59.3c0 7.6-3.9 14.7-9.7 19.5zM0 204.7l218.2 183.9c22.3 18.8 53.3 18.8 75.6 0L512 204.7V400c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V204.7z"/>
+        </svg>
+    
+                            </span>
+                        </a>
+                    
+                        <a href="https://www.facebook.com/TOACorp/" target="_blank" data-track-component="social_link" data-track-id="social-10" data-track-label="facebook" rel="noreferrer">
+                            <!-- <div class="fa fa-facebook fa-position"></div> -->
+                            <span class="social-icon social-icon--facebook">
+                                
+        <svg  viewBox="0 0 320 512" aria-hidden="true">
+            <path d="M279.14 288l14.22-92.66h-88.91V127.78c0-25.35 
+            12.42-50.06 52.24-50.06H293V6.26S259.43 0 
+            225.36 0c-73.22 0-121.15 44.38-121.15 
+            124.72V195.3H22.89V288h81.32v224h100.17V288z"/>
+        </svg>
+    
+                            </span>
+                        </a>
+                    
+                        <a href="https://www.linkedin.com/company/-toa-/" target="_blank" data-track-component="social_link" data-track-id="social-36" data-track-label="linkedin" rel="noreferrer">
+                            <!-- <div class="fa fa-linkedin fa-position"></div> -->
+                            <span class="social-icon social-icon--linkedin">
+                                
+        <svg  viewBox="0 0 448 512" aria-hidden="true">
+            <path d="M100.28 448H7.4V148.9h92.88zm-46.44-341C24.09 
+            107 0 82.91 0 53.44A53.44 53.44 0 
+            0 1 53.44 0C82.91 0 107 
+            24.09 107 53.44c0 29.47-24.09 
+            53.56-53.16 53.56zM447.9 
+            448h-92.68V302.4c0-34.7-.7-79.2-48.3-79.2-48.3 
+            0-55.7 37.7-55.7 76.6V448h-92.8V148.9h89.1v40.8h1.3c12.4-23.5 
+            42.7-48.3 87.8-48.3 93.9 0 111.2 61.8 111.2 
+            142.3V448z"/>
+        </svg>
+    
+                            </span>
+                        </a>
+                    
+                        <a href="https://twitter.com/toacorp" target="_blank" data-track-component="social_link" data-track-id="social-9" data-track-label="twitter" rel="noreferrer">
+                            <!-- <div class="fa fa-twitter fa-position"></div> -->
+                            <span class="social-icon social-icon--twitter">
+                                
+                            </span>
+                        </a>
+                    
+                        <a href="https://www.youtube.com/channel/UC_KQ_5IM05iVAs1B4xMaOlQ" target="_blank" data-track-component="social_link" data-track-id="social-11" data-track-label="youtube" rel="noreferrer">
+                            <!-- <div class="fa fa-youtube fa-position"></div> -->
+                            <span class="social-icon social-icon--youtube">
+                                
+        <svg  viewBox="0 0 576 512" aria-hidden="true">
+            <path d="M549.655 124.083c-6.281-23.65-24.769-42.138-48.419-48.419C456.406 
+            64 288 64 288 64S119.594 64 74.764 
+            75.664c-23.65 6.281-42.138 24.769-48.419 
+            48.419C16 168.906 16 256 16 
+            256s0 87.094 10.345 131.917c6.281 23.65 
+            24.769 42.138 48.419 48.419C119.594 448 
+            288 448 288 448s168.406 0 213.236-11.664c23.65-6.281 
+            42.138-24.769 48.419-48.419C560 343.094 
+            560 256 560 256s0-87.094-10.345-131.917zM232 
+            338.667V173.333L361.333 256 232 338.667z"/>
+        </svg>
+    
+                            </span>
+                        </a>
+                    
+                        <a href="/contact-1" target="_blank" data-track-component="social_link" data-track-id="social-12" data-track-label="map-marker">
+                            <!-- <div class="fa fa-map-marker fa-position"></div> -->
+                            <span class="social-icon social-icon--map-marker">
+                                
+        <svg  viewBox="0 0 384 512" aria-hidden="true">
+            <path d="M172.3 501.7C26.97 291 0 
+            269.4 0 192 0 85.96 85.96 0 
+            192 0s192 85.96 192 192c0 
+            77.4-26.97 99-172.3 
+            309.7-9.5 13.7-29.9 
+            13.7-39.4 0zM192 
+            272a80 80 0 1 0 0-160 
+            80 80 0 1 0 0 160z"/>
+        </svg>
+    
+                            </span>
+                        </a>
+                    
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+    
+
+
+    <div class="footer__nav col-md-5 col-sm-12 col-xs-12" data-track-component="footer_navigation" data-track-id="footer-nav-956" data-track-position="1">
+        <h3>News</h3>
+        
+                
+            
+    </div>
+
+    <div class="footer__nav col-md-5 col-sm-12 col-xs-12" data-track-component="footer_navigation" data-track-id="footer-nav-587" data-track-position="2">
+        <h3>Products</h3>
+        
+                <ul><li><a href="/products/voice-alarm-systems/">Voice alarm systems</a></li><li><a href="/products/intercom-systems/">Intercom systems</a></li><li><a href="/products/ip-audio/">IP Audio</a></li><li><a href="/products/speaker/">Speaker</a></li><li><a href="/products/prosound/">ProSound</a></li><li><a href="/products/distribution/">Distribution</a></li><li><a href="/products/wireless-systems/">Wireless systems</a></li><li><a href="/products/conference-systems/">Conference systems</a></li><li><a href="/products/amplifiers-1/">Amplifiers</a></li><li><a href="/products/mixers-1/">Mixers</a></li><li><a href="/products/megaphones-1/">Megaphones</a></li><li><a href="/products/microphones-1/">Microphones</a></li><li><a href="/products/racks-accessories-2/">Racks & Accessories</a></li></ul>
+            
+    </div>
+
+    <div class="footer__nav col-md-5 col-sm-12 col-xs-12" data-track-component="footer_navigation" data-track-id="footer-nav-660" data-track-position="3">
+        <h3>Applications</h3>
+        
+                <ul><li><a href="/applications/educational-institutions">Educational institutions</a></li><li><a href="/applications/sports-and-leisure-venues">Sports and leisure venues</a></li><li><a href="/applications/restaurants-and-retail">Restaurants and retail</a></li><li><a href="/applications/hotels-and-conference-centres">Hotels and conference centres</a></li><li><a href="/applications/health-care-facilities">Health Care Facilities</a></li><li><a href="/applications/airport-solutions">Airport Solutions</a></li><li><a href="/applications/sports-and-leisure-venues-1">Houses of Worship</a></li><li><a href="/solutions/maritime">Maritime Solutions</a></li><li><a href="/applications/custom-built-voice-alarm-and-public-address-rack-systems">Custom-Built Voice Alarm and Public Address Rack Systems</a></li><li><a href="/applications/entertainment-venues">Entertainment Venues</a></li><li><a href="/applications/corporate-office-buildings">Corporate, Office & Warehouse Buildings</a></li></ul>
+            
+    </div>
+
+    <div class="footer__nav col-md-5 col-sm-12 col-xs-12" data-track-component="footer_navigation" data-track-id="footer-nav-572" data-track-position="4">
+        <h3>References</h3>
+        
+                <ul><li><a href="/references/educational-facilities/">Educational facilities</a></li><li><a href="/references/hotels/">Hotels</a></li><li><a href="/references/factories/">Factories</a></li><li><a href="/references/outdoor/">Outdoor</a></li><li><a href="/references/governmental-buildings/">Governmental Buildings</a></li><li><a href="/references/shopping-centers-retail-stores/">Shopping centers / Retail stores</a></li><li><a href="/references/sports-and-leisure-venues/">Sports and leisure venues</a></li><li><a href="/references/office-buildings/">Office buildings</a></li><li><a href="/references/hospitals-health-care/">Hospitals / Health care</a></li><li><a href="/references/houses-of-worship/">Houses of worship</a></li><li><a href="/references/transportation/">Transportation</a></li></ul>
+            
+    </div>
+
+    <div class="footer__nav col-md-5 col-sm-12 col-xs-12" data-track-component="footer_navigation" data-track-id="footer-nav-953" data-track-position="5">
+        <h3>Trantec</h3>
+        
+                <ul><li><a href="/trantec/about-trantec">About Trantec</a></li><li><a href="/trantec/trantec-product-range">Trantec product range</a></li></ul>
+            
+    </div>
+
+    <div class="footer__nav col-md-5 col-sm-12 col-xs-12" data-track-component="footer_navigation" data-track-id="footer-nav-542" data-track-position="6">
+        <h3>Service</h3>
+        
+                <ul><li><a href="/service/download-bim-data">Download BIM data</a></li><li><a href="/service/training-courses">Training courses</a></li><li><a href="/service/soundcheck">Soundcheck</a></li><li><a href="/service/join-our-mailing-list">Join our Mailing List</a></li><li><a href="/service/toa-online-academy">TOA Online Academy</a></li><li><a href="/service/general-catalogues-and-price-lists">General Catalogues and Price Lists</a></li></ul>
+            
+    </div>
+
+    <div class="footer__nav col-md-5 col-sm-12 col-xs-12" data-track-component="footer_navigation" data-track-id="footer-nav-965" data-track-position="7">
+        <h3>About</h3>
+        
+                
+            
+    </div>
+
+    <div class="footer__nav col-md-5 col-sm-12 col-xs-12" data-track-component="footer_navigation" data-track-id="footer-nav-958" data-track-position="8">
+        <h3>Contact</h3>
+        
+                
+    
+
+            <a id="c1595"></a>
+            
+            
+            
+                
+
+
+
+            
+            
+                
+
+    
+
+
+
+            
+            
+
+    <p>TOA Corporation (UK) Ltd</p>
+<p>Unit 7 &amp; 8 The Axis Centre, Cleeve Road</p>
+<p>Leatherhead, Surrey, KT22 7RD<br> &nbsp;</p>
+<p>SALES:&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 01372 389798 &nbsp;</p>
+<p>TECHNICAL:&nbsp;01372 389799</p>
+<p>ACCOUNTS:&nbsp;&nbsp;01372 389790</p>
+<p>FAX:&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;01372 372077<br> <br> <a href="#" data-mailto-token="ocknvq,kphqBvqc0eq0wm" data-mailto-vector="2">info ( at ) toa.co.uk</a></p>
+<p><a href="https://www.toa.co.uk" target="_blank">www.toa.co.uk</a></p>
+
+
+            
+                
+
+
+
+            
+            
+                
+
+
+
+            
+            
+
+        
+
+
+            
+    </div>
+
+
+</div>
+
+<div class="row">
+    <div class="col-md-12 col-sm-12 col-xs-12">
+        
+    
+
+            <a id="c1596"></a>
+            
+            
+            
+                
+
+
+
+            
+            
+                
+
+    
+
+
+
+            
+            
+
+    <p>&nbsp;</p>
+<p><a href="/imprint">Imprint</a> | <a href="/data-protection-policy-and-modern-slavery-statement">Privacy Policy and Modern Slavery Statement</a></p>
+<hr>
+<p>Copyright © 2025 by TOA Corporation (UK) Ltd</p>
+<p>&nbsp;</p>
+
+
+            
+                
+
+
+
+            
+            
+                
+
+
+
+            
+            
+
+        
+
+
+    </div>
+</div>
+
+    </div>
+</footer>
+
+<script type="text/javascript">sessionStorage.setItem("instructions-shown", 1)</script>
+
+<script src="/_assets/bd18d6cf0a82e89ac33e9be14d7cbe42/JavaScript/jquery.min.js?1788937511" defer="defer"></script>
+<script src="/_assets/bd18d6cf0a82e89ac33e9be14d7cbe42/JavaScript/bootstrap.min.js?1788937511" defer="defer"></script>
+<script src="/typo3temp/assets/compressed/clipboard.min-4993f2da1026ca0a258d7ab3e890b28b.js?1788937684" defer="defer"></script>
+<script src="/typo3temp/assets/compressed/legacy-mailto-compat-c083a5d5e31d065141f727b70e3b7d77.js?1788937684" defer="defer"></script>
+<script src="/typo3temp/assets/compressed/scripts.min-0dce4f4d0b5aa48b75612816dec4b444.js?1788937684" defer="defer"></script>
+<script src="/typo3temp/assets/compressed/toa-search-app-7a6fa02cb004b995e896d9d7a88aed9f.js?1788937684" defer="defer"></script>
+<script src="/typo3temp/assets/compressed/jquery.fancybox.min-a5d49a3f83c37cfc8b632cf41a8566ed.js?1788937684" defer="defer"></script>
+<script async="async" src="/_assets/2a58d7833cb34b2a67d37f5b750aa297/JavaScript/default_frontend.js?1788937519"></script>
+
+
+
+<link rel="stylesheet" href="/typo3temp/assets/vhs/vhs-assets-0a95b98d2185c35c95040bb2b552786c.css" /></body>
+</html>

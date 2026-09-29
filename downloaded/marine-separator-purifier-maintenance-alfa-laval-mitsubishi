@@ -1,0 +1,974 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Technical guide to maintaining marine separators and purifiers covering bowl opening, disc stack cleaning, seal ring replacement, and gravity disc selection for fuel and lube oil.">
+    <meta name="keywords" content="marine separator maintenance, Alfa Laval purifier, fuel oil purifier, lube oil purifier, disc stack cleaning, bowl opening procedure, gravity disc selection, separator vibration, purifier overflow, seal ring replacement, ALCAP system, Mitsubishi separator">
+    <meta name="author" content="Marine Inspection @JRS Innovation">
+
+    <title>Marine Separator and Purifier Maintenance: Alfa Laval and Mitsubishi Guide</title>
+    <link rel="canonical" href="https://marineinspection.app/blog/marine-separator-purifier-maintenance-alfa-laval-mitsubishi">
+
+    <!-- Meta OG tags for Facebook -->
+    <meta property="og:title" content="Marine Separator and Purifier Maintenance: Alfa Laval and Mitsubishi Guide">
+    <meta property="og:description" content="Technical guide to maintaining marine separators and purifiers covering bowl opening, disc stack cleaning, seal ring replacement, and gravity disc selection for fuel and lube oil.">
+    <meta property="og:image" content="https://marineinspection.app/blog/manage-post-2k26/uploads/marine-separator-purifier-maintenance-alfa-laval-mitsubishi.png">
+    <meta property="og:type" content="website">
+
+    <!-- Meta OG tags for Twitter -->
+    <meta name="twitter:title" content="Marine Separator and Purifier Maintenance: Alfa Laval and Mitsubishi Guide">
+    <meta name="twitter:description" content="Technical guide to maintaining marine separators and purifiers covering bowl opening, disc stack cleaning, seal ring replacement, and gravity disc selection for fuel and lube oil.">
+    <meta name="twitter:image" content="https://marineinspection.app/blog/manage-post-2k26/uploads/marine-separator-purifier-maintenance-alfa-laval-mitsubishi.png">
+    <meta name="twitter:card" content="summary_large_image">
+
+    <!-- favicon icon -->
+    <link rel="shortcut icon" href="./../assets/photos/favicon.ico">
+    <!-- style sheets and font icons  -->
+    <link rel="stylesheet" href="../assets/css/vendors.min.css" />
+    <link rel="stylesheet" href="../assets/css/icon.min.css" />
+    <link rel="stylesheet" href="../assets/css/style.css" />
+    <link rel="stylesheet" href="../assets/css/responsive.css" />
+    <link rel="stylesheet" href="../assets/css/additional.css" />
+    <link rel="stylesheet" href="../assets/demos/application/application.css" />
+
+    <script type="text/javascript">
+        (function(c,l,a,r,i,t,y){
+            c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+            t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+            y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+        })(window, document, "clarity", "script", "ub4gigdp4i");
+    </script>
+
+    <!-- Share button -->
+    <script type="text/javascript"
+        src="https://platform-api.sharethis.com/js/sharethis.js#property=663a1eead8518c00191f3aae&product=inline-share-buttons&source=platform"
+        async="async"></script>
+
+</head>
+
+<body>
+    <!-- start header -->
+    <header>
+        <!-- start navigation -->
+        <nav class="navbar navbar-expand-lg header-reverse bg-majorelle-blue">
+            <div class="container">
+                <div class="col-auto col-lg-2 me-lg-0 me-auto">
+                    <a class="navbar-brand py-2" href="../">
+                        <img src="../assets/photos/marine-icon.png" alt="marine-logo">
+                    </a>
+                </div>
+                <div class="col-auto col-lg-8 menu-order position-static">
+                    <button class="navbar-toggler float-start" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-line"></span>
+                        <span class="navbar-toggler-line"></span>
+                        <span class="navbar-toggler-line"></span>
+                        <span class="navbar-toggler-line"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item dropdown simple-dropdown">
+                                <a href="javascript:void(0);" class="nav-link">Features</a>
+                                <i class="fa-solid fa-angle-down dropdown-toggle" id="navbarDropdownMenuLink6" role="button" data-bs-toggle="dropdown" aria-expanded="false"></i>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink6">
+                                    <li class="dropdown"><a href="../inspection/">Inspection</a></li>
+                                    <li class="dropdown"><a href="../maintenance/">Maintenance</a></li>
+                                    <li class="dropdown"><a href="../compliance/">Compliance</a></li>
+                                    <li class="dropdown"><a href="../logbook/">Logbook</a></li>
+                                    <li class="dropdown"><a href="../preventive-schedule/">Preventive Schedule</a></li>
+                                    <li class="dropdown"><a href="../reports/">Reports</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown simple-dropdown">
+                                <a href="javascript:void(0);" class="nav-link">Industries</a>
+                                <i class="fa-solid fa-angle-down dropdown-toggle" id="navbarDropdownMenuLink6" role="button" data-bs-toggle="dropdown" aria-expanded="false"></i>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink6">
+                                    <li class="dropdown"><a href="../industry/offshore">Offshore</a></li>
+                                    <li class="dropdown"><a href="../industry/yacht">Yacht</a></li>
+                                    <li class="dropdown"><a href="../industry/port">Port</a></li>
+                                    <li class="dropdown"><a href="../industry/navy">Navy</a></li>
+                                    <li class="dropdown"><a href="../industry/cargo">Cargo</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown simple-dropdown">
+                                <a href="javascript:void(0);" class="nav-link">Resources</a>
+                                <i class="fa-solid fa-angle-down dropdown-toggle" id="navbarDropdownMenuLink6" role="button" data-bs-toggle="dropdown" aria-expanded="false"></i>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink6">
+                                    <li class="dropdown"><a href="../blog/">Blogs</a></li>
+                                    <li class="dropdown"><a href="../article/">Articles</a></li>
+                                    <li class="dropdown"><a href="../templates/">Templates</a></li>
+                                    <li class="dropdown"><a href="../white-papers/">White Papers</a></li>
+                                    <li class="dropdown"><a href="../faqs">FAQs</a></li>
+                                    <li class="dropdown"><a href="../contact">Support</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown simple-dropdown">
+                                <a href="../checklists/" class="nav-link section-link">Checklists</a>
+                            </li>
+                            <li class="nav-item dropdown simple-dropdown">
+                                <a href="../pricing" class="nav-link section-link">Pricing</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-auto col-lg-2 text-end lg-ps-0 xs-pe-0">
+                    <div class="header-icon">
+                        <div class="header-button">
+                            <a href="https://ai.marineinspection.app/en/signup" target="_blank"
+                                class="btn fs-20 btn-gradient-purple-pink btn-rounded text-transform-none">Signup</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!-- end navigation -->
+    </header>
+    <!-- end header -->
+        <script type="application/ld+json">
+            {
+                "@context": "https://schema.org",
+                "@type": "Article",
+                "publisher": {
+                    "@type": "Organization",
+                    "name": "Bus CMMS Blogs",
+                    "url": "https://marineinspection.app/blog/",
+                    "logo": {
+                        "@type": "ImageObject",
+                        "url": "https://marineinspection.app/assets/img/favicon.ico"
+                    }
+                },
+                "author": {
+                    "@type": "Organization",
+                    "name": "Bus CMMS"
+                },
+                "headline": "Marine Separator and Purifier Maintenance: Alfa Laval and Mitsubishi Guide",
+                "url": "https://marineinspection.app/blog/marine-separator-purifier-maintenance-alfa-laval-mitsubishi",
+                "datePublished": "2026-04-18 07:06:39",
+                "dateModified": "2026-04-18 03:06:39",
+                "image": "https://marineinspection.app/blog/manage-post-2k26/uploads/marine-separator-purifier-maintenance-alfa-laval-mitsubishi.png",
+                "keywords": "marine separator maintenance, Alfa Laval purifier, fuel oil purifier, lube oil purifier, disc stack cleaning, bowl opening procedure, gravity disc selection, separator vibration, purifier overflow, seal ring replacement, ALCAP system, Mitsubishi separator",
+                "description": "Technical guide to maintaining marine separators and purifiers covering bowl opening, disc stack cleaning, seal ring replacement, and gravity disc selection for fuel and lube oil.",
+                "mainEntityOfPage": "https://marineinspection.app/blog/marine-separator-purifier-maintenance-alfa-laval-mitsubishi"
+            }
+        </script>
+
+        <section class="wrapper pb-20px">
+            <div class="container">
+                <div class="row gy-8 gx-md-10">
+                    <div class="col-lg-11 mx-auto">
+                        <h1 class="display-4 my-4">
+                            Marine Separator and Purifier Maintenance: Alfa Laval and Mitsubishi Guide                        </h1>
+                        <div class="classic-view px-2 pt-1 rounded" style="box-shadow: 0px 0px 20px 0px rgba(14, 41, 50, 0.99);">
+                            <figure class="pb-3">
+                                <img class="border-radius-6px" src="./manage-post-2k26/uploads/marine-separator-purifier-maintenance-alfa-laval-mitsubishi.png" alt="marine-separator-purifier-maintenance-alfa-laval-mitsubishi"
+                                    loading="lazy" style="box-shadow: 0px 0px 20px 0px rgba(14, 41, 50, 0.99);" />
+                            </figure>
+                            <div class="post-content mb-2"><p>The centrifugal separator is the most critical precision machine in the engine room — spinning at thousands of RPM to separate water, catalytic fines, and solid contaminants from fuel and lubricating oil using centrifugal force many thousands of times stronger than gravity. A properly maintained separator protects main engines worth millions from the catfine damage, water contamination, and sludge that characterise modern marine fuels. A poorly maintained separator does the opposite — it delivers contaminated fuel to the engine and creates the conditions for the $650,000-$1.2 million damage incidents that VPS data shows vessels experience 1-2 times during their operational lifetime. Two manufacturers dominate the marine separator market: Alfa Laval (P series with gravity disc technology and S series with ALCAP automatic interface control) and Mitsubishi (SJ series with pilot valve operating water control). Both use disc-stack centrifugal separation — conical discs stacked inside a high-speed bowl creating enormous separation surface area — but differ in how they control the oil-water interface, how they execute bowl opening and sludge discharge, and how their maintenance procedures are sequenced. For marine engineers, separator maintenance is the engine room task where precision matters most: wrong gravity disc selection causes oil loss; incorrect bowl closing water timing causes overflow; worn seal rings cause leaking; dirty disc stacks reduce separation efficiency; and incorrect throughput rates allow catfines through to the engine. To see how Marine Inspection digitalises separator maintenance records, sludge discharge logs, and efficiency monitoring across your fleet, <a href="https://marineinspection.app/demo" style="color:#0369a1;font-weight:600;text-decoration:underline;text-underline-offset:2px">book a Marine Inspection demo</a>.</p>
+
+
+
+<div class="SP25-tech-strip">
+<div class="SP25-tech-card">
+<div class="SP25-tech-brand">Alfa Laval S Series</div>
+<div class="SP25-tech-tag">ALCAP Technology</div>
+<div class="SP25-tech-desc">Automatic interface adjustment based on water content transducer at clean oil outlet. No gravity disc — self-adjusting to fuel density changes. Ideal for HFO, VLSFO, and multi-fuel operations where density varies.</div>
+</div>
+<div class="SP25-tech-card">
+<div class="SP25-tech-brand">Alfa Laval P Series</div>
+<div class="SP25-tech-tag">Gravity Disc Technology</div>
+<div class="SP25-tech-desc">Manually selected gravity disc sets oil-water interface position in bowl. Reliable and well-proven but requires correct disc selection for each fuel density. Configurable as purifier or clarifier.</div>
+</div>
+<div class="SP25-tech-card">
+<div class="SP25-tech-brand">Mitsubishi SJ Series</div>
+<div class="SP25-tech-tag">Pilot Valve System</div>
+<div class="SP25-tech-desc">Uses pilot valves for bowl opening/closing water control (versus Alfa Laval's valve springs or solenoid blocks). Pairing tube for oil discharge (versus Alfa Laval impeller). Different overhaul sequence but same centrifugal principles.</div>
+</div>
+</div>
+
+
+
+<h2>Core Separation Principle: What Happens Inside the Bowl</h2>
+
+
+
+<p>Every marine separator — regardless of manufacturer — operates on the same physical principle. Understanding it prevents the most common maintenance mistakes.</p>
+
+
+
+<div class="SP25-principle-flow">
+<div class="SP25-princ-step">
+<div class="SP25-princ-num">1</div>
+<div class="SP25-princ-title">Dirty Oil In</div>
+<div class="SP25-princ-text">Contaminated oil enters the bowl centre through the feed inlet. Temperature must be correct (95°C for HFO at purifier inlet) — viscosity reduction is essential for effective separation.</div>
+</div>
+<div class="SP25-princ-arrow"><svg width="20" height="14" viewBox="0 0 20 14"><path d="M0 7h16M12 1l6 6-6 6" stroke="#0369a1" stroke-width="2" fill="none"></path></svg></div>
+<div class="SP25-princ-step">
+<div class="SP25-princ-num">2</div>
+<div class="SP25-princ-title">Disc Stack Separation</div>
+<div class="SP25-princ-text">Oil flows between conical disc stack — large surface area accelerates separation. Heavy particles (water, solids, catfines) move outward under centrifugal force; clean oil moves inward toward centre.</div>
+</div>
+<div class="SP25-princ-arrow"><svg width="20" height="14" viewBox="0 0 20 14"><path d="M0 7h16M12 1l6 6-6 6" stroke="#0369a1" stroke-width="2" fill="none"></path></svg></div>
+<div class="SP25-princ-step">
+<div class="SP25-princ-num">3</div>
+<div class="SP25-princ-title">Interface Control</div>
+<div class="SP25-princ-text">Oil-water interface maintained inside bowl by gravity disc (P series) or automatically via ALCAP transducer (S series). Wrong interface = oil loss through water outlet or water in clean oil.</div>
+</div>
+<div class="SP25-princ-arrow"><svg width="20" height="14" viewBox="0 0 20 14"><path d="M0 7h16M12 1l6 6-6 6" stroke="#0369a1" stroke-width="2" fill="none"></path></svg></div>
+<div class="SP25-princ-step">
+<div class="SP25-princ-num">4</div>
+<div class="SP25-princ-title">Clean Oil Out + Sludge Discharge</div>
+<div class="SP25-princ-text">Clean oil exits via paring disc (Alfa Laval) or pairing tube (Mitsubishi). Accumulated solids discharged periodically via bowl opening — sliding bowl bottom drops, ejecting sludge under centrifugal force.</div>
+</div>
+</div>
+
+
+
+<h2>Purifier Mode vs Clarifier Mode</h2>
+
+
+
+<p>Separators can be configured as purifier or clarifier. This is not a trivial distinction — the wrong mode for your application wastes oil, delivers contaminated product, or both. <a href="https://marineinspection.app/demo" style="color:#0369a1;font-weight:600;text-decoration:underline;text-underline-offset:2px">Book a Marine Inspection demo</a> to see how the platform tracks separator operating mode, gravity disc selection, and efficiency parameters.</p>
+
+
+
+<div class="SP25-mode-compare">
+<div class="SP25-mode-card SP25-mode-pur">
+<div class="SP25-mode-head">Purifier Mode</div>
+<div class="SP25-mode-body">
+<p><strong>Function:</strong> Removes both water AND solids from oil. Two outlets — clean oil and separated water. Requires gravity disc or ALCAP for interface control.</p>
+<p><strong>Used for:</strong> Fuel oil purification (primary application). Lube oil when water contamination suspected.</p>
+<p><strong>Critical:</strong> Gravity disc selection must match fuel density. Wrong disc = broken water seal = oil loss or poor separation.</p>
+</div>
+</div>
+<div class="SP25-mode-card SP25-mode-cla">
+<div class="SP25-mode-head">Clarifier Mode</div>
+<div class="SP25-mode-body">
+<p><strong>Function:</strong> Removes only solids from oil. No water separation — single outlet for clean oil. No gravity disc required.</p>
+<p><strong>Used for:</strong> Lube oil cleaning (primary). Fuel oil polishing where water is minimal.</p>
+<p><strong>Critical:</strong> Cannot handle significant water content — water will remain in oil. Not suitable for fuel oil primary treatment.</p>
+</div>
+</div>
+</div>
+
+
+
+<h2>Gravity Disc Selection: The Most Common Separator Mistake</h2>
+
+
+
+<p>Wrong gravity disc selection is the single most common separator problem on ships — and it creates expensive consequences. The gravity disc sets the position of the oil-water interface inside the spinning bowl. The correct disc depends on the specific gravity (density) of the oil being processed and the operating temperature. ALCAP-equipped S series separators eliminate this problem with automatic adjustment, but P series separators and many legacy installations require manual selection.</p>
+
+
+
+<div class="SP25-gd-rules">
+<div class="SP25-gd-rule">
+<div class="SP25-gd-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#dc2626" stroke-width="2"><path d="M12 9v4M12 17h.01"></path><circle cx="12" cy="12" r="10"></circle></svg></div>
+<div class="SP25-gd-text"><strong>Disc too large for fuel density:</strong> Interface moves inward — oil escapes through water outlet. Clean oil lost with sludge discharge. Visible oil in sludge tank.</div>
+</div>
+<div class="SP25-gd-rule">
+<div class="SP25-gd-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#dc2626" stroke-width="2"><path d="M12 9v4M12 17h.01"></path><circle cx="12" cy="12" r="10"></circle></svg></div>
+<div class="SP25-gd-text"><strong>Disc too small for fuel density:</strong> Interface moves outward — water breaks through to clean oil side. Water contamination in service tank. Engine damage risk.</div>
+</div>
+<div class="SP25-gd-rule">
+<div class="SP25-gd-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#16a34a" stroke-width="2"><path d="M20 6L9 17l-5-5"></path></svg></div>
+<div class="SP25-gd-text"><strong>Correct disc for fuel density:</strong> Interface maintained at optimal position — maximum separation of water and solids while retaining all clean oil. Manufacturer chart or ALCAP calculation determines correct size.</div>
+</div>
+</div>
+
+
+
+<h2>Maintenance Schedule: From Daily Checks to Major Overhaul</h2>
+
+
+
+<p>Separator maintenance follows layered intervals that combine daily operational monitoring with periodic component overhauls. Running hours determine major overhaul timing (typically 4,000-8,000 hours depending on manufacturer and application). <a href="https://ai.marineinspection.app/en/signup" style="color:#0369a1;font-weight:600;text-decoration:underline;text-underline-offset:2px">Sign up for Marine Inspection to track running hours and automate maintenance scheduling across every separator on your vessel</a>.</p>
+
+
+
+<div class="SP25-pm-table">
+<div class="SP25-pm-bar">Separator Preventive Maintenance Schedule</div>
+<div class="SP25-pm-scroll">
+<table class="SP25-pm-tbl">
+<thead>
+<tr>
+<th>Interval</th>
+<th>Activities</th>
+<th>Key Checks</th>
+</tr>
+</thead>
+<tbody>
+<tr><td class="SP25-feat">Daily</td><td>Monitor operating parameters: throughput, temperatures, pressures, sludge discharge frequency</td><td>Verify correct gravity disc fitted (P series). Check ALCAP transducer indication (S series). Oil loss in sludge?</td></tr>
+<tr class="SP25-alt"><td class="SP25-feat">Weekly</td><td>Clean separator bowl exterior. Check vibration levels. Verify sludge discharge timing and completeness</td><td>Abnormal vibration = disc imbalance or bearing wear. Incomplete discharge = operating water issue</td></tr>
+<tr><td class="SP25-feat">Monthly</td><td>Open bowl and inspect disc stack for fouling, damage. Clean discs if necessary. Check seal ring O-ring condition</td><td>VLSFO clogs discs faster than HSFO — adjust cleaning frequency. Count discs on reassembly</td></tr>
+<tr class="SP25-alt"><td class="SP25-feat">500 Hours</td><td>Bowl opening water nozzle cleaning. Inspect sliding bowl bottom. Check operating water solenoid valve function</td><td>Blocked nozzles cause bowl opening/closing failures — most critical periodic task</td></tr>
+<tr><td class="SP25-feat">2,000-4,000 Hours</td><td>Minor overhaul: replace seal ring (large and small O-rings), inspect bowl lock ring, check friction pads, inspect paring disc/impeller</td><td>Seal ring wear causes leaking and efficiency loss. Always replace all O-rings together</td></tr>
+<tr class="SP25-alt"><td class="SP25-feat">4,000-8,000 Hours</td><td>Major overhaul: spindle bearings, main seal ring replacement, complete disc stack inspection and replacement if worn, gear transmission service</td><td>Bearing replacement requires proper alignment tools. Disc inspection: check for cracks, corrosion, distortion</td></tr>
+<tr><td class="SP25-feat">Dry Dock</td><td>Complete overhaul per manufacturer schedule. Vibration survey. Motor insulation testing. Foundation bolt torque. Piping inspection</td><td>Align major overhaul with dry dock to minimise operational disruption</td></tr>
+</tbody>
+</table>
+</div>
+<div class="SP25-pm-note">
+<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#0369a1" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"></path></svg>
+Running hour intervals vary by manufacturer, model, and application. Always follow OEM manual. VLSFO operations may require increased cleaning frequency due to higher asphaltene content.
+</div>
+</div>
+
+
+
+<h2>Eight Common Separator Problems and Diagnosis</h2>
+
+
+
+<p>Separator problems follow recognisable patterns. Each symptom points to specific root causes, and systematic diagnosis avoids the most expensive mistake — replacing parts that aren't faulty while missing the actual problem.</p>
+
+
+
+<div class="SP25-prob-grid">
+<div class="SP25-prob-card">
+<div class="SP25-prob-num">1</div>
+<div class="SP25-prob-title">Oil in Sludge Discharge</div>
+<div class="SP25-prob-body"><strong>Cause:</strong> Gravity disc too large; excessive throughput; operating temperature too low; too-frequent discharges before sludge space fills. <strong>Fix:</strong> Select correct gravity disc for fuel density; reduce throughput to 25% rated capacity; verify temperature at 95°C; adjust discharge timer.</div>
+</div>
+<div class="SP25-prob-card">
+<div class="SP25-prob-num">2</div>
+<div class="SP25-prob-title">Water in Clean Oil</div>
+<div class="SP25-prob-body"><strong>Cause:</strong> Gravity disc too small; ALCAP transducer malfunction; water seal broken; excessive water content in feed exceeding separator capacity. <strong>Fix:</strong> Select larger gravity disc; calibrate ALCAP; establish water seal with correct operating water; improve settling tank drainage.</div>
+</div>
+<div class="SP25-prob-card">
+<div class="SP25-prob-num">3</div>
+<div class="SP25-prob-title">Bowl Won't Open</div>
+<div class="SP25-prob-body"><strong>Cause:</strong> Blocked operating water nozzles; solenoid valve stuck closed; insufficient operating water pressure; sliding bowl bottom seized. <strong>Fix:</strong> Clean nozzles (most common fix); test solenoid valve; verify water pressure 2-3 bar; clean and lubricate sliding surfaces.</div>
+</div>
+<div class="SP25-prob-card">
+<div class="SP25-prob-num">4</div>
+<div class="SP25-prob-title">Bowl Won't Close</div>
+<div class="SP25-prob-body"><strong>Cause:</strong> Worn seal ring (bowl bottom doesn't seal); insufficient closing water; sludge accumulation preventing full closure; spring mechanism weak. <strong>Fix:</strong> Replace seal ring; verify closing water supply; clean bowl interior thoroughly; check springs or valve mechanism.</div>
+</div>
+<div class="SP25-prob-card">
+<div class="SP25-prob-num">5</div>
+<div class="SP25-prob-body"><strong>Cause:</strong> Uneven disc stack (wrong number of discs, damaged disc, foreign object); worn bearings; foundation bolt loose; shaft bent or unbalanced. <strong>Fix:</strong> Recount and inspect discs; replace damaged disc; check bearings; torque foundation bolts; vibration analysis.</div>
+<div class="SP25-prob-title">Excessive Vibration</div>
+</div>
+<div class="SP25-prob-card">
+<div class="SP25-prob-num">6</div>
+<div class="SP25-prob-title">Reduced Separation Efficiency</div>
+<div class="SP25-prob-body"><strong>Cause:</strong> Fouled disc stack; excessive throughput rate; incorrect temperature; worn paring disc; wrong operating mode (clarifier instead of purifier). <strong>Fix:</strong> Clean disc stack; reduce throughput to 25% rated; verify 95°C inlet temperature; inspect paring disc.</div>
+</div>
+<div class="SP25-prob-card">
+<div class="SP25-prob-num">7</div>
+<div class="SP25-prob-title">Separator Overflow</div>
+<div class="SP25-prob-body"><strong>Cause:</strong> Bowl not properly closed; seal ring leak; operating water failure; excessive feed rate beyond bowl capacity. <strong>Fix:</strong> Verify bowl closure; inspect seal ring; check operating water system; reduce feed rate.</div>
+</div>
+<div class="SP25-prob-card">
+<div class="SP25-prob-num">8</div>
+<div class="SP25-prob-title">High Motor Current</div>
+<div class="SP25-prob-body"><strong>Cause:</strong> Excessive sludge accumulation (heavy discharge); bearing friction; high viscosity feed (temperature too low); brake not fully released. <strong>Fix:</strong> Increase discharge frequency; inspect bearings; verify inlet temperature; check brake mechanism.</div>
+</div>
+</div>
+
+
+
+<h2>How Marine Inspection Digitalises Separator Management</h2>
+
+
+
+<div class="SP25-software-section">
+<div class="SP25-soft-intro">Separator maintenance generates ongoing documentation that traditional paper logbooks cannot manage effectively — running hour tracking, sludge discharge schedules, gravity disc selection records, overhaul component replacement history, efficiency verification samples, and VLSFO-specific cleaning frequency adjustments. Marine Inspection addresses this systematically:</div>
+<div class="SP25-soft-grid">
+<div class="SP25-soft-item"><div class="SP25-soft-dot"><br /></div><div><strong>Running Hour Tracking:</strong> Automatic PM scheduling based on actual running hours per separator. Minor and major overhaul alerts calibrated to manufacturer intervals.</div></div>
+<div class="SP25-soft-item"><div class="SP25-soft-dot"><br /></div><div><strong>Gravity Disc Selection Log:</strong> Document disc fitted per fuel type; verify correct selection against fuel density from bunker analysis. Prevent oil loss from wrong disc selection.</div></div>
+<div class="SP25-soft-item"><div class="SP25-soft-dot"><br /></div><div><strong>Efficiency Sample Tracking:</strong> Before/after purifier fuel samples documented with catfine levels, water content, and density — verifying separator performance meets 15 mg/kg engine inlet target.</div></div>
+<div class="SP25-soft-item"><div class="SP25-soft-dot"><br /></div><div><strong>Component Replacement Records:</strong> Seal rings, O-rings, discs, bearings — tracked by serial number with date and running hours. Replacement history preserved across crew rotations.</div></div>
+<div class="SP25-soft-item"><div class="SP25-soft-dot"><br /></div><div><strong>Vibration Trending:</strong> Periodic vibration readings captured and trended. Developing bearing issues visible before they cause failure. Fleet-wide baseline established per separator model.</div></div>
+<div class="SP25-soft-item"><div class="SP25-soft-dot"><br /></div><div><strong>VLSFO Cleaning Frequency:</strong> VLSFO-specific disc cleaning intervals tracked separately — VLSFO clogs discs faster than HSFO, requiring adjusted schedules that paper systems don't differentiate.</div></div>
+</div>
+</div>
+
+
+
+<div class="SP25-mid-cta">
+<div class="SP25-mid-cta-left">
+<div class="SP25-mid-cta-title">See Separator Management in Action</div>
+<div class="SP25-mid-cta-text">Book a 30-minute Marine Inspection demo. See running hour tracking, gravity disc logs, efficiency verification, and overhaul scheduling demonstrated across your fleet.</div>
+</div>
+<div class="SP25-mid-cta-right">
+<a href="https://marineinspection.app/demo" class="SP25-btn-primary">Book a Live Demo</a>
+<a href="https://ai.marineinspection.app/en/signup" class="SP25-btn-ghost">Start Free Trial</a>
+</div>
+</div>
+
+
+
+<h2>ALCAP vs Gravity Disc: Which Is Better?</h2>
+
+
+
+<p>The choice between ALCAP (S series) and gravity disc (P series) separators depends on operational profile, fuel variety, and crew capability. Neither is universally superior — each fits specific operational contexts.</p>
+
+
+
+<div class="SP25-vs-table">
+<div class="SP25-vs-bar">ALCAP vs Gravity Disc Comparison</div>
+<div class="SP25-vs-scroll">
+<table class="SP25-vs-tbl">
+<thead>
+<tr>
+<th>Feature</th>
+<th>ALCAP (S Series)</th>
+<th>Gravity Disc (P Series)</th>
+</tr>
+</thead>
+<tbody>
+<tr><td class="SP25-feat">Interface Control</td><td>Automatic — water content transducer adjusts interface continuously</td><td>Manual — gravity disc selected per fuel density; requires crew intervention</td></tr>
+<tr class="SP25-alt"><td class="SP25-feat">Multi-Fuel Flexibility</td><td>Excellent — handles HFO, VLSFO, MDO without disc changes</td><td>Requires disc change for each fuel density change</td></tr>
+<tr><td class="SP25-feat">Crew Intervention</td><td>Minimal — set parameters via process controller; automatic operation</td><td>More crew involvement required for disc selection, monitoring</td></tr>
+<tr class="SP25-alt"><td class="SP25-feat">Biofuel Ready</td><td>Yes — handles HVO and FAME blends automatically</td><td>Requires careful disc selection for biofuel density</td></tr>
+<tr><td class="SP25-feat">High-Density Fuels</td><td>Designed for high-density residual fuels up to density limits</td><td>Reliable within disc range but less adaptable to extremes</td></tr>
+<tr class="SP25-alt"><td class="SP25-feat">Maintenance Complexity</td><td>Higher — transducer calibration, software updates, more electronics</td><td>Lower — mechanically simple, well-understood technology</td></tr>
+<tr><td class="SP25-feat">Cyber Resilience</td><td>IACS UR E27 compliant on current models (S and P Flex range)</td><td>Less electronics = less cyber exposure</td></tr>
+<tr class="SP25-alt"><td class="SP25-feat">Cost</td><td>Higher acquisition; potentially lower operational cost through reduced oil loss</td><td>Lower acquisition; potentially higher operational cost if wrong disc selected</td></tr>
+</tbody>
+</table>
+</div>
+<div class="SP25-vs-note">
+<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#0369a1" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"></path></svg>
+Modern S and P Flex range can handle HVO (EN15940) and FAME (EN14214/ASTM D6751) biofuel blends — important as biofuel mandates expand.
+</div>
+</div>
+
+
+
+<h2>Conclusion</h2>
+
+
+
+<p>Marine separator maintenance is the precision discipline that stands between your engine and the contaminated fuel that damages it. Whether you operate Alfa Laval S series (ALCAP automatic interface), P series (gravity disc manual selection), or Mitsubishi SJ series (pilot valve control), the separation principles are identical: high-speed centrifugal force separates water, solids, and catfines from oil across a disc stack — but only when operating temperature (95°C for HFO), throughput rate (25% of rated capacity for maximum efficiency), interface control (correct gravity disc or calibrated ALCAP), and disc stack cleanliness are maintained simultaneously. VLSFO operations have increased maintenance demands — faster disc clogging from asphaltene precipitation, more frequent cleaning cycles, compatibility issues between fuel batches. Systematic running hour tracking, gravity disc selection logging, efficiency sample verification, and overhaul scheduling turn separator maintenance from reactive repair into proactive engine protection. To see how Marine Inspection provides the digital platform for systematic separator management across your fleet, <a href="https://marineinspection.app/demo" style="color:#0369a1;font-weight:600;text-decoration:underline;text-underline-offset:2px">book a live demo today</a>.</p>
+
+
+
+<h2>Frequently Asked Questions</h2>
+
+
+
+<div class="SP25-faq-wrap">
+<div class="SP25-faq-card">
+<div class="SP25-faq-head"><div class="SP25-faq-badge">FAQ 01</div><div class="SP25-faq-question">What is the difference between purifier and clarifier mode?</div></div>
+<div class="SP25-faq-answer-text">Purifier mode removes both water and solids from oil using two outlets — clean oil and separated water. It requires a gravity disc (P series) or ALCAP interface control (S series) to maintain the oil-water interface inside the bowl. Used primarily for fuel oil purification where water separation is critical. Clarifier mode removes only solids — there is no water separation, single clean oil outlet, and no gravity disc is needed. Used primarily for lube oil cleaning where water content is minimal. Using clarifier mode for fuel oil is incorrect — water contamination will pass through to the service tank and engine.</div>
+</div>
+<div class="SP25-faq-card">
+<div class="SP25-faq-head"><div class="SP25-faq-badge">FAQ 02</div><div class="SP25-faq-question">How is the correct gravity disc selected?</div></div>
+<div class="SP25-faq-answer-text">Gravity disc selection depends on the specific gravity (density) of the oil being processed and operating temperature. Each separator model has a manufacturer-supplied chart or nomogram that cross-references fuel density with operating temperature to determine the correct disc size. Fuel density is obtained from the bunker analysis report. A disc too large pushes the interface inward causing oil loss through the water outlet (visible oil in sludge tank). A disc too small pushes the interface outward allowing water breakthrough to the clean oil side. ALCAP-equipped S series separators eliminate manual gravity disc selection by automatically adjusting the interface via water content transducer feedback — the main advantage of ALCAP technology for multi-fuel operations.</div>
+</div>
+<div class="SP25-faq-card">
+<div class="SP25-faq-head"><div class="SP25-faq-badge">FAQ 03</div><div class="SP25-faq-question">Why does the separator bowl fail to open or close?</div></div>
+<div class="SP25-faq-answer-text">Bowl opening failure (most common): blocked operating water nozzles — sludge accumulates and blocks nozzle holes over time; cleaning these nozzles is the single most critical periodic maintenance task. Other causes: stuck solenoid valve preventing water to operating chamber; insufficient operating water pressure (requires 2-3 bar); seized sliding bowl bottom from sludge buildup. Bowl closing failure: worn seal ring (large O-ring) allowing operating water to leak so closing pressure cannot be maintained; insufficient closing water supply; sludge preventing full bowl bottom closure; weakened spring mechanism. Resolution always starts with inspecting and cleaning operating water nozzles, then checking solenoid valve, then inspecting seal ring condition.</div>
+</div>
+<div class="SP25-faq-card">
+<div class="SP25-faq-head"><div class="SP25-faq-badge">FAQ 04</div><div class="SP25-faq-question">What is ALCAP and how does it work?</div></div>
+<div class="SP25-faq-answer-text">ALCAP (Alfa Laval Clarifier and Purifier) is Alfa Laval's automatic interface control technology on S series separators. A water content transducer at the clean oil outlet continuously measures water in the separated oil. The process controller uses this signal to automatically adjust the oil-water interface position inside the bowl — eliminating the need for manual gravity disc selection. When water content rises, the system triggers an automatic sludge discharge to remove accumulated water. This makes ALCAP ideal for multi-fuel operations where fuel density changes between HSFO, VLSFO, MDO, and biofuel blends without requiring crew intervention to change gravity discs. The latest S and P Flex range adds IACS UR E27 cyber resilience compliance and biofuel readiness for HVO and FAME blends.</div>
+</div>
+<div class="SP25-faq-card">
+<div class="SP25-faq-head"><div class="SP25-faq-badge">FAQ 05</div><div class="SP25-faq-question">How often should separator discs be cleaned with VLSFO?</div></div>
+<div class="SP25-faq-answer-text">VLSFO clogs separator discs significantly faster than HSFO due to higher asphaltene precipitation and stratification rates. Where HSFO operations may allow monthly disc cleaning, VLSFO operations frequently require disc inspection and cleaning every 2-4 weeks or even more frequently depending on fuel quality. Signs that cleaning is needed: reduced separation efficiency (higher catfines after purifier), increased sludge discharge frequency, higher motor current draw, or visible disc fouling on inspection. Disc cleaning involves opening the bowl, removing the disc stack, cleaning individual discs (chemical cleaning or manual cleaning), inspecting for damage or distortion, and reassembling with correct disc count. Separator Disc Cleaner chemical products specifically developed for VLSFO operations can reduce cleaning time significantly compared to manual methods.</div>
+</div>
+</div>
+
+
+
+<div class="SP25-final-cta">
+<div class="SP25-final-inner">
+<div class="SP25-final-left">
+<div class="SP25-final-label">Book Your Live Demo</div>
+<div class="SP25-final-title">Protect Your Engines With Systematic Separator Management</div>
+<div class="SP25-final-desc">30 minutes with our team. See how Marine Inspection digitalises running hour tracking, gravity disc selection, efficiency verification, overhaul scheduling, and VLSFO-specific cleaning protocols — across every separator on every vessel in your fleet.</div>
+<div class="SP25-final-btns">
+<a href="https://marineinspection.app/demo" class="SP25-final-primary">
+<span>Book My Fleet Demo</span>
+<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"></path></svg>
+</a>
+<a href="https://ai.marineinspection.app/en/signup" class="SP25-final-ghost">Start Free Trial</a>
+</div>
+</div>
+<div class="SP25-final-right">
+<div class="SP25-final-stats">
+<div class="SP25-final-stat"><div class="SP25-final-stat-num">25%</div><div class="SP25-final-stat-txt">Rated throughput for max catfine removal</div></div>
+<div class="SP25-final-stat"><div class="SP25-final-stat-num">95°C</div><div class="SP25-final-stat-txt">Optimal HFO purifier inlet temperature</div></div>
+<div class="SP25-final-stat"><div class="SP25-final-stat-num">80%</div><div class="SP25-final-stat-txt">Catfine removal at reduced throughput</div></div>
+<div class="SP25-final-stat"><div class="SP25-final-stat-num">15 mg/kg</div><div class="SP25-final-stat-txt">Max catfines after purifier target</div></div>
+</div>
+</div>
+</div>
+</div>
+
+
+
+<style>
+.SP25-tech-strip{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin:36px 0}
+.SP25-tech-card{padding:18px;border:2px solid #e0f2fe;border-radius:12px;background:#fff;transition:border-color 0.2s}
+.SP25-tech-card:hover{border-color:#0369a1}
+.SP25-tech-brand{font-weight:800;color:#0369a1;font-size:17px;margin-bottom:4px}
+.SP25-tech-tag{display:inline-block;padding:3px 10px;background:#e0f2fe;color:#0369a1;font-weight:700;font-size:11px;border-radius:4px;letter-spacing:0.5px;text-transform:uppercase;margin-bottom:10px}
+.SP25-tech-desc{font-size:14px;color:#444;line-height:1.6}
+.SP25-principle-flow{display:flex;align-items:stretch;gap:0;margin:24px 0}
+.SP25-princ-step{flex:1;padding:16px;background:#f8fafc;border:2px solid #e0f2fe;border-radius:10px}
+.SP25-princ-num{width:30px;height:30px;background:#0369a1;color:#fff;font-weight:800;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:14px;margin-bottom:8px}
+.SP25-princ-title{font-weight:800;color:#0369a1;font-size:14px;margin-bottom:6px}
+.SP25-princ-text{font-size:13px;color:#444;line-height:1.55}
+.SP25-princ-arrow{display:flex;align-items:center;padding:0 8px}
+.SP25-mode-compare{display:grid;grid-template-columns:repeat(2,1fr);gap:14px;margin:24px 0}
+.SP25-mode-card{border-radius:12px;overflow:hidden;border:2px solid #e0f2fe;transition:border-color 0.2s}
+.SP25-mode-card:hover{border-color:#0369a1}
+.SP25-mode-head{padding:12px 16px;font-weight:700;color:#fff;font-size:16px;text-align:center}
+.SP25-mode-pur .SP25-mode-head{background:#0369a1}
+.SP25-mode-cla .SP25-mode-head{background:#1e3a5f}
+.SP25-mode-body{padding:14px 16px}
+.SP25-mode-body p{font-size:14px;color:#444;line-height:1.6;margin-bottom:10px}
+.SP25-mode-body p:last-child{margin-bottom:0}
+.SP25-mode-body strong{color:#0369a1}
+.SP25-gd-rules{margin:20px 0}
+.SP25-gd-rule{display:flex;gap:12px;align-items:flex-start;padding:12px 16px;margin-bottom:8px;background:#f8fafc;border-radius:10px}
+.SP25-gd-icon{min-width:20px;margin-top:2px}
+.SP25-gd-text{font-size:14px;color:#444;line-height:1.6}
+.SP25-gd-text strong{color:#991b1b}
+.SP25-gd-rule:last-child .SP25-gd-text strong{color:#16a34a}
+.SP25-pm-table,.SP25-vs-table{margin:28px 0;border:2px solid #0369a1;border-radius:14px;overflow:hidden}
+.SP25-pm-bar,.SP25-vs-bar{background:#0369a1;padding:14px;text-align:center;color:#fff;font-weight:700;font-size:17px}
+.SP25-pm-scroll,.SP25-vs-scroll{overflow-x:auto;-webkit-overflow-scrolling:touch}
+.SP25-pm-tbl,.SP25-vs-tbl{width:100%;border-collapse:collapse;min-width:820px;font-size:14px}
+.SP25-pm-tbl thead th,.SP25-vs-tbl thead th{background:#e0f2fe;color:#0369a1;font-weight:700;padding:12px 14px;text-align:left;border-bottom:2px solid #0369a1;white-space:nowrap}
+.SP25-pm-tbl tbody td,.SP25-vs-tbl tbody td{padding:10px 14px;border-bottom:1px solid #f0f4f8;color:#444;vertical-align:top;line-height:1.55}
+.SP25-feat{font-weight:700;color:#0369a1;white-space:nowrap}
+.SP25-alt td{background:#f8fafc}
+.SP25-pm-note,.SP25-vs-note{display:flex;align-items:center;gap:6px;padding:10px 14px;background:#f8fafc;border-top:1px solid #e0f2fe;font-size:13px;color:#666}
+.SP25-prob-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:10px;margin:24px 0}
+.SP25-prob-card{padding:14px 16px;background:#f8fafc;border-left:4px solid #0369a1;border-radius:0 10px 10px 0}
+.SP25-prob-num{display:inline-block;width:26px;height:26px;background:#0369a1;color:#fff;font-weight:800;border-radius:50%;text-align:center;line-height:26px;font-size:13px;margin-right:6px;vertical-align:middle}
+.SP25-prob-title{display:inline;font-weight:800;color:#0369a1;font-size:14px;vertical-align:middle}
+.SP25-prob-body{font-size:13px;color:#444;line-height:1.55;margin-top:8px}
+.SP25-prob-body strong{color:#0369a1}
+.SP25-software-section{margin:24px 0;padding:20px;background:#f8fafc;border:2px solid #e0f2fe;border-radius:12px}
+.SP25-soft-intro{font-size:14px;color:#444;line-height:1.6;margin-bottom:16px}
+.SP25-soft-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:10px}
+.SP25-soft-item{display:flex;gap:10px;align-items:flex-start;padding:10px;font-size:13px;color:#444;line-height:1.5}
+.SP25-soft-dot{width:8px;height:8px;min-width:8px;background:#0369a1;border-radius:50%;margin-top:5px}
+.SP25-soft-item strong{color:#0369a1}
+.SP25-mid-cta{display:flex;gap:20px;align-items:center;margin:28px 0;padding:24px;background:#0369a1;border-radius:14px}
+.SP25-mid-cta-left{flex:1}
+.SP25-mid-cta-title{color:#fff;font-weight:800;font-size:20px;margin-bottom:6px}
+.SP25-mid-cta-text{color:rgba(255,255,255,0.9);font-size:14px;line-height:1.5}
+.SP25-mid-cta-right{display:flex;flex-direction:column;gap:8px;min-width:200px}
+.SP25-btn-primary,.SP25-btn-ghost{display:inline-block;padding:12px 24px;border-radius:8px;font-weight:600;text-decoration:none;text-align:center;font-size:14px;box-sizing:border-box}
+.SP25-btn-primary{background:#fff;color:#0369a1}
+.SP25-btn-ghost{background:transparent;color:#fff;border:2px solid rgba(255,255,255,0.5)}
+.SP25-btn-ghost:hover{background:#fff;color:#0369a1}
+.SP25-faq-wrap{margin:24px 0}
+.SP25-faq-card{background:#fff;border:2px solid #e0f2fe;border-radius:12px;margin-bottom:12px;overflow:hidden;transition:border-color 0.2s}
+.SP25-faq-card:hover{border-color:#0369a1}
+.SP25-faq-head{display:flex;gap:12px;align-items:center;padding:14px 16px;background:#e0f2fe;border-bottom:2px solid #0369a1}
+.SP25-faq-badge{padding:4px 10px;background:#0369a1;color:#fff;font-weight:800;font-size:11px;letter-spacing:0.5px;border-radius:4px;white-space:nowrap}
+.SP25-faq-question{flex:1;font-weight:700;color:#0369a1;font-size:15px;line-height:1.4}
+.SP25-faq-answer-text{padding:14px 16px;color:#444;font-size:14px;line-height:1.7}
+.SP25-final-cta{margin:32px 0;border-radius:16px;overflow:hidden;background:linear-gradient(135deg,#0369a1 0%,#0284c7 60%,#38bdf8 100%)}
+.SP25-final-inner{display:flex;align-items:stretch}
+.SP25-final-left{flex:1.3;padding:32px 28px;color:#fff}
+.SP25-final-label{display:inline-block;padding:6px 14px;background:rgba(255,255,255,0.18);border-radius:20px;font-weight:700;font-size:11px;letter-spacing:1.2px;text-transform:uppercase;margin-bottom:12px}
+.SP25-final-title{font-weight:800;font-size:clamp(22px,2.8vw,28px);line-height:1.2;margin-bottom:10px}
+.SP25-final-desc{font-size:15px;line-height:1.6;color:rgba(255,255,255,0.92);margin-bottom:20px}
+.SP25-final-btns{display:flex;gap:10px;flex-wrap:wrap}
+.SP25-final-primary{display:inline-flex;align-items:center;gap:8px;padding:14px 26px;background:#fff;color:#0369a1;border-radius:10px;font-weight:800;font-size:15px;text-decoration:none;transition:transform 0.2s}
+.SP25-final-primary:hover{transform:translateX(2px)}
+.SP25-final-ghost{display:inline-block;padding:14px 26px;background:transparent;color:#fff;border-radius:10px;font-weight:700;font-size:15px;text-decoration:none;border:2px solid rgba(255,255,255,0.5)}
+.SP25-final-ghost:hover{background:#fff;color:#0369a1;border-color:#fff}
+.SP25-final-right{flex:1;background:rgba(255,255,255,0.08);backdrop-filter:blur(10px);padding:28px;display:flex;align-items:center;border-left:1px solid rgba(255,255,255,0.15)}
+.SP25-final-stats{display:grid;grid-template-columns:repeat(2,1fr);gap:16px;width:100%}
+.SP25-final-stat{text-align:center}
+.SP25-final-stat-num{font-size:clamp(20px,2.5vw,26px);font-weight:800;color:#fff;line-height:1.1;margin-bottom:6px}
+.SP25-final-stat-txt{font-size:12px;color:rgba(255,255,255,0.85);line-height:1.4}
+@media(max-width:1024px){
+.SP25-tech-strip{grid-template-columns:1fr}
+.SP25-principle-flow{flex-direction:column;gap:10px}
+.SP25-princ-arrow{transform:rotate(90deg);padding:4px 0;align-self:center}
+.SP25-mode-compare{grid-template-columns:1fr}
+.SP25-prob-grid{grid-template-columns:1fr}
+.SP25-soft-grid{grid-template-columns:1fr}
+.SP25-mid-cta{flex-direction:column}
+.SP25-mid-cta-right{min-width:auto;width:100%}
+.SP25-btn-primary,.SP25-btn-ghost{display:block;width:100%}
+.SP25-final-inner{flex-direction:column}
+.SP25-final-right{border-left:none;border-top:1px solid rgba(255,255,255,0.15)}
+}
+@media(max-width:768px){
+.SP25-faq-head{flex-direction:column;align-items:flex-start;gap:6px}
+.SP25-final-btns{flex-direction:column}
+.SP25-final-primary,.SP25-final-ghost{display:block;text-align:center}
+}
+@media(max-width:480px){
+.SP25-final-left{padding:22px 18px}
+.SP25-final-right{padding:22px 18px}
+.SP25-final-stats{grid-template-columns:1fr}
+}
+</style></div>
+                            <!-- /.post -->
+                            <hr class="my-2 text-muted" />
+                            <div class="author-info d-md-flex align-items-center">
+                                <ul class="d-flex flex-wrap gap-2 align-items-center ps-1">
+                                    <li class="post-date"><i class="fa-solid fa-calendar"></i><span>April 18, 2026</span></li>
+                                    <li class="post-author"><i class="fa-solid fa-user"></i><span>By Alex Rowan</span></li>
+                                </ul>
+                                <div class="ms-auto">
+                                    <a href="./" class="btn btn-small btn-primary btn-rounded"><i class="uil uil-file-alt"></i> All Posts</a>
+                                </div>
+                            </div>
+                            <hr class="my-2 text-muted" />
+                        </div>
+                        <!-- /.classic-view -->
+                    </div>
+                    <!-- /.row -->
+                </div>
+                <!-- /.container -->
+            </div>
+        </section>
+        <!-- /section -->
+
+        <div class="my-3 text-center">
+            <h4 class="text-muted">Share This Story, Choose Your Platform!</h4>
+            <div class="sharethis-inline-share-buttons mt-2" style="z-index: 9 !important;"></div>
+        </div>
+
+        <section class="py-8">
+            <div class="container">
+                <h3 class="display-6 mb-2">Related Posts</h3>
+                <div class="row gx-md-5 gy-5">
+                                                <div class="col-lg-3 col-md-6">
+                                <div class="card shadow-lg">
+                                    <div class="blog-image">
+                                        <a href="sertica-alternatives-marine-planned-maintenance-system-guide" class="d-block">
+                                            <img class="border-radius-6px" src="./manage-post-2k26/uploads/sertica-alternatives-marine-planned-maintenance-system-guide.png" alt="sertica-alternatives-marine-planned-maintenance-system-guide" loading="lazy">
+                                        </a>
+                                    </div>
+                                    <div class="card-body px-3 py-1">
+                                        <div class="post-header">
+                                            <h3 class="post-title fs-22 lh-normal mt-1 mb-3"><a class="link-dark" href="sertica-alternatives-marine-planned-maintenance-system-guide">
+                                                    SERTICA Alternatives for Marine Planned Maintenance Systems                                                </a>
+                                            </h3>
+                                        </div>
+                                    </div>
+                                    <!--/.card-body -->
+                                    <div class="card-footer py-1">
+                                        <ul class="post-meta text-dark ps-0 mb-0">
+                                            <li class="post-date"><i class="fa-solid fa-clock"></i><span>
+                                                    August 13, 2026                                                </span>
+                                            </li>
+                                        </ul>
+                                        <!-- /.post-meta -->
+                                    </div>
+                                    <!-- /.card-footer -->
+                                </div>
+                                <!--/.card -->
+                            </div>
+                                                    <div class="col-lg-3 col-md-6">
+                                <div class="card shadow-lg">
+                                    <div class="blog-image">
+                                        <a href="scrubber-system-maintenance-exhaust-gas-cleaning-ships" class="d-block">
+                                            <img class="border-radius-6px" src="./manage-post-2k26/uploads/scrubber-system-maintenance-exhaust-gas-cleaning-ships.png" alt="scrubber-system-maintenance-exhaust-gas-cleaning-ships" loading="lazy">
+                                        </a>
+                                    </div>
+                                    <div class="card-body px-3 py-1">
+                                        <div class="post-header">
+                                            <h3 class="post-title fs-22 lh-normal mt-1 mb-3"><a class="link-dark" href="scrubber-system-maintenance-exhaust-gas-cleaning-ships">
+                                                    Scrubber System Maintenance: Exhaust Gas Cleaning System Guide for Ships                                                </a>
+                                            </h3>
+                                        </div>
+                                    </div>
+                                    <!--/.card-body -->
+                                    <div class="card-footer py-1">
+                                        <ul class="post-meta text-dark ps-0 mb-0">
+                                            <li class="post-date"><i class="fa-solid fa-clock"></i><span>
+                                                    June 29, 2026                                                </span>
+                                            </li>
+                                        </ul>
+                                        <!-- /.post-meta -->
+                                    </div>
+                                    <!-- /.card-footer -->
+                                </div>
+                                <!--/.card -->
+                            </div>
+                                                    <div class="col-lg-3 col-md-6">
+                                <div class="card shadow-lg">
+                                    <div class="blog-image">
+                                        <a href="marine-refrigeration-system-maintenance-provision-cargo-cooling" class="d-block">
+                                            <img class="border-radius-6px" src="./manage-post-2k26/uploads/marine-refrigeration-system-maintenance-provision-cargo-cooling.png" alt="marine-refrigeration-system-maintenance-provision-cargo-cooling" loading="lazy">
+                                        </a>
+                                    </div>
+                                    <div class="card-body px-3 py-1">
+                                        <div class="post-header">
+                                            <h3 class="post-title fs-22 lh-normal mt-1 mb-3"><a class="link-dark" href="marine-refrigeration-system-maintenance-provision-cargo-cooling">
+                                                    Marine Refrigeration System Maintenance: Provision and Cargo Cooling                                                </a>
+                                            </h3>
+                                        </div>
+                                    </div>
+                                    <!--/.card-body -->
+                                    <div class="card-footer py-1">
+                                        <ul class="post-meta text-dark ps-0 mb-0">
+                                            <li class="post-date"><i class="fa-solid fa-clock"></i><span>
+                                                    April 17, 2026                                                </span>
+                                            </li>
+                                        </ul>
+                                        <!-- /.post-meta -->
+                                    </div>
+                                    <!-- /.card-footer -->
+                                </div>
+                                <!--/.card -->
+                            </div>
+                                                    <div class="col-lg-3 col-md-6">
+                                <div class="card shadow-lg">
+                                    <div class="blog-image">
+                                        <a href="fuel-oil-treatment-purification-system-maintenance-ships" class="d-block">
+                                            <img class="border-radius-6px" src="./manage-post-2k26/uploads/fuel-oil-treatment-purification-system-maintenance-ships.png" alt="fuel-oil-treatment-purification-system-maintenance-ships" loading="lazy">
+                                        </a>
+                                    </div>
+                                    <div class="card-body px-3 py-1">
+                                        <div class="post-header">
+                                            <h3 class="post-title fs-22 lh-normal mt-1 mb-3"><a class="link-dark" href="fuel-oil-treatment-purification-system-maintenance-ships">
+                                                    Fuel Oil Treatment and Purification System Maintenance on Ships in 2026                                                </a>
+                                            </h3>
+                                        </div>
+                                    </div>
+                                    <!--/.card-body -->
+                                    <div class="card-footer py-1">
+                                        <ul class="post-meta text-dark ps-0 mb-0">
+                                            <li class="post-date"><i class="fa-solid fa-clock"></i><span>
+                                                    April 17, 2026                                                </span>
+                                            </li>
+                                        </ul>
+                                        <!-- /.post-meta -->
+                                    </div>
+                                    <!-- /.card-footer -->
+                                </div>
+                                <!--/.card -->
+                            </div>
+                                                    <div class="col-lg-3 col-md-6">
+                                <div class="card shadow-lg">
+                                    <div class="blog-image">
+                                        <a href="ship-engine-room-maintenance-guide-marine-propulsion-systems" class="d-block">
+                                            <img class="border-radius-6px" src="./manage-post-2k26/uploads/ship-engine-room-maintenance-guide-marine-propulsion-systems.png" alt="ship-engine-room-maintenance-guide-marine-propulsion-systems" loading="lazy">
+                                        </a>
+                                    </div>
+                                    <div class="card-body px-3 py-1">
+                                        <div class="post-header">
+                                            <h3 class="post-title fs-22 lh-normal mt-1 mb-3"><a class="link-dark" href="ship-engine-room-maintenance-guide-marine-propulsion-systems">
+                                                    Ship Engine Room Maintenance: Complete Guide to Marine Propulsion Systems                                                </a>
+                                            </h3>
+                                        </div>
+                                    </div>
+                                    <!--/.card-body -->
+                                    <div class="card-footer py-1">
+                                        <ul class="post-meta text-dark ps-0 mb-0">
+                                            <li class="post-date"><i class="fa-solid fa-clock"></i><span>
+                                                    April 15, 2026                                                </span>
+                                            </li>
+                                        </ul>
+                                        <!-- /.post-meta -->
+                                    </div>
+                                    <!-- /.card-footer -->
+                                </div>
+                                <!--/.card -->
+                            </div>
+                                                    <div class="col-lg-3 col-md-6">
+                                <div class="card shadow-lg">
+                                    <div class="blog-image">
+                                        <a href="marine-fuel-system-inspection-contamination-quality-testing" class="d-block">
+                                            <img class="border-radius-6px" src="./manage-post-2k26/uploads/marine-fuel-system-inspection-contamination-quality-testing.png" alt="marine-fuel-system-inspection-contamination-quality-testing" loading="lazy">
+                                        </a>
+                                    </div>
+                                    <div class="card-body px-3 py-1">
+                                        <div class="post-header">
+                                            <h3 class="post-title fs-22 lh-normal mt-1 mb-3"><a class="link-dark" href="marine-fuel-system-inspection-contamination-quality-testing">
+                                                    Marine Fuel System Inspection : Contamination, Quality Testing & Tank Integrity                                                </a>
+                                            </h3>
+                                        </div>
+                                    </div>
+                                    <!--/.card-body -->
+                                    <div class="card-footer py-1">
+                                        <ul class="post-meta text-dark ps-0 mb-0">
+                                            <li class="post-date"><i class="fa-solid fa-clock"></i><span>
+                                                    March 26, 2026                                                </span>
+                                            </li>
+                                        </ul>
+                                        <!-- /.post-meta -->
+                                    </div>
+                                    <!-- /.card-footer -->
+                                </div>
+                                <!--/.card -->
+                            </div>
+                                                    <div class="col-lg-3 col-md-6">
+                                <div class="card shadow-lg">
+                                    <div class="blog-image">
+                                        <a href="predictive-maintenance-marine-engines-ai-iot-condition-monitoring-guide" class="d-block">
+                                            <img class="border-radius-6px" src="./manage-post-2k26/uploads/predictive-maintenance-marine-engines-ai-iot-condition-monitoring-guide.png" alt="predictive-maintenance-marine-engines-ai-iot-condition-monitoring-guide" loading="lazy">
+                                        </a>
+                                    </div>
+                                    <div class="card-body px-3 py-1">
+                                        <div class="post-header">
+                                            <h3 class="post-title fs-22 lh-normal mt-1 mb-3"><a class="link-dark" href="predictive-maintenance-marine-engines-ai-iot-condition-monitoring-guide">
+                                                    Predictive Maintenance for Marine Engines: AI, IoT & Condition Monitoring Guide                                                </a>
+                                            </h3>
+                                        </div>
+                                    </div>
+                                    <!--/.card-body -->
+                                    <div class="card-footer py-1">
+                                        <ul class="post-meta text-dark ps-0 mb-0">
+                                            <li class="post-date"><i class="fa-solid fa-clock"></i><span>
+                                                    March 26, 2026                                                </span>
+                                            </li>
+                                        </ul>
+                                        <!-- /.post-meta -->
+                                    </div>
+                                    <!-- /.card-footer -->
+                                </div>
+                                <!--/.card -->
+                            </div>
+                                                    <div class="col-lg-3 col-md-6">
+                                <div class="card shadow-lg">
+                                    <div class="blog-image">
+                                        <a href="bearing-predictive-maintenance-software-marine" class="d-block">
+                                            <img class="border-radius-6px" src="./manage-post-2k26/uploads/bearing-predictive-maintenance-software-marine.png" alt="bearing-predictive-maintenance-software-marine" loading="lazy">
+                                        </a>
+                                    </div>
+                                    <div class="card-body px-3 py-1">
+                                        <div class="post-header">
+                                            <h3 class="post-title fs-22 lh-normal mt-1 mb-3"><a class="link-dark" href="bearing-predictive-maintenance-software-marine">
+                                                    Bearing Predictive Maintenance Software for Marine Machinery                                                </a>
+                                            </h3>
+                                        </div>
+                                    </div>
+                                    <!--/.card-body -->
+                                    <div class="card-footer py-1">
+                                        <ul class="post-meta text-dark ps-0 mb-0">
+                                            <li class="post-date"><i class="fa-solid fa-clock"></i><span>
+                                                    February 9, 2026                                                </span>
+                                            </li>
+                                        </ul>
+                                        <!-- /.post-meta -->
+                                    </div>
+                                    <!-- /.card-footer -->
+                                </div>
+                                <!--/.card -->
+                            </div>
+                                                <!--end while-->
+                                    </div>
+            </div>
+        </section>
+
+        <!--end while-->
+</div>
+
+<!-- start footer -->
+<footer class="footer-light bg-light-majorelle-blue py-8">
+    <!-- Main footer content -->
+    <div class="container">
+        <div class="row g-3">
+            <div class="col-6 col-md-12 col-xl-3 col-lg-4">
+                <a href="../">
+                    <div class="d-flex align-items-center">
+                        <img src="../assets/photos/marine-icon.png" alt="Marine Inspection" style="width: 5rem;" />
+                        <h5 class="ms-1 mb-0">Marine Inspection</h5>
+                    </div>
+                </a>
+                <p>Digital Vessel Inspection Maintenance Management — inspect, record and maintain vessels faster and safer.</p>
+            </div>
+
+            <div class="col-6 col-xl-2 col-lg-3">
+                <span class="fs-22 fw-500 d-block text-dark mb-5px">Features</span>
+                <ul>
+                    <li><a href="../inspection/">Inspection</a></li>
+                    <li><a href="../maintenance/">Maintenance</a></li>
+                    <li><a href="../compliance/">Compliance</a></li>
+                    <li><a href="../logbook/">Logbook</a></li>
+                    <li><a href="../preventive-schedule/">Preventive Schedule</a></li>
+                    <li><a href="../reports/">Reports</a></li>
+                </ul>
+            </div>
+
+            <div class="col-6 col-lg-2">
+                <span class="fs-22 fw-500 d-block text-dark mb-5px">Industries</span>
+                <ul>
+                    <li><a href="../industry/offshore">Offshore</a></li>
+                    <li><a href="../industry/yacht">Yacht</a></li>
+                    <li><a href="../industry/port">Port</a></li>
+                    <li><a href="../industry/navy">Navy</a></li>
+                    <li><a href="../industry/cargo">Cargo</a></li>
+                </ul>
+            </div>
+
+            <div class="col-6 col-lg-2">
+                <span class="fs-22 fw-500 d-block text-dark mb-5px">Resources</span>
+                <ul>
+                    <li><a href="../blog/">Blogs</a></li>
+                    <li><a href="../article/">Articles</a></li>
+                    <li><a href="../templates/">Templates</a></li>
+                    <li><a href="../white-papers/">White Papers</a></li>
+                    <li><a href="../faqs">FAQs</a></li>
+                    <li><a href="../contact">Support</a></li>
+                </ul>
+            </div>
+
+            <div class="col-md-6 col-xl-3 col-12">
+                <span class="fs-22 fw-500 d-block text-dark mb-5px">Get in touch</span>
+                <address class="lh-16 mb-5px">440 N. Wolfe Road, Sunnyvale, CA 94085, USA</address>
+                <a href="/cdn-cgi/l/email-protection#482b27263c292b3c08223a3b212626273e293c212726662b2725" class="d-block mb-0"><span class="__cf_email__" data-cfemail="80e3efeef4e1e3f4c0eaf2f3e9eeeeeff6e1f4e9efeeaee3efed">[email&#160;protected]</span></a>
+                <a href="tel:+13158881995" class="d-block">+1 315-888-1995</a>
+                <h6 class="my-2">Get the mobile app</h6>
+                <div class="d-flex flex-wrap gap-2">
+                    <a class="me-2" href="https://apps.apple.com/us/app/marine-vessel-inspection/id1440993124" target="_blank">
+                        <img src="../assets/images/play-store-black.svg" alt="Google Play" class="h-45px">
+                    </a>
+                    <a href="https://play.google.com/store/apps/details?id=com.jrs.marine" target="_blank">
+                        <img src="../assets/images/app-store-black.svg" alt="App Store" class="h-45px">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <hr class="mt-2 mb-1">
+        <div class="row">
+            <div class="col-md-6 last-paragraph-no-margin">
+                <p class="mb-0">&copy;marineinspection.app official <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+                        document.write(new Date().getFullYear());
+                    </script>. All right reserved.
+                </p>
+            </div>
+
+            <div class="col-md-6 text-md-end">
+                <ul class="footer-navbar">
+                    <li><a href="../legal/privacy-policy" class="nav-link">Privacy policy</a></li>
+                    <li><a href="../legal/terms_conditions" class="nav-link">Terms and conditions</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- end footer -->
+
+<!-- start scroll progress -->
+<div class="scroll-progress d-none d-xxl-block">
+    <a href="#" class="scroll-top" aria-label="scroll">
+        <span class="scroll-text">Scroll</span><span class="scroll-line"><span class="scroll-point"></span></span>
+    </a>
+</div>
+<!-- end scroll progress -->
+
+<!-- javascript libraries -->
+<script type="text/javascript" src="./../assets/js/jquery.js"></script>
+<script type="text/javascript" src="./../assets/js/vendors.min.js"></script>
+<script type="text/javascript" src="./../assets/js/main.js"></script>
+<script type="text/javascript" src="../assets/js/signup-tracking.js"></script>
+
+<script type="module" src="https://static.cloudflareinsights.com/beacon.min.js/v31edd6df95cf4e85bb4c19e7a9bdbcba1788362987495" integrity="sha512-iIg7k2xntmwu6/uSb5tpc/hySgZc4eoL31yB29W6tJFo2akwjPWcEqnCEdJvGexCL0KEQwVYv5BlowfhVz26hg==" data-cf-beacon='{"version":"2024.11.0","token":"2b688c62dc484dbd8adea31648554662","r":1,"spa":2}' crossorigin="anonymous"></script>
+</body>
+
+</html>
